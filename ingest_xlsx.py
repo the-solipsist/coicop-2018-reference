@@ -2,9 +2,10 @@ import pandas as pd
 import json
 import re
 
-# Load the excel file
-df = pd.read_excel("COICOP-2018-EN.xlsx")
-df["CODE"] = df["CODE"].astype(str).str.strip()
+# Load the authoritative excel file
+SOURCE_FILE = "COICOP_2018_English_structure.xlsx"
+df = pd.read_excel(SOURCE_FILE)
+df["code"] = df["code"].astype(str).str.strip()
 
 
 # Function to clean and split bullet points
@@ -13,23 +14,28 @@ def parse_list(text):
         return []
 
     text = str(text)
-    # Replace the annoying Excel line endings
-    text = text.replace("_x000D_\n", "\n").replace("\r\n", "\n")
+    # Standardize line endings
+    text = text.replace("\r\n", "\n").replace("\r", "\n")
 
     items = []
-    # Some lists use dashes, some use asterisks, some use semi-colons
-    # We will split by newlines first
+    # Split by newlines or bullets
     lines = text.split("\n")
     for line in lines:
         line = line.strip()
         if not line:
             continue
-        # Remove leading dash or asterisk
-        line = re.sub(r"^[-*•]\s*", "", line)
-        # Remove trailing semi-colons or periods
-        line = re.sub(r"[;.]+$", "", line).strip()
-        if line:
-            items.append(line)
+        # Split further if multiple items are on one line separated by bullets
+        sublines = re.split(r"(?=[-*•])", line)
+        for sl in sublines:
+            sl = sl.strip()
+            if not sl:
+                continue
+            # Remove leading dash or asterisk
+            sl = re.sub(r"^[-*•]\s*", "", sl)
+            # Remove trailing semi-colons or periods
+            sl = re.sub(r"[;.]+$", "", sl).strip()
+            if sl:
+                items.append(sl)
 
     return items
 
@@ -48,8 +54,7 @@ def extract_tags_and_title(title):
 def parse_cross_references(items):
     parsed_items = []
     for item in items:
-        # We'll extract ALL codes from the text for indexing/metadata
-        # Pattern looks for 2 digits, optionally followed by . and 1-2 digits, e.g., 01, 01.1, 01.1.1, etc.
+        # Extract ALL codes from the text for indexing/metadata
         refs = re.findall(r"\b(\d{2}(?:\.\d{1,2})*)\b", item)
         # Also handle "Division 11"
         div_refs = re.findall(r"Division\s+(\d{2})", item, re.IGNORECASE)
@@ -66,36 +71,26 @@ nodes = {}
 max_level = 0
 
 for idx, row in df.iterrows():
-    code = str(row["CODE"]).strip()
-    # Skip any empty codes or weird headers
+    code = str(row["code"]).strip()
     if not re.match(r"^\d{2}", code):
         continue
 
-    raw_title = str(row["HEADING"]).strip()
+    raw_title = str(row["title"]).strip()
     title, tags = extract_tags_and_title(raw_title)
 
     level = len(code.split("."))
     max_level = max(max_level, level)
 
-    # Calculate parent code
     parent = None
     if level > 1:
         parent = ".".join(code.split(".")[:-1])
 
-    intro = row["INTRODUCTORY NOTES"]
+    intro = row["intro"]
     intro = str(intro).strip() if pd.notna(intro) and str(intro).strip() else None
 
-    includes = parse_list(row["INCLUDES"])
-    also_includes = parse_list(row["INCLUDES ALSO"])
-    excludes = parse_list(row["EXCLUDES"])
-
-    # Hardcoded fix for the UN copy-paste error in 01.1.3.5
-    if code == "01.1.3.5":
-        includes = []
-
-    # Hardcoded fix for 01.1.1.2 flour of cereals cross ref
-    # Wait, if we use the raw Excel file, it might actually be correct in the Excel file!
-    # Let's see what the Excel file actually has for 01.1.1.2... we will print it during run.
+    includes = parse_list(row["includes"])
+    also_includes = parse_list(row["alsoIncludes"])
+    excludes = parse_list(row["excludes"])
 
     node = {
         "code": code,
@@ -107,7 +102,7 @@ for idx, row in df.iterrows():
         "also_includes": parse_cross_references(also_includes),
         "excludes": parse_cross_references(excludes),
         "tags": tags,
-        "children": [],  # Will populate next
+        "children": [],
     }
 
     nodes[code] = node
@@ -135,4 +130,4 @@ master_json = {
 with open("coicop_master.json", "w", encoding="utf-8") as f:
     json.dump(master_json, f, ensure_ascii=False, indent=2)
 
-print(f"Generated coicop_master.json with {len(nodes)} nodes.")
+print(f"Generated coicop_master.json with {len(nodes)} nodes from {SOURCE_FILE}.")
