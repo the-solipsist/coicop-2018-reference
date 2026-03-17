@@ -6,10 +6,13 @@ import re
 SOURCE_FILE = "COICOP_2018_English_structure.xlsx"
 df = pd.read_excel(SOURCE_FILE)
 
-# Remove _x000D_ from all string columns
+# Remove Excel XML artifacts and Windows line endings globally
 for col in df.columns:
     if df[col].dtype == "object":
-        df[col] = df[col].astype(str).str.replace("_x000D_", "", regex=False)
+        # Remove _x000D_, _x000A_, etc.
+        df[col] = df[col].astype(str).str.replace(r"_x[0-9A-F]{4}_", "", regex=True)
+        # Also catch x000D if underscores were stripped somehow
+        df[col] = df[col].str.replace("x000D", "", regex=False)
         # Convert "nan" strings back to actual NaN
         df.loc[df[col] == "nan", col] = pd.NA
 

@@ -849,8 +849,8 @@
           "text": "marine mammals, frogs and terrestrial snails (01.1.2.1, 01.1.2.2, 01.1.2.3)",
           "refs": [
             "01.1.2.3",
-            "01.1.2.2",
-            "01.1.2.1"
+            "01.1.2.1",
+            "01.1.2.2"
           ]
         },
         {
@@ -1018,8 +1018,8 @@
           "text": "terrestrial molluscs, including terrestrial snails, live, fresh, chilled or frozen (01.1.2.1, 01.1.2.2, 01.1.2.3)",
           "refs": [
             "01.1.2.3",
-            "01.1.2.2",
-            "01.1.2.1"
+            "01.1.2.1",
+            "01.1.2.2"
           ]
         },
         {
@@ -2583,8 +2583,8 @@
         {
           "text": "vegetables listed in subclasses 01.1.7.1 to 01.1.7.4, frozen",
           "refs": [
-            "01.1.7.4",
-            "01.1.7.1"
+            "01.1.7.1",
+            "01.1.7.4"
           ]
         },
         {
@@ -3213,8 +3213,8 @@
         {
           "text": "cereals and flours not intended exclusively for baby use (01.1.1.1, 01.1.1.2)",
           "refs": [
-            "01.1.1.1",
-            "01.1.1.2"
+            "01.1.1.2",
+            "01.1.1.1"
           ]
         },
         {
@@ -3389,10 +3389,10 @@
         {
           "text": "milk (01.1.4.1, 01.1.4.2, 01.1.4.3, 01.1.4.4)",
           "refs": [
-            "01.1.4.2",
+            "01.1.4.3",
             "01.1.4.4",
             "01.1.4.1",
-            "01.1.4.3"
+            "01.1.4.2"
           ]
         },
         {
@@ -4201,8 +4201,8 @@
         {
           "text": "based aperitifs (02.1.2.1, 02.1.2.2)",
           "refs": [
-            "02.1.2.1",
-            "02.1.2.2"
+            "02.1.2.2",
+            "02.1.2.1"
           ]
         }
       ],
@@ -4250,8 +4250,8 @@
         {
           "text": "based aperitifs (02.1.2.1, 02.1.2.2)",
           "refs": [
-            "02.1.2.1",
-            "02.1.2.2"
+            "02.1.2.2",
+            "02.1.2.1"
           ]
         }
       ],
@@ -5353,10 +5353,10 @@
         {
           "text": "measure clothing (03.1.2.1; 03.1.2.2; 03.1.2.3; 03.1.2.4)",
           "refs": [
-            "03.1.2.4",
             "03.1.2.1",
-            "03.1.2.2",
-            "03.1.2.3"
+            "03.1.2.4",
+            "03.1.2.3",
+            "03.1.2.2"
           ]
         },
         {
@@ -5454,10 +5454,10 @@
         {
           "text": "to measure clothing (03.1.2.1; 03.1.2.2; 03.1.2.3; 03.1.2.4)",
           "refs": [
-            "03.1.2.4",
             "03.1.2.1",
-            "03.1.2.2",
-            "03.1.2.3"
+            "03.1.2.4",
+            "03.1.2.3",
+            "03.1.2.2"
           ]
         },
         {
@@ -7167,9 +7167,9 @@
         {
           "text": "liquid fuels for personal transport equipment (07.2.2.1, 07.2.2.2, 07.2.2.3)",
           "refs": [
+            "07.2.2.2",
             "07.2.2.1",
-            "07.2.2.3",
-            "07.2.2.2"
+            "07.2.2.3"
           ]
         },
         {
@@ -7211,9 +7211,9 @@
         {
           "text": "liquid fuels for personal transport equipment (07.2.2.1, 07.2.2.2, 07.2.2.3)",
           "refs": [
+            "07.2.2.2",
             "07.2.2.1",
-            "07.2.2.3",
-            "07.2.2.2"
+            "07.2.2.3"
           ]
         }
       ],
@@ -9011,8 +9011,8 @@
         {
           "text": "materials purchased by households with the intention of undertaking maintenance and repair themselves (05.3.1, 05.3.2)",
           "refs": [
-            "05.3.1",
-            "05.3.2"
+            "05.3.2",
+            "05.3.1"
           ]
         }
       ],
@@ -9048,8 +9048,8 @@
         {
           "text": "materials purchased by households with the intention of undertaking maintenance and repair themselves (05.3.1, 05.3.2)",
           "refs": [
-            "05.3.1",
-            "05.3.2"
+            "05.3.2",
+            "05.3.1"
           ]
         }
       ],
@@ -10160,8 +10160,8 @@
         {
           "text": "care provider in a health facility or institution to outpatients (i.e., those patients who are not required to stay overnight) for consumption or use outside a health facility or institution, if not priced separately from the outpatient care services provided (06.2); and medicines and health products supplied to inpatients (i.e., those patients who stay overnight), even if not priced separately from the inpatient care services (06.3)",
           "refs": [
-            "06.3",
-            "06.2"
+            "06.2",
+            "06.3"
           ]
         },
         {
@@ -10243,8 +10243,8 @@
         {
           "text": "care provider in a health facility or institution to outpatients (i.e., those patients who are not required to stay overnight) for consumption or use outside that facility or institution, if those medicines and health products are not priced separately from the outpatient care services provided (06.2); and medicines and health products supplied to inpatients (i.e., those patients who stay overnight), even if those medicines and health products are priced separately from the inpatient care services (06.3))",
           "refs": [
-            "06.3",
-            "06.2"
+            "06.2",
+            "06.3"
           ]
         },
         {
@@ -10254,8 +10254,8 @@
         {
           "text": "care practitioner for dispensing medicines needed during delivery of an outpatient care service (06.2) or an inpatient care service (06.3) that are not identifiable separately from the cost of those medicines if not separately identifiable from the service",
           "refs": [
-            "06.3",
-            "06.2"
+            "06.2",
+            "06.3"
           ]
         },
         {
@@ -10333,8 +10333,8 @@
         {
           "text": "care practitioner for dispensing medicines needed during delivery of an outpatient service (06.2) or during delivery of an inpatient service (06.3), if not separately identifiable from the service",
           "refs": [
-            "06.3",
-            "06.2"
+            "06.2",
+            "06.3"
           ]
         },
         {
@@ -10376,8 +10376,8 @@
         {
           "text": "homeopathic products herbal medicines and homeopathic products supplied directly by a health care provider to outpatients (no overnight stay) or inpatients (overnight stay) for consumption or use outside a health facility are to be classified with outpatient services (06.2) or inpatient services (06.3), if not separately priced from the service",
           "refs": [
-            "06.3",
-            "06.2"
+            "06.2",
+            "06.3"
           ]
         }
       ],
@@ -10441,8 +10441,8 @@
         {
           "text": "diagnostic products for use within a health facility or institution (06.2, 06.3)",
           "refs": [
-            "06.3",
-            "06.2"
+            "06.2",
+            "06.3"
           ]
         },
         {
@@ -10499,8 +10499,8 @@
         {
           "text": "diagnostic products for use within a health facility or institution (06.2, 06.3)",
           "refs": [
-            "06.3",
-            "06.2"
+            "06.2",
+            "06.3"
           ]
         },
         {
@@ -10592,8 +10592,8 @@
         {
           "text": "dental implants and dentures, to be classified to 06.3.1.0 when an overnight stay is required and to 06.2.2.9 when an overnight stay is not required",
           "refs": [
-            "06.3.1.0",
-            "06.2.2.9"
+            "06.2.2.9",
+            "06.3.1.0"
           ]
         },
         {
@@ -10767,8 +10767,8 @@
         {
           "text": "dental implants and dentures, to be classified to 06.3.1.0 when an overnight stay is required and to 06.2.2.9 when an overnight stay is not required",
           "refs": [
-            "06.3.1.0",
-            "06.2.2.9"
+            "06.2.2.9",
+            "06.3.1.0"
           ]
         },
         {
@@ -12844,8 +12844,8 @@
         {
           "text": "fuel and lubricants for major tools and equipment covered under class 05.5.1 and recreational vehicles covered under class 09.1.2",
           "refs": [
-            "05.5.1",
-            "09.1.2"
+            "09.1.2",
+            "05.5.1"
           ]
         }
       ],
@@ -14160,8 +14160,8 @@
         {
           "text": "installation of goods (furniture, electric devices, etc.), if separately priced (05.1.2.0, 05.3.3.0)",
           "refs": [
-            "05.3.3.0",
-            "05.1.2.0"
+            "05.1.2.0",
+            "05.3.3.0"
           ]
         },
         {
@@ -14256,8 +14256,8 @@
         {
           "text": "installation of goods (furniture, electric devices, etc.) when separately priced (05.1.2.0, 05.3.3.0)",
           "refs": [
-            "05.3.3.0",
-            "05.1.2.0"
+            "05.1.2.0",
+            "05.3.3.0"
           ]
         }
       ],
@@ -14853,8 +14853,8 @@
         {
           "text": "recorded recording media (09.5.2.0, 09.7.1)",
           "refs": [
-            "09.7.1",
-            "09.5.2.0"
+            "09.5.2.0",
+            "09.7.1"
           ]
         }
       ],
@@ -14962,8 +14962,8 @@
         {
           "text": "recorded recording media (09.5.2.0, 09.7.1)",
           "refs": [
-            "09.7.1",
-            "09.5.2.0"
+            "09.5.2.0",
+            "09.7.1"
           ]
         }
       ],
@@ -16885,8 +16885,8 @@
         {
           "text": "gardening services (04.4.4.9, 05.6.2.1)",
           "refs": [
-            "04.4.4.9",
-            "05.6.2.1"
+            "05.6.2.1",
+            "04.4.4.9"
           ]
         },
         {
@@ -16961,8 +16961,8 @@
         {
           "text": "gardening services (04.4.4.9, 05.6.2.1)",
           "refs": [
-            "04.4.4.9",
-            "05.6.2.1"
+            "05.6.2.1",
+            "04.4.4.9"
           ]
         },
         {
@@ -17365,10 +17365,10 @@
         {
           "text": "hire of major recreational durables, as listed under 09.1.2.2, 09.1.2.3, 09.1.2.4 and 09.1.2.9",
           "refs": [
-            "09.1.2.3",
             "09.1.2.2",
+            "09.1.2.9",
             "09.1.2.4",
-            "09.1.2.9"
+            "09.1.2.3"
           ]
         },
         {
@@ -17531,10 +17531,10 @@
         {
           "text": "hire of major recreational durables, as listed under 09.1.2.2, 09.1.2.3, 09.1.2.4 and 09.1.2.9",
           "refs": [
-            "09.1.2.3",
             "09.1.2.2",
+            "09.1.2.9",
             "09.1.2.4",
-            "09.1.2.9"
+            "09.1.2.3"
           ]
         }
       ],
@@ -17570,10 +17570,10 @@
         {
           "text": "hire of major recreational durables, as listed under 09.1.2.2, 09.1.2.3, 09.1.2.4 and 09.1.2.9",
           "refs": [
-            "09.1.2.3",
             "09.1.2.2",
+            "09.1.2.9",
             "09.1.2.4",
-            "09.1.2.9"
+            "09.1.2.3"
           ]
         }
       ],
@@ -19865,8 +19865,8 @@
         {
           "text": "service restaurant or similar (e.g., automat restaurants) (01.1.9.1 or 02.1)",
           "refs": [
-            "02.1",
-            "01.1.9.1"
+            "01.1.9.1",
+            "02.1"
           ]
         },
         {
@@ -20116,8 +20116,8 @@
         {
           "text": "service restaurant or similar (e.g., automat restaurants) (01.1.9.1 or 02.1)",
           "refs": [
-            "02.1",
-            "01.1.9.1"
+            "01.1.9.1",
+            "02.1"
           ]
         },
         {
@@ -20188,8 +20188,8 @@
         {
           "text": "food and beverages provided by schools, universities and other educational establishments, if not separately priced (10.1 – 10.5)",
           "refs": [
-            "10.1",
-            "10.5"
+            "10.5",
+            "10.1"
           ]
         },
         {
@@ -20236,8 +20236,8 @@
         {
           "text": "food and beverages provided by schools, universities and other educational establishments, if not separately priced (10.1 – 10.5)",
           "refs": [
-            "10.1",
-            "10.5"
+            "10.5",
+            "10.1"
           ]
         }
       ],
@@ -21548,8 +21548,8 @@
         {
           "text": "spas for medical purposes (06.2, 06.3)",
           "refs": [
-            "06.3",
-            "06.2"
+            "06.2",
+            "06.3"
           ]
         },
         {
@@ -21617,8 +21617,8 @@
         {
           "text": "spas for medical purposes (06.2, 06.3)",
           "refs": [
-            "06.3",
-            "06.2"
+            "06.2",
+            "06.3"
           ]
         },
         {
@@ -21696,8 +21696,8 @@
         {
           "text": "ornaments (05.1.1.4, 05.4.0.1)",
           "refs": [
-            "05.1.1.4",
-            "05.4.0.1"
+            "05.4.0.1",
+            "05.1.1.4"
           ]
         },
         {
@@ -21756,8 +21756,8 @@
         {
           "text": "ornaments (05.1.1.4, 05.4.0.1)",
           "refs": [
-            "05.1.1.4",
-            "05.4.0.1"
+            "05.4.0.1",
+            "05.1.1.4"
           ]
         },
         {
@@ -21947,8 +21947,8 @@
         {
           "text": "umbrellas and parasols for the garden (05.1.1.2) or for the beach (09.2.2.2)",
           "refs": [
-            "05.1.1.2",
-            "09.2.2.2"
+            "09.2.2.2",
+            "05.1.1.2"
           ]
         },
         {
@@ -22047,8 +22047,8 @@
         {
           "text": "umbrellas and parasols for the garden (05.1.1.2) or for the beach (09.2.2.2)",
           "refs": [
-            "05.1.1.2",
-            "09.2.2.2"
+            "09.2.2.2",
+            "05.1.1.2"
           ]
         },
         {
@@ -22231,8 +22231,8 @@
         {
           "text": "social assistance and other social care services that are integrated into a package of care along with medical services are to be included in 06.2.3 if medical services do not require an overnight stay and in 06.3.2 if they do. For example, services of medical convalescent homes or convalescent hospitals; services of homes for the elderly with nursing care; inpatient care hospices; services of palliative care establishments for the terminally ill; services of nursing homes; rest homes with nursing care; services of skilled nursing facilities; services of teaching nursing homes; services of residential mental retardation facilities; mental health and substance abuse facilities for chronic patients (e.g., those with dementia); services of alcoholism or drug addiction rehabilitation facilities (other than licensed hospitals)",
           "refs": [
-            "06.2.3",
-            "06.3.2"
+            "06.3.2",
+            "06.2.3"
           ]
         },
         {
@@ -22335,8 +22335,8 @@
         {
           "text": "social assistance and other social care services that are integrated into a package of care along with medical services are to be included in 06.2.3 if medical services do not require an overnight stay and in 06.3.2 if they do. For example, services of medical convalescent homes or convalescent hospitals; services of homes for the elderly with nursing care; inpatient care hospices; services of palliative care establishments for the terminally ill; services of nursing homes; rest homes with nursing care; services of skilled nursing facilities; services of teaching nursing homes; services of residential mental retardation facilities; mental health and substance abuse facilities for chronic patients (e.g., those with dementia); services of alcoholism or drug addiction rehabilitation facilities (other than licensed hospitals)",
           "refs": [
-            "06.2.3",
-            "06.3.2"
+            "06.3.2",
+            "06.2.3"
           ]
         },
         {
@@ -27825,8 +27825,8 @@
         {
           "text": "cheese (01.1.4.5.0) and yoghurt (01.1.4.6.0)",
           "refs": [
-            "01.1.4.5.0",
-            "01.1.4.6.0"
+            "01.1.4.6.0",
+            "01.1.4.5.0"
           ]
         },
         {
@@ -27876,8 +27876,8 @@
         {
           "text": "cereals and flour not intended exclusively for baby use (01.1.1.1, 01.1.1.2)",
           "refs": [
-            "01.1.1.1",
-            "01.1.1.2"
+            "01.1.1.2",
+            "01.1.1.1"
           ]
         },
         {
@@ -27959,9 +27959,9 @@
         {
           "text": "dried fruit snacks not specifically for use by babies (01.1.6.7.1, 01.1.6.7.2, 01.1.6.7.9)",
           "refs": [
-            "01.1.6.7.2",
+            "01.1.6.7.1",
             "01.1.6.7.9",
-            "01.1.6.7.1"
+            "01.1.6.7.2"
           ]
         },
         {
