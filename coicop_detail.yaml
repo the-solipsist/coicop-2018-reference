@@ -1,4 +1,3 @@
-# Note: Level-5 codes (e.g. 01.1.1.1.1) are optional high-detail entries for Division 01 only.
 '01':
   title: Food and non-alcoholic beverages
   intro: >-
@@ -28,10 +27,10 @@
   - services related to local delivery of food or drinks, when separately priced (07.4.9.2)
   - products for animal feeding (09.3.2.2)
   - food provided by food serving services (division 11)
-01.1.1:
+'01.1.1':
   title: Cereals and cereal products
   product_type: ND
-01.1.1.1:
+'01.1.1.1':
   title: Cereals
   product_type: ND
   intro: Dried cereal grains, whether broken or precooked (steamed), not further prepared.
@@ -61,52 +60,7 @@
   - cereal-based ready-made preparations such as-ready-made soups based on cereals (01.1.9.1)
   - baby rice cereals and other baby cereals (01.1.9.2)
   - seeds for planting (09.3.1.2)
-01.1.1.1.1:
-  title: Wheat
-  intro: Dried grains of wheat, whether broken or precooked, but not further prepared.
-  includes:
-  - bulgur
-  - farro, broken and pearled
-01.1.1.1.2:
-  title: Rice
-  intro: Dried grains of rice, whether broken or precooked, but not further prepared.
-  includes:
-  - semi- or wholly milled rice
-  - husked rice
-  - parboiled rice
-01.1.1.1.3:
-  title: Sorghum
-  intro: Dried grains of sorghum, whether or not precooked, but not further prepared.
-01.1.1.1.4:
-  title: Barley
-  intro: Dried grains of barley, whether or not precooked, but not further prepared.
-01.1.1.1.5:
-  title: Millet
-  intro: Dried grains of millet, whether or not precooked, but not further prepared.
-01.1.1.1.6:
-  title: Maize (corn)
-  intro: Dried grains of maize (corn), both on the cob or not, whether or not precooked, but not further prepared.
-01.1.1.1.7:
-  title: Quinoa
-  intro: Dried grains of quinoa, whether or not precooked, but not further prepared.
-01.1.1.1.8:
-  title: Teff
-  intro: Dried grains of teff, whether or not precooked, but not further prepared.
-01.1.1.1.9:
-  title: Other cereals
-  intro: Dried grains of other cereals, whether broken or precooked, but not further prepared.
-  includes:
-  - rye
-  - oats
-  - triticale
-  - buckwheat
-  - canary seed
-  - quihuicha or Inca wheat
-  - canagua or coaihua
-  - adlay or Job's tears
-  - other cereals n.e.c
-  - mixed cereal grains, in the form of dried grains, but not further prepared, also including other dehydrated ingredients (e.g., vegetables), provided that these are not the main ingredients
-01.1.1.2:
+'01.1.1.2':
   title: Flour of cereals
   product_type: ND
   intro: Flour of cereals mentioned in subclass 01.1.1.1 whether instant (precooked - steamed - or added with yeasts) or not.
@@ -117,35 +71,7 @@
   - polenta flour, whether instant (pre-steamed) or not
   excludes:
   - flour as baby food, baby rice cereals and other baby cereals (01.1.9.2)
-01.1.1.2.1:
-  title: Flour of wheat
-  intro: Flour of wheat, whether instant or not.
-01.1.1.2.2:
-  title: Flour of rice
-  intro: Flour of rice, whether instant or not.
-01.1.1.2.3:
-  title: Flour of sorghum
-01.1.1.2.4:
-  title: Flour of barley
-01.1.1.2.5:
-  title: Flour of millet
-01.1.1.2.6:
-  title: Flour of maize or cornmeal
-  intro: Flour of maize, whether instant or not.
-  includes:
-  - polenta flour, whether instant or not
-01.1.1.2.7:
-  title: Flour of quinoa
-01.1.1.2.8:
-  title: Flour of teff
-01.1.1.2.9:
-  title: Other flours of cereals
-  intro: Flour of other cereals n.e.c.
-  excludes:
-  - almond flour and other nut flour (01.1.6.9.1)
-  - fruit flour (01.1.6.9.1)
-  - flour as baby food, baby rice cereals and other baby cereals (01.1.9.2.2)
-01.1.1.3:
+'01.1.1.3':
   title: Bread and bakery products
   product_type: ND
   includes:
@@ -161,25 +87,7 @@
   - crumpets, muffins, croissants, sweet tarts, sweet pies, and other pastry goods and cakes
   excludes:
   - pizza with topping, whether precooked or not; quiche; and meat and fish pies (01.1.9.1)
-01.1.1.3.1:
-  title: Bread
-  intro: Bread and bakery products used as bread.
-  includes:
-  - bread and bread rolls
-  - crispbreads, rusks, toasted bread and crackers
-  - tortillas
-  - injera
-01.1.1.3.9:
-  title: Other bakery products
-  intro: Other baked products, excluding bread or other bakery products used as bread.
-  includes:
-  - pizza bases without topping, whether precooked or not
-  - gingerbread and the like
-  - sweet biscuits (cookies)
-  - waffles and wafers
-  - ice cream cones
-  - crumpets, muffins, croissants, sweet tarts, sweet pies, and other pastry goods and cakes
-01.1.1.4:
+'01.1.1.4':
   title: Breakfast cereals
   product_type: ND
   includes:
@@ -187,9 +95,7 @@
   - breakfast cereals with nuts or dried fruit
   excludes:
   - popcorn (1.1.1.9)
-01.1.1.4.0:
-  title: Breakfast cereals
-01.1.1.5:
+'01.1.1.5':
   title: Macaroni, noodles, couscous and similar pasta products
   product_type: ND
   includes:
@@ -198,9 +104,7 @@
   excludes:
   - bulgur (01.1.1.1)
   - prepared dishes containing stuffed pasta, and prepared couscous dishes (01.1.9.1)
-01.1.1.5.0:
-  title: Macaroni, noodles, couscous and similar pasta products
-01.1.1.9:
+'01.1.1.9':
   title: Other milled cereal and grain products
   product_type: ND
   includes:
@@ -214,12 +118,10 @@
   excludes:
   - soy meat and soy burgers, veggie burgers, tofu, tempeh and other meat substitutes made from vegetables and nuts; and potato starch, tapioca, sago and other starches (01.1.7.9)
   - ready-made cereal-based preparations, such as ready-made cereal-based soups (01.1.9.1)
-01.1.1.9.0:
-  title: Other milled cereal and grain products
-01.1.2:
+'01.1.2':
   title: Live animals, and meat and other parts of slaughtered land animals
   product_type: ND
-01.1.2.1:
+'01.1.2.1':
   title: Live land animals
   product_type: ND
   intro: Live land animals, both domestic and wild, for human consumption as food.
@@ -242,42 +144,7 @@
   - other live seafood (01.1.3.4)
   - live animals for transport (07.1.4.0)
   - live animals purchased for recreational purposes (09.1.2.4)
-01.1.2.1.1:
-  title: Bovine animal, live
-  intro: Cattle and buffaloes purchased live for human consumption as food.
-  includes:
-  - 'cattle: cows, calves, common ox, zebu or humped ox, watusi, gaur, gayal, banteng, yak'
-  - buffaloes (Indian or water buffaloes; arnis, or wild water buffaloes; Asiatic buffalo or arni, Sulwaesi anoas, or pygmy buffaloes, African buffaloes, such as the dwarf buffalo and the large Caffrarian buffalo, the American bisons, known simply as or "buffaloes"; European bisons; and the "beefaloes" (hybrid offspring of the American bisons and domestic cattle)
-01.1.2.1.2:
-  title: Pigs, live
-  intro: Pigs purchased live for human consumption as food.
-01.1.2.1.3:
-  title: Goats, lambs and sheep, live
-  intro: Goats, lambs and sheep purchased live for human consumption as food.
-01.1.2.1.4:
-  title: Poultry, live
-  intro: Chicken, ducks, geese, turkeys and guinea fowl purchased live for human consumption as food.
-01.1.2.1.5:
-  title: Hares and rabbits, live
-  intro: Hares and rabbits purchased live for human consumption as food.
-01.1.2.1.9:
-  title: Other live animals
-  intro: Other animals n.e.c. purchased live for human consumption as food.
-  includes:
-  - horses, donkeys and other equines
-  - camels, dromedaries, alpaca, llamas, guanacos, vicuñas and other camelids
-  - ostriches, emus, rheas, pheasant, grouse, pigeons, quails and other birds
-  - snakes and other reptiles
-  - spiders, scorpions and other insects and worms
-  - terrestrial snails
-  - frogs
-  - other animals n.e.c
-  excludes:
-  - live fish (01.1.3.1)
-  - other live seafood (01.1.3.4)
-  - live animals for transport (07.1.4.0)
-  - live animals used for recreation (09.1.2.4)
-01.1.2.2:
+'01.1.2.2':
   title: Meat, fresh, chilled or frozen
   product_type: ND
   intro: Meat of all animals, both domestic and wild, fresh, chilled or frozen.
@@ -299,43 +166,7 @@
   also_includes:
   - minced meat of the animals listed directly above
   - meat of seals, walruses, whales and other marine mammals
-01.1.2.2.1:
-  title: Meat of bovine animals, fresh, chilled or frozen
-  intro: Meat of cattle and of buffaloes, fresh, chilled or frozen.
-  includes:
-  - 'Fresh, chilled or frozen meat of:'
-  - 'cattle: cow, calves, common ox, zebu or humped ox, watusi, gaur, gayal, banteng, yak'
-  - buffaloes (Indian or water buffaloes; arnis, or wild water buffaloes; Asiatic buffalo or arni, Sulwaesi anoas, or pygmy buffaloes, African buffaloes, such as the dwarf buffalo and the large Caffrarian buffalo, the American bisons, known simply as or "buffaloes"; European bisons; and the "beefaloes" (hybrid offspring of the American bisons and domestic cattle)
-01.1.2.2.2:
-  title: Meat of pigs, fresh, chilled or frozen
-  intro: Meat of pigs, fresh, chilled or frozen.
-01.1.2.2.3:
-  title: Meat of goats, lambs and sheep, fresh, chilled or frozen
-  intro: Meat of goats, lambs and sheep, fresh, chilled or frozen.
-01.1.2.2.4:
-  title: Meat of poultry, fresh, chilled or frozen
-  intro: Meat of chicken, ducks, geese, turkeys and guinea fowl, fresh, chilled or frozen.
-01.1.2.2.5:
-  title: Meat of hares and rabbits, fresh, chilled or frozen
-  intro: Meat of hares and rabbits, fresh, chilled or frozen.
-01.1.2.2.6:
-  title: Meat of horses and other equines, fresh, chilled or frozen
-  intro: Meat of horses, donkeys and other equines, fresh, chilled or frozen.
-01.1.2.2.7:
-  title: Meat of camels and camelids, fresh, chilled or frozen
-  intro: Meat of camels, dromedaries, alpaca, llamas, guanacos, vicuñas and other camelids, fresh, chilled or frozen.
-01.1.2.2.9:
-  title: Other meat, fresh, chilled or frozen
-  intro: Other meat fresh, chilled or frozen n.e.c.
-  includes:
-  - meat of seals, walruses, whales and other marine mammals
-  - meat of antelopes, deer, boars and kangaroos
-  - meat of ostriches, emus, rheas, pheasant, grouse, pigeons, quails and other birds
-  - meat of snakes, alligators and other reptiles
-  - spiders, scorpions, insects and worms
-  - terrestrial snails
-  - frogs, fresh, chilled or frozen
-01.1.2.3:
+'01.1.2.3':
   title: Meat, dried, salted, in brine or smoked
   product_type: ND
   intro: Meat of all animals, dried, salted, in brine or smoked.
@@ -344,30 +175,7 @@
   - bacon, ham and salami
   excludes:
   - pâté (01.1.2.5)
-01.1.2.3.1:
-  title: Meat of bovine, salted, dried or smoked
-  intro: Meat of cattle and of buffaloes salted, dried or smoked.
-  includes:
-  - 'Salted, dried or smoked meat of:'
-  - 'cattle: cow, calves, common ox, zebu or humped ox, watusi, gaur, gayal, banteng, yak'
-  - buffaloes (Indian or water buffaloes; arnis, or wild water buffaloes; Asiatic buffalo or arni, Sulwaesi anoas, or pygmy buffaloes, African buffaloes, such as the dwarf buffalo and the large Caffrarian buffalo, the American bisons, known simply as or "buffaloes"; European bisons; and the "beefaloes" (hybrid offspring of the American bisons and domestic cattle)
-01.1.2.3.2:
-  title: Meat of pigs, cuts, salted, dried or smoked (bacon and ham)
-  intro: Meat of pigs, cuts, salted, dried or smoked.
-  includes:
-  - bacon, ham and salami
-01.1.2.3.9:
-  title: Other meat, dried, salted or smoked
-  intro: Other meat, dried, salted or smoked n.e.c.
-  includes:
-  - meat of seals, walruses, whales and other marine mammals
-  - meat of antelopes, deer, boars and kangaroos
-  - meat of ostriches, emus, rheas, pheasant, grouse, pigeons, quails and other birds
-  - meat of snakes, alligators and other reptiles
-  - spiders, scorpions, insects and worms
-  - terrestrial snails
-  - frogs, dried, salted or smoked
-01.1.2.4:
+'01.1.2.4':
   title: Offal, blood and other parts of slaughtered animals, fresh, chilled or frozen, dried, salted, in brine or smoked
   product_type: ND
   intro: Offal, blood and other parts of slaughtered animals, fresh, chilled or frozen, dried, salted, in brine or smoked.
@@ -376,9 +184,7 @@
   - pork heads, tails and ears; and chicken feet
   excludes:
   - preparations of offal, blood and other parts of slaughtered animals (01.1.2.5)
-01.1.2.4.0:
-  title: Offal, blood and other parts of slaughtered animals fresh, chilled or frozen, dried, salted, in brine or smoked
-01.1.2.5:
+'01.1.2.5':
   title: Preparations of meat, offal, blood and other parts of slaughtered animals
   product_type: ND
   intro: Preparations of meat, offal and blood, whether frozen or not.
@@ -390,23 +196,7 @@
   - all kind of pâté, including liver pâté
   - breaded meat
   - other preparations of meat, offal and blood
-01.1.2.5.1:
-  title: Sausages and similar products of meat, offal or blood
-01.1.2.5.2:
-  title: Canned meat
-  intro: Meat of all animals generally precooked and preserved in a can.
-01.1.2.5.3:
-  title: Pâté, including liver pâté
-  intro: Pâté of all kinds, including liver pâté.
-01.1.2.5.9:
-  title: Other preparations of meat, offal or blood n.e.c.
-  includes:
-  - marinated meat
-  - meat extracts and meat juices
-  - minced meat mix, from different types of meat
-  - breaded meat
-  - other preparations of meat, meat offal or blood
-01.1.3:
+'01.1.3':
   title: Fish and other seafood
   product_type: ND
   intro: Fish and other seafood (such as crustaceans, molluscs and other aquatic invertebrates), harvested or farmed, in fresh and marine waters, whole or in parts (e.g., cuts, fillets and meat, whether minced or not), including livers, roes, fins, maws, meal and other offal.
@@ -416,7 +206,7 @@
   excludes:
   - marine mammals, frogs and terrestrial snails (01.1.2.1, 01.1.2.2, 01.1.2.3)
   - seaweeds and other aquatic plants (01.1.7.4)
-01.1.3.1:
+'01.1.3.1':
   title: Fish, live, fresh, chilled or frozen
   product_type: ND
   intro: Fish, live, fresh, chilled or frozen.
@@ -426,35 +216,7 @@
   - fish fillets and meat, whether minced or not, fresh, chilled or frozen
   excludes:
   - meal, livers, roes, fins, maws and other offal (01.1.3.7)
-01.1.3.1.1:
-  title: Freshwater fish, live, fresh, chilled or frozen
-  includes:
-  - tilapia, catfish (including pangasius), carp, Nile perch and eels, live, fresh, chilled or frozen
-01.1.3.1.2:
-  title: Salmonoidae, live, fresh, chilled or frozen
-  includes:
-  - salmon and trout, live, fresh, chilled or frozen
-01.1.3.1.3:
-  title: Flatfish, live, fresh, chilled, or frozen
-  includes:
-  - sole, turbot, halibut and plaice, live, fresh, chilled or frozen
-01.1.3.1.4:
-  title: Gadiformes, live, fresh, chilled, or frozen
-  includes:
-  - cod, haddock, hake, Alaska pollock and blue whiting, live, fresh, chilled or frozen
-01.1.3.1.5:
-  title: Tunas, skipjack or stripe-bellied bonito, live, fresh, chilled, or frozen
-  includes:
-  - tuna and skipjack or stripe-bellied bonito, live, fresh, chilled or frozen
-01.1.3.1.6:
-  title: Other pelagic fish, live, fresh, chilled, or frozen
-  includes:
-  - herring, sardines, sardinella, brisling or sprat, mackerel and swordfish, live, fresh, chilled or frozen
-01.1.3.1.9:
-  title: Other fish, live, fresh, chilled, or frozen
-  includes:
-  - other fish, live, fresh, chilled or frozen n.e.c
-01.1.3.2:
+'01.1.3.2':
   title: Fish, dried, salted, in brine or smoked
   product_type: ND
   intro: Fish, dried, salted, in brine or smoked.
@@ -462,19 +224,7 @@
   - fish fillets and meat, dried, salted, in brine or smoked
   excludes:
   - meal, livers, roes, fins, maws and other offal (01.1.3.7)
-01.1.3.2.1:
-  title: Salmonoidae, smoked
-  includes:
-  - smoked salmon and trout
-01.1.3.2.2:
-  title: Gadiformes, dried, salted or in brine
-  includes:
-  - cod, haddock, hake, Alaska pollock and blue whiting, dried, salted or in brine
-01.1.3.2.9:
-  title: Other fish, dried, salted, in brine, smoked
-  includes:
-  - other fish, dried, salted, in brine or smoked n.e.c
-01.1.3.3:
+'01.1.3.3':
   title: Fish preparations
   product_type: ND
   intro: Prepared foodstuffs consisting of fish, whether frozen or not.
@@ -484,22 +234,7 @@
   - surimi and other imitation crabmeat
   excludes:
   - prepared or preserved livers, roes, fins and other offal (01.1.3.7)
-01.1.3.3.1:
-  title: Tunas, skipjack or stripe-bellied bonito, prepared or preserved
-  includes:
-  - preparations of tuna, skipjack or stripe-bellied bonito
-01.1.3.3.2:
-  title: Other pelagic fish, prepared or preserved
-  includes:
-  - preparations of herring, sardines, sardinella, brisling or sprat, mackerel and swordfish
-01.1.3.3.3:
-  title: Caviar and caviar substitutes
-  intro: Caviar (prepared from the roe of the sturgeon) and caviar substitutes (products consumed as caviar but prepared from eggs of fish other than sturgeon (e.g., salmon, carp, pike, tuna, mullet, cod and lumpfish), which have been washed, cleaned and salted. Can also be pressed, dried, seasoned and coloured.
-01.1.3.3.9:
-  title: Other fish, prepared or preserved
-  includes:
-  - fish preparations n.e.c
-01.1.3.4:
+'01.1.3.4':
   title: Other seafood, live, fresh, chilled or frozen
   product_type: ND
   includes:
@@ -509,135 +244,35 @@
   excludes:
   - terrestrial molluscs, including terrestrial snails, live, fresh, chilled or frozen (01.1.2.1, 01.1.2.2, 01.1.2.3)
   - seaweeds and other edible aquatic plants (01.1.7.4)
-01.1.3.4.1:
-  title: Shrimps and prawns, live, fresh, chilled or frozen
-  includes:
-  - shrimp and prawns, live, fresh, chilled or frozen
-01.1.3.4.2:
-  title: Other crustaceans, live, fresh, chilled or frozen
-  includes:
-  - crabs, lobsters and other crustaceans, live, fresh, chilled or frozen
-01.1.3.4.3:
-  title: Bivalves, live, fresh, chilled or frozen
-  includes:
-  - oysters, scallops, mussels, clams, cockles and ark shells, live, fresh, chilled or frozen
-01.1.3.4.4:
-  title: Cephalopods, live, fresh, chilled or frozen
-  includes:
-  - cuttlefish, squid and octopuses, live, fresh, chilled or frozen
-01.1.3.4.5:
-  title: Other molluscs, live, fresh, chilled or frozen
-  includes:
-  - abalone and sea snails, live, fresh, chilled or frozen
-01.1.3.4.9:
-  title: Other aquatic invertebrates, live, fresh, chilled or frozen
-  includes:
-  - sea urchins, bêche-de-mer (sea cucumbers) and jellyfish, live, fresh, chilled or frozen
-01.1.3.5:
+'01.1.3.5':
   title: Other seafood, dried, salted, in brine or smoked
   product_type: ND
   intro: Other seafood, as listed in subclass 01.1.3.4, dried, salted, in brine or smoked.
-01.1.3.5.1:
-  title: Shrimps and prawns, dried, salted or in brine; smoked
-  includes:
-  - shrimp and prawns, dried, salted, in brine or smoked
-01.1.3.5.2:
-  title: Other crustaceans, dried, salted or in brine; smoked
-  includes:
-  - crabs, lobsters and other crustaceans, dried, salted, in brine or smoked
-01.1.3.5.3:
-  title: Bivalves, dried, salted or in brine; smoked
-  includes:
-  - oysters, scallops, mussels, clams, cockles and ark shells, dried, salted, in brine or smoked
-01.1.3.5.4:
-  title: Cephalopods, dried, salted or in brine; smoked
-  includes:
-  - cuttlefish, squid and octopuses, dried, salted, in brine or smoked
-01.1.3.5.5:
-  title: Other molluscs, dried, salted or in brine; smoked
-  includes:
-  - abalone and sea snails, dried, salted, in brine or smoked
-01.1.3.5.9:
-  title: Other aquatic invertebrates, dried, salted or in brine; smoked
-  includes:
-  - sea urchins, sea cucumber and jellyfish, dried, salted, in brine or smoked
-01.1.3.6:
+'01.1.3.6':
   title: Other seafood preparations
   product_type: ND
   intro: Prepared foodstuffs consisting of other seafood, as listed in subclass 01.1.3.4, whether frozen or not.
-01.1.3.6.1:
-  title: Shrimps and prawns, prepared or preserved
-  includes:
-  - shrimp and prawns, prepared or preserved
-01.1.3.6.2:
-  title: Other crustaceans, prepared or preserved
-  includes:
-  - crabs, lobsters and other crustaceans, prepared or preserved
-01.1.3.6.3:
-  title: Bivalves, prepared or preserved
-  includes:
-  - oysters, scallops, mussels, clams, cockles and ark shells, prepared or preserved
-01.1.3.6.4:
-  title: Cephalopods, prepared or preserved
-  includes:
-  - cuttlefish, squid and octopuses, prepared or preserved
-01.1.3.6.5:
-  title: Other molluscs, prepared or preserved
-  includes:
-  - abalone and sea snails, prepared or preserved
-01.1.3.6.9:
-  title: Other aquatic invertebrates, prepared or preserved
-  includes:
-  - sea urchins, sea cucumber and jellyfish, prepared or preserved
-01.1.3.7:
+'01.1.3.7':
   title: Livers, roes and other offal of fish and of other seafood in all forms
   product_type: ND
   includes:
   - meal, livers, roes, fins, maws, and other offal in all product forms, i.e., fresh, chilled, frozen, dried, salted, in brine or smoked, prepared or preserved
   excludes:
   - seaweeds and other aquatic plants (01.1.7.4)
-01.1.3.7.0:
-  title: Livers, roes and other offal of fish and of other seafood in all forms
-  includes:
-  - livers, roes and offal of fish and of other seafood in all forms
-  excludes:
-  - caviar and caviar substitutes (01.1.3.3.3)
-01.1.4:
+'01.1.4':
   title: Milk, other dairy products and eggs
   product_type: ND
-01.1.4.1:
+'01.1.4.1':
   title: Raw and whole milk
   product_type: ND
   intro: Raw and whole milk of cattle and buffaloes, sheep and goats, camels and other animals, fresh, pasteurized, sterilized (UHT) or reconstituted.
   excludes:
   - curdled, fermented or acidified milk and cream (01.1.4.6)
-01.1.4.1.1:
-  title: Raw and whole milk of cattle
-  intro: Raw and whole milk of cattle (cow, common ox, zebu or humped ox, watusi, gaur, gayal, banteng, yak).
-01.1.4.1.2:
-  title: Raw and whole milk of buffaloes
-  intro: Raw and whole milk of buffaloes (Indian or water buffaloes; arnis, or wild water buffaloes; Asiatic buffalo or arni, Sulwaesi anoas, or pygmy buffaloes, African buffaloes, such as the dwarf buffalo and the large Caffrarian buffalo, the American bisons, known simply as or "buffaloes"; European bisons; and the "beefaloes" (hybrid offspring of the American bisons and domestic cattle)
-01.1.4.1.3:
-  title: Raw and whole milk of sheep and goats
-  intro: Raw and whole milk of sheep and goats.
-01.1.4.1.4:
-  title: Raw and whole milk of camels
-  intro: Raw and whole milk of camels, including dromedary.
-  also_includes:
-  - milk of other camelids, if for human consumption as food
-01.1.4.1.9:
-  title: Other raw and whole milk
-  intro: Raw and whole milk from other animals n.e.c., as listed in subclass 01.1.2.1.9.
-  includes:
-  - mare and donkey milk, and milk from other equines
-  - milk of other animals n.e.c
-01.1.4.2:
+'01.1.4.2':
   title: Skimmed milk
   product_type: ND
   intro: Skimmed and semi-skimmed milk of cattle and buffaloes, sheep and goats, camels and other animals
-01.1.4.2.0:
-  title: Skimmed milk
-01.1.4.3:
+'01.1.4.3':
   title: Other milk and cream
   product_type: ND
   intro: Other milk and cream from all animals.
@@ -650,26 +285,7 @@
   excludes:
   - beverages flavoured with cocoa, coffee or other substances (01.1.4.7)
   - condensed, evaporated and powdered milk used as baby food (01.1.9.2)
-01.1.4.3.1:
-  title: Condensed or evaporated milk
-  intro: Concentrated or evaporated milk, sweetened or unsweetened, in liquid or paste, whole, semi-skimmed or skimmed.
-01.1.4.3.2:
-  title: Powdered milk
-  intro: Powdered milk, sweetened or unsweetened, whole, semi-skimmed or skimmed.
-  excludes:
-  - baby formula (01.1.9.2.1)
-01.1.4.3.3:
-  title: Cream
-  includes:
-  - fresh, clotted, thickened and whipped cream
-01.1.4.3.9:
-  title: Other milk
-  intro: Other milk n.e.c.
-  excludes:
-  - non-animal milk (01.1.4.4)
-  - beverages flavoured with cocoa, coffee or other substances (01.1.4.7.0)
-  - condensed, evaporated or powdered milk as baby food (01.1.9.2.1)
-01.1.4.4:
+'01.1.4.4':
   title: Non-animal milk
   product_type: ND
   intro: Milk of non-animal origin in all forms.
@@ -682,31 +298,13 @@
   - other milk from vegetables and nuts
   excludes:
   - coconut milk for cooking (01.1.9.3)
-01.1.4.4.1:
-  title: Coconut milk
-  intro: Coconut milk for drinking.
-  excludes:
-  - coconut milk for cooking (01.1.9.3.9)
-01.1.4.4.2:
-  title: Almond milk
-01.1.4.4.3:
-  title: Soy milk
-01.1.4.4.4:
-  title: Rice milk
-01.1.4.4.5:
-  title: Oat milk
-01.1.4.4.9:
-  title: Other non-animal milk
-  intro: Other milk of non-animal origin for human consumption as food.
-01.1.4.5:
+'01.1.4.5':
   title: Cheese
   product_type: ND
   intro: All kinds of cheese (fresh, hard, semi-hard, blue cheese and cottage cheese) and curd, from animal and non-animal milk.
   excludes:
   - tofu (01.1.7.9)
-01.1.4.5.0:
-  title: Cheese
-01.1.4.6:
+'01.1.4.6':
   title: Yoghurt and similar products
   product_type: ND
   includes:
@@ -717,9 +315,7 @@
   - yoghurt from non-animal milk (e.g., coconut yoghurt and soy yoghurt)
   excludes:
   - frozen yoghurt (01.1.8.6)
-01.1.4.6.0:
-  title: Yoghurt and similar products
-01.1.4.7:
+'01.1.4.7':
   title: Milk-based dessert and beverages
   product_type: ND
   includes:
@@ -729,9 +325,7 @@
   - milk-based puddings containing milk of animal or non-animal origin, panna cotta, crème brûlée and crema catalana
   excludes:
   - lemon curd and similar fruit card (01.1.8.3)
-01.1.4.7.0:
-  title: Milk-based dessert and beverages
-01.1.4.8:
+'01.1.4.8':
   title: Eggs
   product_type: ND
   includes:
@@ -743,19 +337,7 @@
   excludes:
   - fish roe (01.1.3.7)
   - omelettes, crêpes and other ready-made egg-based food products (01.1.9.1)
-01.1.4.8.1:
-  title: Eggs of hen and other birds, in shell, fresh
-01.1.4.8.2:
-  title: Eggs of other animals, in shell, fresh
-  includes:
-  - turtle eggs, in shell, fresh
-01.1.4.8.9:
-  title: Other egg products
-  includes:
-  - eggs whether in shell or not, preserved or cooked
-  - egg yolks, fresh or preserved
-  - egg albumin
-01.1.4.9:
+'01.1.4.9':
   title: Other dairy products
   product_type: ND
   includes:
@@ -765,12 +347,10 @@
   excludes:
   - butter and other oils and fats derived from milk (01.1.5.2)
   - ice cream (01.1.8.6)
-01.1.4.9.0:
-  title: Other dairy products
-01.1.5:
+'01.1.5':
   title: Oils and fats
   product_type: ND
-01.1.5.1:
+'01.1.5.1':
   title: Vegetable oils
   product_type: ND
   intro: All oils of vegetable origin, including oils extracted from fruits, nuts and other crops.
@@ -787,42 +367,14 @@
   - coconut oil
   - avocado oil
   - rice bran oil
-01.1.5.1.1:
-  title: Sunflower-seed and safflower-seed oil
-01.1.5.1.2:
-  title: Palm oil
-01.1.5.1.3:
-  title: Olive oil
-01.1.5.1.4:
-  title: Soya bean oil
-01.1.5.1.5:
-  title: Groundnut oil
-01.1.5.1.6:
-  title: Coconut oil
-01.1.5.1.7:
-  title: Corn oil
-01.1.5.1.9:
-  title: Other edible vegetable oils n.e.c.
-01.1.5.2:
+'01.1.5.2':
   title: Butter and other oils and fats derived from milk
   product_type: ND
   includes:
   - butter
   - butter oil
   - ghee
-01.1.5.2.1:
-  title: Butter
-  intro: Butter from milk of cattle, buffaloes, sheep and goats, and camels.
-  includes:
-  - butter from milk of other animals if for human consumption as food
-01.1.5.2.9:
-  title: Other oils and fats derived from milk
-  includes:
-  - butter oil
-  - ghee (clarified butter)
-  - whipped butter
-  - other oils and fats derived from milk if for human consumption as food
-01.1.5.3:
+'01.1.5.3':
   title: Margarine and similar preparations
   product_type: ND
   includes:
@@ -830,9 +382,7 @@
   - diet margarine
   excludes:
   - peanut butter (01.1.8.4)
-01.1.5.3.0:
-  title: Margarine and similar preparations
-01.1.5.9:
+'01.1.5.9':
   title: Other animal oils and fats
   product_type: ND
   includes:
@@ -842,20 +392,10 @@
   - oils and fats of fish
   excludes:
   - cod liver or halibut liver oil (06.1.1.1)
-01.1.5.9.1:
-  title: Lard
-  intro: Pig fat and lard, including leaves or other spices.
-01.1.5.9.2:
-  title: Tallow
-  intro: Fat from cattle, buffaloes, sheep, goats and poultry.
-01.1.5.9.3:
-  title: Edible oils and fats of fish
-01.1.5.9.9:
-  title: Other animal oils and fats n.e.c.
-01.1.6:
+'01.1.6':
   title: Fruits and nuts
   product_type: ND
-01.1.6.1:
+'01.1.6.1':
   title: Dates, figs and tropical fruits, fresh
   product_type: ND
   includes:
@@ -871,27 +411,7 @@
   - other tropical and subtropical fruits, fresh
   excludes:
   - plantains and cooking bananas (01.1.7.5)
-01.1.6.1.1:
-  title: Avocados, fresh
-01.1.6.1.2:
-  title: Bananas, fresh
-  excludes:
-  - plantains and cooking bananas (01.1.7.5.7)
-01.1.6.1.3:
-  title: Dates, fresh
-01.1.6.1.4:
-  title: Figs, fresh
-01.1.6.1.5:
-  title: Mangoes, guavas and mangosteens, fresh
-01.1.6.1.6:
-  title: Papayas, fresh
-01.1.6.1.7:
-  title: Pineapples, fresh
-01.1.6.1.8:
-  title: Coconuts, fresh
-01.1.6.1.9:
-  title: Other tropical fruits, fresh
-01.1.6.2:
+'01.1.6.2':
   title: Citrus fruits, fresh
   product_type: ND
   includes:
@@ -901,17 +421,7 @@
   - tangerines
   - mandarins and clementines
   - other citrus fruits, fresh
-01.1.6.2.1:
-  title: Pomelos and grapefruits, fresh
-01.1.6.2.2:
-  title: Lemons and limes, fresh
-01.1.6.2.3:
-  title: Oranges, fresh
-01.1.6.2.4:
-  title: Tangerines, mandarins and clementines, fresh
-01.1.6.2.9:
-  title: Other citrus fruits, fresh
-01.1.6.3:
+'01.1.6.3':
   title: Stone fruits and pome fruits, fresh
   product_type: ND
   includes:
@@ -922,21 +432,7 @@
   - peaches and nectarines
   - plums and sloes
   - other pome fruits and stone fruits, fresh
-01.1.6.3.1:
-  title: Apples, fresh
-01.1.6.3.2:
-  title: Pears and quinces, fresh
-01.1.6.3.3:
-  title: Apricots, fresh
-01.1.6.3.4:
-  title: Cherries, fresh
-01.1.6.3.5:
-  title: Peaches and nectarines, fresh
-01.1.6.3.6:
-  title: Plums and sloes, fresh
-01.1.6.3.9:
-  title: Other stone fruits and pome fruits, fresh
-01.1.6.4:
+'01.1.6.4':
   title: Berries, fresh
   product_type: ND
   includes:
@@ -946,23 +442,7 @@
   - mulberries and loganberries
   - strawberries
   - other berries, fresh
-01.1.6.4.1:
-  title: Currants, fresh
-01.1.6.4.2:
-  title: Gooseberries, fresh
-01.1.6.4.3:
-  title: Raspberries, fresh
-01.1.6.4.4:
-  title: Blackberries, mulberries and loganberries, fresh
-01.1.6.4.5:
-  title: Strawberries, fresh
-01.1.6.4.6:
-  title: Blueberries, fresh
-01.1.6.4.7:
-  title: Cranberries, fresh
-01.1.6.4.9:
-  title: Other berries, fresh
-01.1.6.5:
+'01.1.6.5':
   title: Other fruits, fresh
   product_type: ND
   includes:
@@ -972,27 +452,11 @@
   - watermelons
   - pomegranates
   - other fruits or mixtures of fruit, fresh, n.e.c
-01.1.6.5.1:
-  title: Grapes, fresh
-01.1.6.5.2:
-  title: Kiwi fruits, fresh
-01.1.6.5.3:
-  title: Cantaloupes and other melons, fresh
-01.1.6.5.4:
-  title: Watermelons, fresh
-01.1.6.5.5:
-  title: Persimmons, fresh
-01.1.6.5.6:
-  title: Cashew apples, fresh
-01.1.6.5.9:
-  title: Other fruits or mixtures of fruit, fresh, n.e.c.
-01.1.6.6:
+'01.1.6.6':
   title: Fruits, frozen
   product_type: ND
   intro: Fruits cooked or uncooked, frozen, whether or not they contain added sugar or other sweetening matter.
-01.1.6.6.0:
-  title: Fruits, frozen
-01.1.6.7:
+'01.1.6.7':
   title: Fruits, dried and dehydrated
   product_type: ND
   includes:
@@ -1003,13 +467,7 @@
   - other dried fruits
   excludes:
   - fruit flour (01.1.6.9)
-01.1.6.7.1:
-  title: Raisins
-01.1.6.7.2:
-  title: Prunes
-01.1.6.7.9:
-  title: Other dried fruit
-01.1.6.8:
+'01.1.6.8':
   title: Nuts, in shell or shelled
   product_type: ND
   includes:
@@ -1022,25 +480,7 @@
   - brazil nuts
   - groundnuts
   - other nuts in shell or shelled
-01.1.6.8.1:
-  title: Almonds, in shell or shelled
-01.1.6.8.2:
-  title: Cashew nuts, in shell or shelled
-01.1.6.8.3:
-  title: Chestnuts, in shell or shelled
-01.1.6.8.4:
-  title: Hazelnuts, in shell or shelled
-01.1.6.8.5:
-  title: Pistachios, in shell or shelled
-01.1.6.8.6:
-  title: Walnuts, in shell or shelled
-01.1.6.8.7:
-  title: Brazil nuts, in shell or shelled
-01.1.6.8.8:
-  title: Groundnuts, in shell or shelled
-01.1.6.8.9:
-  title: Other nuts, in shell or shelled
-01.1.6.9:
+'01.1.6.9':
   title: Fruits and nuts, ground, and in other preparations
   product_type: ND
   intro: Fruit and nut preparations, whether frozen or not.
@@ -1054,27 +494,10 @@
   - jams, marmalades, fruit jellies, purées and pastes (01.1.8.3)
   - nut purées, nut butters and nut pastes (01.1.8.4)
   - homogenized baby food preparations (01.1.9.2)
-01.1.6.9.1:
-  title: Fruit and nuts flour
-  includes:
-  - almond flour
-01.1.6.9.2:
-  title: Canned fruit
-  intro: Fruit of all kind preserved in cans.
-01.1.6.9.3:
-  title: Homogenized fruit preparations
-  excludes:
-  - homogenized preparations as baby food (01.1.9.2.3)
-01.1.6.9.4:
-  title: Nuts and seeds roasted, salted or otherwise prepared
-01.1.6.9.9:
-  title: Other fruit and nuts preparations
-  includes:
-  - fruit pickles
-01.1.7:
+'01.1.7':
   title: Vegetables, tubers, plantains, cooking bananas and pulses
   product_type: ND
-01.1.7.1:
+'01.1.7.1':
   title: Leafy or stem vegetables, fresh or chilled
   product_type: ND
   includes:
@@ -1085,23 +508,7 @@
   - spinach
   - artichokes
   - other leafy or stem vegetables, fresh or chilled
-01.1.7.1.1:
-  title: Asparagus, fresh or chilled
-01.1.7.1.2:
-  title: Cabbages, fresh or chilled
-01.1.7.1.3:
-  title: Cauliflowers and broccoli, fresh or chilled
-01.1.7.1.4:
-  title: Lettuce and chicory, fresh or chilled
-01.1.7.1.5:
-  title: Spinach, fresh or chilled
-01.1.7.1.6:
-  title: Artichokes, fresh or chilled
-01.1.7.1.7:
-  title: Cassava leaves, fresh or chilled
-01.1.7.1.9:
-  title: Other leafy or stem vegetables, fresh or chilled
-01.1.7.2:
+'01.1.7.2':
   title: Fruit-bearing vegetables, fresh or chilled
   product_type: ND
   includes:
@@ -1112,21 +519,7 @@
   - pumpkins
   - squash and gourds
   - other fruit-bearing vegetables, fresh or chilled
-01.1.7.2.1:
-  title: Chillies and peppers, fresh or chilled
-01.1.7.2.2:
-  title: Cucumbers and gherkins, fresh or chilled
-01.1.7.2.3:
-  title: Eggplants (aubergines), fresh or chilled
-01.1.7.2.4:
-  title: Tomatoes, fresh or chilled
-01.1.7.2.5:
-  title: Pumpkins, squash and gourds, fresh or chilled
-01.1.7.2.6:
-  title: Okra, fresh or chilled
-01.1.7.2.9:
-  title: Other fruit-bearing vegetables, fresh or chilled
-01.1.7.3:
+'01.1.7.3':
   title: Green leguminous vegetables, fresh or chilled
   product_type: ND
   includes:
@@ -1135,19 +528,7 @@
   - broad beans and horsebeans, also known as fava beans
   - soya beans
   - other green leguminous vegetables, fresh or chilled
-01.1.7.3.1:
-  title: Beans, fresh or chilled
-01.1.7.3.2:
-  title: String beans, fresh or chilled
-01.1.7.3.3:
-  title: Peas, fresh or chilled
-01.1.7.3.4:
-  title: Broad beans and horse beans, fresh or chilled
-01.1.7.3.5:
-  title: Soya beans, fresh or chilled
-01.1.7.3.9:
-  title: Other green leguminous vegetables, fresh or chilled
-01.1.7.4:
+'01.1.7.4':
   title: Other vegetables, fresh or chilled
   product_type: ND
   includes:
@@ -1161,25 +542,7 @@
   - olives
   - other vegetables, fresh or chilled, n.e.c
   - mixtures of vegetables, fresh or chilled
-01.1.7.4.1:
-  title: Carrots and turnips, fresh or chilled
-01.1.7.4.2:
-  title: Garlic, fresh or chilled
-01.1.7.4.3:
-  title: Onions and shallots, fresh or chilled
-01.1.7.4.4:
-  title: Leeks and other alliaceous vegetables, fresh or chilled
-01.1.7.4.5:
-  title: Mushrooms and truffles, fresh or chilled
-01.1.7.4.6:
-  title: Edible seaweeds and other aquatic plants, fresh or chilled
-01.1.7.4.7:
-  title: Olives, fresh or chilled
-01.1.7.4.8:
-  title: Green maize (green corn)
-01.1.7.4.9:
-  title: Other vegetable n.e.c., mixtures of vegetables, fresh or chilled
-01.1.7.5:
+'01.1.7.5':
   title: Tubers, plantains and cooking bananas, fresh or chilled
   product_type: ND
   includes:
@@ -1193,23 +556,7 @@
   - arrowroots, lotus roots, Jerusalem artichokes (topinambur) and tacca
   excludes:
   - dessert bananas (01.1.6.1)
-01.1.7.5.1:
-  title: Potatoes
-01.1.7.5.2:
-  title: Sweet potatoes
-01.1.7.5.3:
-  title: Cassava (manioc, yuca)
-01.1.7.5.4:
-  title: Yams
-01.1.7.5.5:
-  title: Taro
-01.1.7.5.6:
-  title: Yautia
-01.1.7.5.7:
-  title: Plantains and cooking bananas
-01.1.7.5.9:
-  title: Other tubers
-01.1.7.6:
+'01.1.7.6':
   title: Pulses
   product_type: ND
   intro: Dried leguminous vegetables, shelled or unshelled, whether broken or not, but not further prepared.
@@ -1223,25 +570,7 @@
   - pigeon peas
   - bambara beans
   - mixtures of pulses
-01.1.7.6.1:
-  title: Beans, dried
-01.1.7.6.2:
-  title: Broad beans and horse beans, dried
-01.1.7.6.3:
-  title: Chickpeas, dried
-01.1.7.6.4:
-  title: Lentils, dried
-01.1.7.6.5:
-  title: Peas, dried
-01.1.7.6.6:
-  title: Cow peas, dried
-01.1.7.6.7:
-  title: Pigeon peas, dried
-01.1.7.6.8:
-  title: Bambara beans, dried
-01.1.7.6.9:
-  title: Other pulses
-01.1.7.7:
+'01.1.7.7':
   title: Other vegetables, tubers, plantains and cooking bananas, dried and dehydrated
   product_type: ND
   intro: Vegetables, other than leguminous; tubers; plantains; and cooking bananas, dried and dehydrated.
@@ -1251,9 +580,7 @@
   - dehydrated garlic and onions
   excludes:
   - flours of vegetables (01.1.7.9)
-01.1.7.7.0:
-  title: Other vegetables, tubers, plantains and cooking bananas, dried and dehydrated
-01.1.7.8:
+'01.1.7.8':
   title: Vegetables, tubers, plantains and cooking bananas, frozen
   product_type: ND
   includes:
@@ -1262,9 +589,7 @@
   - frozen plantains and cooking bananas
   excludes:
   - preparations such as frozen chipped potatoes (01.1.7.9)
-01.1.7.8.0:
-  title: Vegetables, tubers, plantains and cooking bananas, frozen
-01.1.7.9:
+'01.1.7.9':
   title: Vegetables, tubers, plantains, cooking bananas and pulses, ground, and in other preparations
   product_type: ND
   intro: Preparations of vegetables, tubers, salep, plantains, cooking bananas and pulses, whether frozen or not.
@@ -1287,59 +612,17 @@
   - culinary herbs and spices (01.1.9.4)
   - broths and stocks containing vegetables (01.1.9.9)
   - vegetable juices (01.2.1.0)
-01.1.7.9.1:
-  title: Flour of vegetables, pulses, tubers, plantains and cooking bananas
-01.1.7.9.2:
-  title: Canned vegetables
-  intro: Vegetables, pulses, tubers, plantains and cooking preserved in cans.
-  excludes:
-  - olives preserved in cans (01.1.7.9.3)
-01.1.7.9.3:
-  title: Preserved olives
-  intro: Preserved olives.
-  includes:
-  - olives preserved in cans
-01.1.7.9.4:
-  title: Chipped potatoes, frozen
-01.1.7.9.5:
-  title: Tofu
-  intro: Soy curd.
-01.1.7.9.6:
-  title: Tempeh, soy meat and burgers
-01.1.7.9.9:
-  title: Other vegetables, pulses and tubers preserved or processed
-  includes:
-  - vegetable flakes, vegetable purée, vegetable chips and crisps, vegetable concentrates
-  - homogenized preparations based on vegetables, pulses and tubers
-  - vegetable pickles
-  - veggie burgers and other meat substitutes made from vegetables and nuts (excluding soy)
-  also_includes:
-  - ready-made hummus, baba ghanoush and similar preparations
-  - kocho (a flatbread made from the starch obtained from the fermentation of the green leaf sheaths green leaf sheaths of the enset plant)
-  - potato starch, tapioca, sago and other starches
-  excludes:
-  - ready-made vegetables, prepared, frozen or not, including other ingredients, such as cheese or meat/fish; ready-made soups (01.1.9.1.3)
-  - homogenized preparations as baby food (01.1.9.2.3)
-  - culinary herbs and spices (01.1.9.4.0)
-  - broths and stocks containing vegetables (01.1.9.9.0)
-  - vegetable juices (01.2.1.0.0)
-01.1.8:
+'01.1.8':
   title: Sugar, confectionery and desserts
   product_type: ND
-01.1.8.1:
+'01.1.8.1':
   title: Cane sugar and beet sugar
   product_type: ND
   includes:
   - cane and beet sugar, raw and refined, powdered, crystallized or in lumps
   excludes:
   - refined cane or beet sugar, containing added flavouring or colouring matter (01.1.8.2)
-01.1.8.1.1:
-  title: Cane sugar
-  intro: Sugar cane, raw or refined, powdered, crystallized or in lumps.
-01.1.8.1.2:
-  title: Beet sugar
-  intro: Beet sugar, raw or refined, powdered, crystallized or in lumps.
-01.1.8.2:
+'01.1.8.2':
   title: Other sugars and sugar substitutes
   product_type: ND
   includes:
@@ -1351,9 +634,7 @@
   - artificial honey, saccharin and other artificial sweeteners
   - refined cane and beet sugar, in solid form, containing added flavouring or colouring matter
   - maple sugar and maple syrup, caramel, molasses, and sugars and sugar syrups n.e.c
-01.1.8.2.0:
-  title: Other sugars and sugar substitutes
-01.1.8.3:
+'01.1.8.3':
   title: Jams, marmalades, fruit jellies, purées and pastes, and honey
   product_type: ND
   includes:
@@ -1361,19 +642,13 @@
   - honey
   also_includes:
   - lemon curd and other fruit curd
-01.1.8.3.1:
-  title: Honey
-01.1.8.3.9:
-  title: Other jams, marmalades, fruit jellies, purées and pastes
-01.1.8.4:
+'01.1.8.4':
   title: Nut purées, nut butters and nut pastes
   product_type: ND
   includes:
   - peanut butter
   - other nut butters, such as almond butter, cashew butter, hazelnut butter, macadamia nut butter, pecan butter, pistachio butter and walnut butter
-01.1.8.4.0:
-  title: Nut purées, nut butters and nut pastes
-01.1.8.5:
+'01.1.8.5':
   title: Chocolate, cocoa and cocoa-based food products
   product_type: ND
   includes:
@@ -1385,28 +660,7 @@
   excludes:
   - white chocolate (01.1.8.9)
   - cocoa and chocolate-based drinks (01.2.4.0)
-01.1.8.5.1:
-  title: Chocolate
-  intro: Chocolate in bars or slabs.
-  excludes:
-  - white chocolate (01.1.8.9)
-01.1.8.5.2:
-  title: Cocoa beans
-  intro: Cocoa beans in raw form.
-01.1.8.5.3:
-  title: Cocoa powder
-  intro: Cocoa powder for all purposes.
-  excludes:
-  - cocoa and chocolate-based drinks (01.2.4.0.0)
-01.1.8.5.9:
-  title: Other cocoa-based foods and cocoa-based dessert preparations
-  includes:
-  - chocolate and cocoa-based foods and cocoa-based dessert
-  - chocolate and cocoa-based creams or spreads
-  - chocolate-covered food products, if the product is composed mainly of chocolate
-  excludes:
-  - cocoa and chocolate-based drinks (01.2.4.0.0)
-01.1.8.6:
+'01.1.8.6':
   title: Ice, ice cream and sorbets
   product_type: ND
   includes:
@@ -1419,9 +673,7 @@
   - tofu ice cream
   excludes:
   - ice for cooling (04.5.5.0)
-01.1.8.6.0:
-  title: Ice, ice cream and sorbets
-01.1.8.9:
+'01.1.8.9':
   title: Other sugar confectionery and desserts n.e.c.
   product_type: ND
   includes:
@@ -1432,21 +684,10 @@
   - desserts n.e.c
   excludes:
   - sugar confectionery based on cocoa and chocolate (01.1.8.5)
-01.1.8.9.1:
-  title: Vegetables, fruits, nuts, fruit peel and other parts of plants, preserved by sugar
-01.1.8.9.9:
-  title: Other sugar confectionery and desserts n.e.c. (not containing cocoa)
-  includes:
-  - chewing gum, toffees, lollies, candies and pastilles
-  - white chocolate
-  - other confectionery products
-  - desserts n.e.c
-  excludes:
-  - sugar confectionery based on cocoa and chocolate (01.1.8.5.9)
-01.1.9:
+'01.1.9':
   title: Ready-made food and other food products
   product_type: ND
-01.1.9.1:
+'01.1.9.1':
   title: Ready-made food
   product_type: ND
   intro: Prepared food and meals that either can be eaten as is or after heating but that do not require cooking, or are assembled and portioned in such a way that they can be cooked. They may contain mixed ingredients and can be fresh, frozen, or dehydrated or instant. They can include sauces and dressings which, especially when the food is fresh, may be provided in separate containers. Sometimes, disposable forks, knives, spoons or chopsticks are packed together with the food.
@@ -1467,39 +708,7 @@
   - cheese (01.1.4.5) and yoghurt 01.1.4.6)
   - chipped potatoes, frozen (01.1.7.9)
   - ice cream (01.1.8.6) and other desserts, n.e.c. (01.1.8.9)
-01.1.9.1.1:
-  title: Precooked dishes based on pasta and cereals
-  intro: Dishes can include vegetables, meat, fish, cheese, sauces or other ingredients, provided that these are not the main ingredients.
-  includes:
-  - precooked dishes in which the prevailing ingredient is pasta (whether stuffed or not)
-  - precooked dishes in which the prevailing ingredient is rice, quinoa or other cereals
-  - couscous dishes
-  - ready-to-eat dumplings, ravioli and noodles
-01.1.9.1.2:
-  title: Precooked dishes based on meat and/or fish
-  intro: Precooked dishes based on meat, meat substitutes and/or fish as the prevailing ingredient; dishes can also include vegetables, sauces or other ingredients, provided that these are not the main ingredients.
-01.1.9.1.3:
-  title: Mixed salads and prepared dishes based on vegetables
-  intro: Mixed salads and other prepared dishes and meals based on vegetables as the prevailing ingredients. Pulses and potatoes and other ingredients, such as meat, fish and cheese, can also be included provided that they are not the main ingredients.
-01.1.9.1.4:
-  title: Sandwiches, pizzas, quiches, meat or fish pies, frozen or not
-01.1.9.1.5:
-  title: Omelettes, crepes and other ready-made food based on eggs
-  intro: Omelettes, crepes and other food products based on eggs when precooked and served as a main dish.
-01.1.9.1.6:
-  title: Ready-made soups
-  intro: Ready-made soups, including dehydrated and instant soups and stews.
-  excludes:
-  - broths and stocks (01.1.9.9.0)
-01.1.9.1.9:
-  title: Other prepared ready-made dishes and meals n.e.c.
-  excludes:
-  - bread and bakery products (01.1.1.3)
-  - macaroni, noodles, couscous and similar pasta products uncooked, whether stuffed or not (01.1.1.5.0)
-  - cheese (01.1.4.5.0) and yoghurt (01.1.4.6.0)
-  - cakes (01.1.1.3.9), ice cream (01.1.8.6.0) and other desserts n.e.c. (01.1.8.9.9)
-  - frozen, chipped potatoes (01.1.7.9.4)
-01.1.9.2:
+'01.1.9.2':
   title: Baby food
   product_type: ND
   intro: Food and beverages intended for baby use exclusively.
@@ -1512,36 +721,7 @@
   - powdered milk not intended exclusively for baby use (01.1.4.3)
   - yoghurt for children (01.1.4.6)
   - homogenized preparations of fruits and vegetables not intended exclusively for baby use (01.1.6.9; 01.1.7.9)
-01.1.9.2.1:
-  title: Baby formula
-  intro: Baby formula (powdered, condensed and evaporated milk for baby use).
-  excludes:
-  - powdered milk not intended exclusively for baby use (01.1.4.3.2)
-01.1.9.2.2:
-  title: Baby rice cereals and flours for baby meals
-  intro: Baby rice cereals and flours intended exclusively for baby meals.
-  excludes:
-  - cereals and flour not intended exclusively for baby use (01.1.1.1, 01.1.1.2)
-  - homogenized fruit and vegetables preparations not intended exclusively for baby use (01.1.6.9.3, 01.1.7.9)
-01.1.9.2.3:
-  title: Homogenized baby food
-  intro: Homogenized food intended exclusively for consumption by babies.
-  excludes:
-  - homogenized fruit and vegetables preparations not intended exclusively for use by babies (01.1.6.9.3, 01.1.7.9)
-  - yoghurt for children (01.1.4.6)
-01.1.9.2.9:
-  title: Other baby food
-  intro: Other food intended exclusively for consumption by babies.
-  includes:
-  - baby crackers, cookies and snacks
-  - baby pasta
-  - ready-made macaroni preparations, including cheese, meat, fish, vegetables, sauces or other ingredients, provided that they are for baby use exclusively
-  excludes:
-  - crackers and cookies not specifically for use by babies (01.1.1.3.1, 01.1.1.3.9)
-  - pasta not specifically for use by babies (01.1.1.5.0)
-  - dried fruit snacks not specifically for use by babies (01.1.6.7.1, 01.1.6.7.2, 01.1.6.7.9)
-  - ready-made macaroni dishes not specifically for use by babies (01.1.9.1.1)
-01.1.9.3:
+'01.1.9.3':
   title: Salt, condiments and sauces
   product_type: ND
   includes:
@@ -1552,21 +732,7 @@
   - coconut milk for drinking (01.1.4.4)
   - fruit pickles (01.1.6.9)
   - vegetable pickles (01.1.7.9)
-01.1.9.3.1:
-  title: Salt
-01.1.9.3.9:
-  title: Other condiments and sauces
-  intro: >-
-    Condiments, sauces and seasonings (e.g., mustard, mayonnaise, ketchup and soy sauce), and vinegar.
-
-
-    Also includes:
-
-    * coconut milk for cooking
-  excludes:
-  - coconut milk drinks (01.1.4.4.1)
-  - fruit and vegetables pickles (01.1.7.9.9)
-01.1.9.4:
+'01.1.9.4':
   title: Spices, culinary herbs and seeds
   product_type: ND
   includes:
@@ -1576,17 +742,13 @@
   excludes:
   - vegetable oils (01.1.5.1)
   - seeds for planting (09.3.1.2)
-01.1.9.4.0:
-  title: Spices, culinary herbs and seeds
-01.1.9.9:
+'01.1.9.9':
   title: Other food products n.e.c.
   product_type: ND
   includes:
   - sugarcane consumed for the purpose of extracting juice or as a snack
   - prepared baking powders and yeasts, broth, stocks, bouillon cubes, soup bases, agar-agar and instant dessert preparations
   - other ready-made food and other food products
-01.1.9.9.0:
-  title: Other food products n.e.c.
 '01.2':
   title: Non-alcoholic beverages
   intro: Non-alcoholic beverages purchased by households, regardless of where they are consumed, and excluding non-alcoholic beverages that are provided by facilities such as restaurants and school cafeterias offering food and beverage serving services (division 11).
@@ -1597,7 +759,7 @@
   - non-alcoholic wine (02.1.2.1)
   - non-alcoholic beer (02.1.3.0)
   - non-alcoholic beverages for immediate consumption provided by facilities such as restaurants and school cafeterias, offering food and beverage serving services (11.1.1)
-01.2.1:
+'01.2.1':
   title: Fruit and vegetable juices
   product_type: ND
   includes:
@@ -1606,7 +768,7 @@
   - powdered juices
   excludes:
   - sparkling juices (01.2.6.0)
-01.2.1.0:
+'01.2.1.0':
   title: Fruit and vegetable juices
   product_type: ND
   includes:
@@ -1615,9 +777,7 @@
   - powdered juices
   excludes:
   - sparkling juices (01.2.6.0)
-01.2.1.0.0:
-  title: Fruit and vegetable juices
-01.2.2:
+'01.2.2':
   title: Coffee and coffee substitutes
   product_type: ND
   includes:
@@ -1629,7 +789,7 @@
   - roasted chicory and other roasted coffee substitutes, and extracts, essences and concentrates thereof
   excludes:
   - milk-based beverages, flavoured with coffee (01.1.4.7)
-01.2.2.0:
+'01.2.2.0':
   title: Coffee and coffee substitutes
   product_type: ND
   includes:
@@ -1641,26 +801,7 @@
   - roasted chicory and other roasted coffee substitutes and extracts, essences and concentrates thereof
   excludes:
   - milk-based beverages flavoured with coffee (01.1.4.7)
-01.2.2.0.1:
-  title: Coffee
-  intro: Coffee beans or powder, whether decaffeinated, roasted or ground.
-  includes:
-  - instant coffee
-  excludes:
-  - coffee-based beverage preparations (01.2.2.0.9)
-  - milk flavoured with coffee (01.1.4.7.0
-01.2.2.0.2:
-  title: Coffee substitutes
-  includes:
-  - roasted chicory and other roasted coffee substitutes, and extracts, essences and concentrates thereof
-01.2.2.0.9:
-  title: Other coffee
-  includes:
-  - extracts, essences and concentrates of coffee
-  - coffee-based beverage preparations
-  excludes:
-  - milk flavoured with coffee (01.1.4.7.0)
-01.2.3:
+'01.2.3':
   title: Tea, maté and other plant-derived products for infusion
   product_type: ND
   includes:
@@ -1671,7 +812,7 @@
   - rooibos tea
   - instant tea
   - iced tea
-01.2.3.0:
+'01.2.3.0':
   title: Tea, maté and other plant-derived products for infusion
   product_type: ND
   includes:
@@ -1682,28 +823,7 @@
   - rooibos tea
   - instant tea
   - iced tea
-01.2.3.0.1:
-  title: Green tea, leaves
-  intro: Green tea (not fermented) for infusion in leaves, whether in bags or not.
-01.2.3.0.2:
-  title: Black tea, leaves
-  intro: Black tea (fermented) and partly fermented for infusion in leaves, whether in bags or not.
-01.2.3.0.3:
-  title: Iced tea
-  intro: Iced tea in liquid form.
-01.2.3.0.4:
-  title: Instant tea powder
-  intro: Instant tea powder.
-01.2.3.0.5:
-  title: Maté
-  intro: Maté for infusion in leaves, whether in bags or not.
-01.2.3.0.9:
-  title: Other tea products and plant-derived products for infusion
-  includes:
-  - tea-substitutes and extracts and essences of tea
-  - fruit and herbal tea
-  - rooibos tea
-01.2.4:
+'01.2.4':
   title: Cocoa drinks
   product_type: ND
   includes:
@@ -1711,7 +831,7 @@
   excludes:
   - milk, flavoured with chocolate or cacao (01.1.4.7)
   - cocoa powder for all purposes; chocolate in bars or slabs; cocoa-based foods and cocoa-based dessert preparations (01.1.8.5)
-01.2.4.0:
+'01.2.4.0':
   title: Cocoa drinks
   product_type: ND
   includes:
@@ -1719,23 +839,19 @@
   excludes:
   - milk flavoured with chocolate or cacao (01.1.4.7)
   - cocoa powder for all purposes; chocolate in bars or slabs; cocoa-based foods and cocoa-based dessert preparations (01.1.8.5)
-01.2.4.0.0:
-  title: Cocoa drinks
-01.2.5:
+'01.2.5':
   title: Water
   product_type: ND
   intro: Mineral and spring waters, still or sparkling, without added ingredients.
   excludes:
   - flavoured water (01.2.9.0)
-01.2.5.0:
+'01.2.5.0':
   title: Water
   product_type: ND
   intro: Mineral and spring waters, still or sparkling, without added ingredients.
   excludes:
   - flavoured water (01.2.9.0)
-01.2.5.0.0:
-  title: Water
-01.2.6:
+'01.2.6':
   title: Soft drinks
   product_type: ND
   includes:
@@ -1745,7 +861,7 @@
   - iced tea (01.2.3.0)
   - sparkling water (01.2.5.0)
   - flavoured water (01.2.9.0)
-01.2.6.0:
+'01.2.6.0':
   title: Soft drinks
   product_type: ND
   includes:
@@ -1755,9 +871,7 @@
   - iced tea (01.2.3.0)
   - sparkling water (01.2.5.0)
   - flavoured water (01.2.9.0)
-01.2.6.0.0:
-  title: Soft drinks
-01.2.9:
+'01.2.9':
   title: Other non-alcoholic beverages
   product_type: ND
   includes:
@@ -1768,7 +882,7 @@
   - other non-alcoholic beverages
   excludes:
   - syrups of fruit and vegetables and concentrates of fruit and vegetables (01.2.1.0)
-01.2.9.0:
+'01.2.9.0':
   title: Other non-alcoholic beverages
   product_type: ND
   includes:
@@ -1779,12 +893,10 @@
   - other non-alcoholic beverages
   excludes:
   - syrups of fruit and vegetables and concentrates of fruit and vegetables (01.2.1.0)
-01.2.9.0.0:
-  title: Other non-alcoholic beverages
 '01.3':
   title: Services for processing primary goods for food and non-alcoholic beverages
   intro: Services purchased for the processing of primary goods provided by households to produce food and non-alcoholic beverages for their own final consumption.
-01.3.0:
+'01.3.0':
   title: Services for processing primary goods for food and non-alcoholic beverages
   product_type: S
   intro: Services purchased for the processing of primary goods provided by households to produce food and non-alcoholic beverages for their own final consumption.
@@ -1796,7 +908,7 @@
   excludes:
   - food processing services for business purposes (outside the scope of COICOP)
   - fruit and vegetable crushing and pressing services for the production of alcoholic beverages (02.2.0.0)
-01.3.0.0:
+'01.3.0.0':
   title: Services for processing primary goods for food and non-alcoholic beverages
   product_type: S
   intro: Services purchased for the processing of primary goods provided by households to produce food and non-alcoholic beverages for their own final consumption.
@@ -1808,15 +920,13 @@
   excludes:
   - food processing services for business purposes (outside the scope of COICOP)
   - fruit and vegetable crushing and pressing services for the production of alcoholic beverages (02.2.0.0)
-01.3.0.0.0:
-  title: Services for processing primary goods for food and non-alcoholic beverages
 '02':
   title: Alcoholic beverages, tobacco and narcotics
   intro: "Division 02 covers the purchase of alcoholic beverages (02.1), tobacco products (02.3) and narcotics (02.4), regardless of where they are consumed, excluding the purchase of those products in facilities such as restaurants through their food and beverage serving services.\n \nDivision 02 also includes low-alcohol beverages; and non-alcoholic beverages that are generally alcoholic, such as non-alcoholic beer. Services for the production of alcohol for own consumption (02.2) are also included within this division.\n\nDivision 02 excludes alcoholic beverages purchased for immediate consumption for example in hotels, restaurants, cafés, bars and kiosks and from street vendors and automatic vending machines (11.1.1)."
 '02.1':
   title: Alcoholic beverages
   intro: The beverages classified here include low-alcohol beverages and non-alcoholic beverages that generally contain some alcohol.
-02.1.1:
+'02.1.1':
   title: Spirits and liquors
   product_type: ND
   includes:
@@ -1826,7 +936,7 @@
   - aperitifs, other than wine-based aperitifs
   excludes:
   - wine-based aperitifs (02.1.2.1, 02.1.2.2)
-02.1.1.0:
+'02.1.1.0':
   title: Spirits and liquors
   product_type: ND
   includes:
@@ -1836,7 +946,7 @@
   - aperitifs, other than wine-based aperitifs
   excludes:
   - wine-based aperitifs (02.1.2.1, 02.1.2.2)
-02.1.2:
+'02.1.2':
   title: Wine
   product_type: ND
   includes:
@@ -1844,7 +954,7 @@
   - wine-based aperitifs, fortified wines, champagne and other sparkling wines
   - ice wine
   - low-alcohol and non-alcoholic wine
-02.1.2.1:
+'02.1.2.1':
   title: Wine from grapes
   product_type: ND
   includes:
@@ -1854,30 +964,30 @@
   - ice wine
   - low-alcohol and non-alcoholic wine
   - wine-based aperitifs
-02.1.2.2:
+'02.1.2.2':
   title: Wine from other sources
   product_type: ND
   includes:
   - ciders and perries, including sake
-02.1.3:
+'02.1.3':
   title: Beer
   product_type: ND
   includes:
   - all kinds of beers, such as ale, lager, stout and porter
   - low-alcohol beer and non-alcoholic beer
-02.1.3.0:
+'02.1.3.0':
   title: Beer
   product_type: ND
   includes:
   - all kinds of beers, such as ale, lager, stout and porter
   - low-alcohol beer and non-alcoholic beer
-02.1.9:
+'02.1.9':
   title: Other alcoholic beverages
   product_type: ND
   includes:
   - mixed alcohol-based drinks, such as soda water; and mineral water-based mixed alcoholic drinks (alcopop)
   - shandies, cola beer and radler
-02.1.9.0:
+'02.1.9.0':
   title: Other alcoholic beverages
   product_type: ND
   includes:
@@ -1886,7 +996,7 @@
 '02.2':
   title: Alcohol production services
   intro: Services purchased for the processing of primary products provided by households to produce alcohol for their own final consumption.
-02.2.0:
+'02.2.0':
   title: Alcohol production services
   product_type: S
   intro: Services purchased for the processing of primary products provided by households to produce alcohol for their own final consumption.
@@ -1895,7 +1005,7 @@
   - distilling and fermentation services
   - brewing services
   - ageing and bottling services
-02.2.0.0:
+'02.2.0.0':
   title: Alcohol production services
   product_type: S
   intro: Services purchased for the processing of primary products provided by households to produce alcohol for their own final consumption.
@@ -1907,7 +1017,7 @@
 '02.3':
   title: Tobacco
   intro: Group 02.3 covers all purchases of tobacco and tobacco products by households, including purchases of tobacco in restaurants, cafés, bars and service stations, since those venues do not add value or a service to the tobacco products sold. The consumption of tobacco through use of shisha or hookah pipes in restaurants, cafés and bars, is covered by division 11, as the venues in this case do provide a service. Electronic cigarettes are included in group 02.3, even though they do not contain tobacco, as they are a substitute for tobacco products.
-02.3.0:
+'02.3.0':
   title: Tobacco
   product_type: ND
   includes:
@@ -1920,13 +1030,13 @@
   excludes:
   - tobacco that is consumed through use of a shisha or hookah pipe in restaurants, bars, cafés and shisha lounges (11.1.1)
   - electronic cigarette devices and other articles for smokers (13.2.9.1)
-02.3.0.1:
+'02.3.0.1':
   title: Cigarettes
   product_type: ND
   includes:
   - cigarettes
   - cigarettes that are purchased in bars and restaurants, provided that a service charge is not applied
-02.3.0.2:
+'02.3.0.2':
   title: Cigars
   product_type: ND
   intro: >-
@@ -1935,7 +1045,7 @@
     * cigars
 
     * cigars that are purchased in bars and restaurants, provided that a service charge is not applied
-02.3.0.9:
+'02.3.0.9':
   title: Other tobacco products
   product_type: ND
   includes:
@@ -1950,7 +1060,7 @@
 '02.4':
   title: Narcotics
   intro: Group 02.4 covers all narcotics, both legal and illegal, purchased by households.
-02.4.0:
+'02.4.0':
   title: Narcotics
   product_type: ND
   includes:
@@ -1959,7 +1069,7 @@
   - other narcotics, including chemicals and synthetic drugs
   excludes:
   - narcotics used for medicinal purpose (06.1.1.1)
-02.4.0.0:
+'02.4.0.0':
   title: Narcotics
   product_type: ND
   includes:
@@ -1978,7 +1088,7 @@
 
 
     The purchase of custom-made clothing is classified as the purchase of garments (03.1.2) if the retailer supplies all of the materials and is classified as the purchase of a tailoring service (03.1.4) if the customer supplies the main materials.
-03.1.1:
+'03.1.1':
   title: Clothing materials
   product_type: SD
   includes:
@@ -1986,7 +1096,7 @@
   - leather, fur, fusible webbing, wadding and felt filling for making wearing apparel
   excludes:
   - furnishing fabrics (05.2.1.1)
-03.1.1.0:
+'03.1.1.0':
   title: Clothing materials
   product_type: SD
   includes:
@@ -1994,7 +1104,7 @@
   - leather, fur, fusible webbing, wadding and felt filling for making wearing apparel
   excludes:
   - furnishing fabrics (05.2.1.1)
-03.1.2:
+'03.1.2':
   title: Garments
   product_type: SD
   intro: Garments for men and boys, women and girls and infants, either ready-to-wear or made to measure, in all materials (including leather, furs, plastics and rubber), for everyday wear, for sport or for work.
@@ -2008,7 +1118,7 @@
   - tailoring services for which the customer supplies the material (03.1.4.2)
   - articles of medical hosiery, such as elasticated stockings (06.1.2.2)
   - diapers (nappies) of any material (13.2.9.1)
-03.1.2.1:
+'03.1.2.1':
   title: Garments for men or boys
   product_type: SD
   intro: Garments for men or boys, either ready-to-wear or made-to-measure, in all materials (including leather, furs, plastics and rubber), for everyday wear, for sport or for work
@@ -2022,7 +1132,7 @@
   - garments for infants (under 2 years of age) (03.1.2.3)
   - tailoring services for which the customer supplies the material (03.1.4.2)
   - articles of medical hosiery, such as elasticated stockings (06.1.2.2)
-03.1.2.2:
+'03.1.2.2':
   title: Garments for women or girls
   product_type: SD
   intro: Garments for women or girls, either ready-to-wear or made-to-measure, in all materials (including leather, furs, plastics and rubber), for everyday wear, for sport or for work.
@@ -2036,7 +1146,7 @@
   - garments for infants (under 2 years of age) (03.1.2.3)
   - tailoring services for which the customer supplies the material (03.1.4.2)
   - articles of medical hosiery, such as elasticated stockings (06.1.2.2)
-03.1.2.3:
+'03.1.2.3':
   title: Garments for infants (under 2 years of age)
   product_type: SD
   intro: Garments for infants or babies (under 2 years of age), either ready-to-wear or made to measure, in all materials.
@@ -2047,12 +1157,12 @@
   excludes:
   - tailoring services for which the customer supplies the material (03.1.4.2)
   - diapers (nappies) of any material (13.2.9.1)
-03.1.2.4:
+'03.1.2.4':
   title: School uniforms
   product_type: SD
   includes:
   - school uniforms
-03.1.3:
+'03.1.3':
   title: Other articles of clothing and clothing accessories
   product_type: SD
   includes:
@@ -2066,7 +1176,7 @@
   - paper handkerchiefs (13.1.2.0)
   - watches, jewellery, cufflinks and tiepins (13.2.1.1)
   - umbrellas and parasols, fans and key rings (13.2.9.1)
-03.1.3.1:
+'03.1.3.1':
   title: Other articles of clothing
   product_type: SD
   includes:
@@ -2079,12 +1189,12 @@
   - paper handkerchiefs (13.1.2.0)
   - watches, jewellery, cufflinks and tiepins (13.2.1.1)
   - umbrellas and parasols, fans and key rings (13.2.9.1)
-03.1.3.2:
+'03.1.3.2':
   title: Clothing accessories
   product_type: SD
   includes:
   - sewing threads, knitting yarns and accessories used in the creation of clothing, such as buckles, buttons, press studs, zip fasteners, ribbons, laces, trimmings, etc
-03.1.4:
+'03.1.4':
   title: Cleaning, repair, tailoring and hire of clothing
   product_type: S
   intro: The cost of materials is included only if not separately priced.
@@ -2098,14 +1208,14 @@
   - made-to-measure clothing (03.1.2.1; 03.1.2.2; 03.1.2.3; 03.1.2.4)
   - repair, hire and sewing services of household linen and other household textiles (05.2.2.0)
   - dry-cleaning, laundering, dyeing of household linen and other household textiles (05.6.2.9)
-03.1.4.1:
+'03.1.4.1':
   title: Cleaning of clothing
   product_type: S
   includes:
   - dry-cleaning, laundering and dyeing of garments
   excludes:
   - dry-cleaning, laundering, dyeing of household linen and other household textiles (05.6.2.9)
-03.1.4.2:
+'03.1.4.2':
   title: Repair, tailoring and hire of clothing
   product_type: S
   intro: The cost of materials is included only if they are not separately priced.
@@ -2120,7 +1230,7 @@
 '03.2':
   title: Footwear
   intro: 'Group 03.2 covers all general footwear, either ready-to-wear or made to measure, divided into the following categories: footwear for men; footwear for women; footwear for infants and children; and footwear-related services. Sport-specific footwear is classified to sub-class 09.2.2.1.'
-03.2.1:
+'03.2.1':
   title: Shoes and other footwear
   product_type: SD
   includes:
@@ -2130,7 +1240,7 @@
   - polishes, creams and other shoe-cleaning articles (05.6.1.1)
   - therapeutic footwear (06.1.3.3)
   - game-specific footwear (ski boots, football boots, golfing shoes and other such footwear fitted with ice-skates, rollers, spikes, studs, etc.); shin guards, cricket pads and other such protective apparel for sport (09.2.2.1)
-03.2.1.1:
+'03.2.1.1':
   title: Footwear for men
   product_type: SD
   includes:
@@ -2145,7 +1255,7 @@
   - polishes, creams and other shoe-cleaning articles (05.6.1.1)
   - therapeutic footwear (06.1.3.3)
   - game-specific footwear (ski boots, football boots, golfing shoes and other such footwear fitted with ice skates, rollers, spikes, studs, etc.); and shin guards, cricket pads and other such protective sports apparel (09.2.2.1)
-03.2.1.2:
+'03.2.1.2':
   title: Footwear for women
   product_type: SD
   includes:
@@ -2160,7 +1270,7 @@
   - polishes, creams and other shoe-cleaning articles (05.6.1.1)
   - therapeutic footwear (06.1.3.3)
   - game-specific footwear (ski boots, football boots, golfing shoes and other such footwear fitted with ice skates, rollers, spikes, studs, etc.); and shin guards, cricket pads and other such protective sports apparel (09.2.2.1)
-03.2.1.3:
+'03.2.1.3':
   title: Footwear for infants and children
   product_type: SD
   includes:
@@ -2176,7 +1286,7 @@
   - polishes, creams and other shoe-cleaning articles (05.6.1.1)
   - therapeutic footwear (06.1.3.3)
   - game-specific footwear (ski boots, football boots, golfing shoes and other such footwear fitted with ice skates, rollers, spikes, studs, etc.); and shin guards, cricket pads and other such protective sports apparel (09.2.2.1)
-03.2.2:
+'03.2.2':
   title: Cleaning, repair and hire of footwear
   product_type: S
   intro: The cost of materials is included only if they are not separately priced.
@@ -2189,7 +1299,7 @@
   - parts of footwear, such as heels, soles and so on, purchased by households with the intention of undertaking footwear repair themselves (03.2.1)
   - polishes, creams and other shoe-cleaning articles (05.6.1.1)
   - hire and repair of game-specific footwear (ski boots, football boots, golfing shoes and other such footwear fitted with ice skates, rollers, spikes, studs, etc.) (09.4.4.0)
-03.2.2.0:
+'03.2.2.0':
   title: Cleaning, repair and hire of footwear
   product_type: S
   intro: The cost of materials is included only if they are not separately priced.
@@ -2227,7 +1337,7 @@
   - accommodation services of boarding schools, universities and other educational establishments (11.2.0.3)
   - accommodation services of hostels for workers (11.2.0.9)
   - retirement homes for elderly persons (13.3.0.2)
-04.1.1:
+'04.1.1':
   title: Actual rental payments made by tenants for main residence
   product_type: S
   includes:
@@ -2239,7 +1349,7 @@
   - accommodation services of boarding schools, universities and other educational establishments (11.2.0.3)
   - accommodation services of hostels for workers (11.2.0.9)
   - retirement homes for elderly persons (13.3.0.2)
-04.1.1.0:
+'04.1.1.0':
   title: Actual rental payments made by tenants for main residence
   product_type: S
   includes:
@@ -2251,7 +1361,7 @@
   - accommodation services of boarding schools, universities and other educational establishments (11.2.0.3)
   - accommodation services of hostels for workers (11.2.0.9)
   - retirement homes for elderly persons (13.3.0.2)
-04.1.2:
+'04.1.2':
   title: Other actual rental payments
   product_type: S
   includes:
@@ -2260,14 +1370,14 @@
   - garage rentals
   excludes:
   - accommodation services of holiday villages and holiday centres (11.2.0.2)
-04.1.2.1:
+'04.1.2.1':
   title: Actual rental payments made by tenants for secondary residences
   product_type: S
   includes:
   - rentals actually paid for secondary residences
   excludes:
   - accommodation services of holiday villages and holiday centres (11.2.0.2)
-04.1.2.2:
+'04.1.2.2':
   title: Garage rental payments and other rental payments made by tenants
   product_type: S
   intro: Rental payments for the use of a garage that provides parking and/or storage in connection with a dwelling. The garage or storage facility does not have to be physically contiguous to the dwelling, nor does it have to be leased from the same landlord.
@@ -2281,24 +1391,24 @@
   title: Imputed rental payments for housing
   intro: "Persons who own the dwellings in which they live are treated as the owners of unincorporated enterprises producing housing services that are consumed by the household of which the owner is a member. The housing services produced are deemed to be equal in value to the rentals that would be paid on the market for accommodation of the same size, quality and type; and the imputed values of those services are recorded as final consumption expenditures of the owners. \n\nImputed rentals normally include values for the use of the land on which the property stands, the dwelling occupied, and the fixtures and fittings for heating, plumbing, lighting and so on. Imputed rentals also include payment for the use of a garage that provides parking in connection with the dwelling but does not have to be physically contiguous to the dwelling.\n\nImputed rentals do not include payment for the use of garages or parking spaces that provide parking not in connection with the dwelling (07.2.4). Nor\
     \ do they include charges for water supply (04.4.1), refuse collection (04.4.2) or sewage collection (04.4.3); co-proprietor charges for caretaking, gardening, stairwell cleaning, heating and lighting, maintenance of lifts and refuse disposal chutes, etc. in multi-occupied buildings (04.4.4); charges for electricity (04.5.1) and gas (04.5.2); or charges for heating and hot water (04.5.3, 04.5.4) supplied by district heating plants (04.5.5)."
-04.2.1:
+'04.2.1':
   title: Imputed rental payments of owner-occupiers for their main residence
   product_type: S
   includes:
   - imputed rentals of owners occupying their main residence
-04.2.1.0:
+'04.2.1.0':
   title: Imputed rental payments of owner-occupiers for their main residence
   product_type: S
   includes:
   - imputed rentals of owners occupying their main residence
-04.2.2:
+'04.2.2':
   title: Other imputed rentals
   product_type: S
   includes:
   - imputed rentals for secondary residences
   - imputed garage rentals in connection with the dwelling
   - imputed rentals of storage units
-04.2.2.0:
+'04.2.2.0':
   title: Other imputed rentals
   product_type: S
   includes:
@@ -2321,7 +1431,7 @@
 
 
     Materials purchased by tenants or owner-occupiers with the intention of undertaking minor maintenance or repair themselves should be assigned to subclass 04.3.1.1. If tenants or owner-occupiers pay an enterprise to carry out the minor maintenance or repair, the total value of the services, including the costs of the materials used, should be assigned to subclass 04.3.2.0. However, the cost of the materials should be assigned to 04.3.1.1 if they are separately priced.
-04.3.1:
+'04.3.1':
   title: Security equipment and materials for dwelling maintenance and repair
   includes:
   - products and materials such as paints and varnishes, renderings, wallpapers, fabric wall coverings, windowpanes, plaster, cement, putty, wallpaper pastes, etc., purchased for minor maintenance and repair of the dwelling
@@ -2337,7 +1447,7 @@
   - brooms, scrubbing brushes, dusting brushes and cleaning products (05.6.1.1)
   - fire extinguishers for transport equipment (07.2.1.3)
   - products, materials and fixtures used for major maintenance and repair (intermediate consumption) or for extension and conversion of the dwelling (capital formation)
-04.3.1.1:
+'04.3.1.1':
   title: Materials for the maintenance and repair of the dwelling
   product_type: ND
   includes:
@@ -2350,7 +1460,7 @@
   - lamp bulbs (05.5.2.2)
   - brooms, scrubbing brushes, dusting brushes and cleaning products (05.6.1.1)
   - products, materials and fixtures used for major maintenance and repair (intermediate consumption) or for extension and conversion of the dwelling (capital formation)
-04.3.1.2:
+'04.3.1.2':
   title: Security equipment
   product_type: SD
   includes:
@@ -2359,7 +1469,7 @@
   - fire extinguishers
   excludes:
   - fire extinguishers for transport equipment (07.2.1.3)
-04.3.2:
+'04.3.2':
   title: Services for the maintenance, repair and security of the dwelling
   product_type: S
   intro: The cost of materials is included only if the materials are not separately priced.
@@ -2373,7 +1483,7 @@
   - locksmith services for cars (07.2.3.0)
   - bodyguards (13.9.0.9)
   - services engaged for major maintenance and repair (intermediate consumption) or for extension and conversion of the dwelling (capital formation)
-04.3.2.0:
+'04.3.2.0':
   title: Services for the maintenance, repair and security of the dwelling
   product_type: S
   intro: The cost of materials is included only if the materials are not separately priced.
@@ -2389,7 +1499,7 @@
   - services engaged for major maintenance and repair (intermediate consumption) or for extension and conversion of the dwelling (capital formation)
 '04.4':
   title: Water supply and miscellaneous services relating to the dwelling
-04.4.1:
+'04.4.1':
   title: Water supply
   product_type: ND
   includes:
@@ -2399,7 +1509,7 @@
   excludes:
   - drinking water sold in bottles or containers (01.2.5.0)
   - hot water and steam purchased from district heating plants (04.5.5.0)
-04.4.1.1:
+'04.4.1.1':
   title: Water supply delivered through network systems
   product_type: ND
   includes:
@@ -2409,42 +1519,42 @@
   excludes:
   - drinking water sold in bottles or containers (01.2.5.0)
   - hot water and steam purchased from district heating plants (04.5.5.0)
-04.4.1.2:
+'04.4.1.2':
   title: Water supply delivered through other systems
   product_type: ND
   includes:
   - payment for services provided at a public standpost or fountain and by water vendors (e.g., via tanker truck or cart)
   excludes:
   - drinking water sold in bottles or containers (01.2.5.0)
-04.4.2:
+'04.4.2':
   title: Refuse collection
   product_type: S
   includes:
   - refuse collection and disposal
   - recycling fees paid by households
-04.4.2.0:
+'04.4.2.0':
   title: Refuse collection
   product_type: S
   includes:
   - refuse collection and disposal
   - recycling fees paid by households
-04.4.3:
+'04.4.3':
   title: Sewage collection
   product_type: S
   includes:
   - sewage collection, emptying of cesspools and disposal services
-04.4.3.1:
+'04.4.3.1':
   title: Sewage collection through sewer systems
   product_type: S
   includes:
   - payments made to the sanitation or water provider or the municipality for services related to the collection, transport and disposal of sewage by means of sewer systems and its disposal
-04.4.3.2:
+'04.4.3.2':
   title: Sewage collection through on-site sanitation systems
   product_type: S
   includes:
   - services to empty and evacuate liquid waste (excreta and wastewater) by means of on-site sanitation systems (pit latrines, septic tanks and/or soak pits) and clean them
   - communal toilets and pay toilets
-04.4.4:
+'04.4.4':
   title: Other services related to the dwelling
   product_type: S
   includes:
@@ -2455,14 +1565,14 @@
   - snow removal
   excludes:
   - household services, such as window cleaning, disinfection, fumigation and pest extermination (05.6.2.9)
-04.4.4.1:
+'04.4.4.1':
   title: Charges for maintenance of multi-occupied buildings
   product_type: S
   includes:
   - co-proprietor charges for caretaking, gardening, stairwell cleaning, heating and lighting, maintenance of lifts and refuse disposal chutes, pool cleaning, etc., in multi-occupied buildings
   excludes:
   - household services, such as window cleaning, disinfection, fumigation and pest extermination (05.6.2.9)
-04.4.4.9:
+'04.4.4.9':
   title: Other services related to the dwelling n.e.c.
   product_type: S
   includes:
@@ -2472,7 +1582,7 @@
   - snow removal
 '04.5':
   title: Electricity, gas and other fuels
-04.5.1:
+'04.5.1':
   title: Electricity
   product_type: ND
   includes:
@@ -2480,7 +1590,7 @@
   also_includes:
   - associated expenditure, such as meter rentals, cost of meter readings, standing charges, etc
   - charges for self-produced energy (i.e., in some countries, households that self-produce more electricity than they consume are charged storage costs if they transmit that surplus electricity back into the electricity supply grid)
-04.5.1.0:
+'04.5.1.0':
   title: Electricity
   product_type: ND
   includes:
@@ -2488,7 +1598,7 @@
   also_includes:
   - associated expenditure, such as meter rentals, cost of meter readings, standing charges, etc
   - charges for self-produced energy (i.e., in some countries, households that self-produce more electricity than they consume are charged storage costs if they transmit that surplus electricity back into the electricity supply grid)
-04.5.2:
+'04.5.2':
   title: Gas
   product_type: ND
   includes:
@@ -2496,13 +1606,13 @@
   - liquefied hydrocarbons (butane, propane, etc.)
   also_includes:
   - associated expenditure, such as meter rentals, cost of meter readings, rental or purchase of storage containers, standing charges, etc
-04.5.2.1:
+'04.5.2.1':
   title: Natural gas through networks
   product_type: ND
   includes:
   - natural gas and town gas delivered through gas networks
   - associated expenditure, such as meters rentals, cost of meter readings, standing charges, etc
-04.5.2.2:
+'04.5.2.2':
   title: Liquefied hydrocarbons
   product_type: ND
   includes:
@@ -2511,7 +1621,7 @@
   excludes:
   - fees for delivery of liquefied hydrocarbons (butane, propane, etc.), if separately priced (07.4.9.2)
   - camping gas in cylinders (09.2.2.2)
-04.5.3:
+'04.5.3':
   title: Liquid fuels
   product_type: ND
   includes:
@@ -2521,7 +1631,7 @@
   excludes:
   - liquid fuels for personal transport equipment (07.2.2.1, 07.2.2.2, 07.2.2.3)
   - liquefied hydrocarbons (04.5.2.2)
-04.5.3.0:
+'04.5.3.0':
   title: Liquid fuels
   product_type: ND
   includes:
@@ -2530,12 +1640,12 @@
   - alcohol for fireplaces
   excludes:
   - liquid fuels for personal transport equipment (07.2.2.1, 07.2.2.2, 07.2.2.3)
-04.5.4:
+'04.5.4':
   title: Solid fuels
   product_type: ND
   includes:
   - biomass (wheat, nutshell, etc.), briquettes, charcoal, coal, coke, dry animal dung, firewood, and peat and the like
-04.5.4.1:
+'04.5.4.1':
   title: Coal, coal briquettes, peat and peat briquettes
   product_type: ND
   includes:
@@ -2543,7 +1653,7 @@
   - coal briquettes
   - peat
   - peat briquettes
-04.5.4.2:
+'04.5.4.2':
   title: Wood fuel, including pellets and briquettes
   product_type: ND
   includes:
@@ -2551,7 +1661,7 @@
   - wood in the form of chips or particles
   - non-agglomerated sawdust and wood waste and scrap
   - sawdust and wood waste and scrap agglomerated in briquettes and pellets or in similar forms
-04.5.4.3:
+'04.5.4.3':
   title: Charcoal
   product_type: ND
   intro: Charcoal, whether agglomerated or not, in the form of blocks, sticks, granules or powder; or agglomerated with tar or other substances, in the form of balls, briquettes, tablets and so on.
@@ -2561,14 +1671,14 @@
   - charcoal briquettes
   also_includes:
   - charcoal briquettes for barbecuing
-04.5.4.9:
+'04.5.4.9':
   title: Other solid fuels
   product_type: ND
   includes:
   - coke
   - other types of briquettes
   - other biomass n.e.c., such as waste from agricultural production (e.g., wheat and nutshells) and dry animal dung
-04.5.5:
+'04.5.5':
   title: Other energy for heating and cooling
   product_type: ND
   includes:
@@ -2578,7 +1688,7 @@
   - associated expenditure, such as meter rentals, cost of meter readings, standing charges and so on
   excludes:
   - ice cubes (01.1.8.6)
-04.5.5.0:
+'04.5.5.0':
   title: Other energy for heating and cooling
   product_type: ND
   includes:
@@ -2600,7 +1710,7 @@
     Domestic services by paid staff in private service, supplied by enterprises and self-employed persons, are included, as well as window cleaning; pest extermination; disinfection; and dry-cleaning, laundering and dyeing of household textiles and carpets (05.6.2)
 '05.1':
   title: Furniture, furnishings, and loose carpets
-05.1.1:
+'05.1.1':
   title: Furniture, furnishings and loose carpets
   product_type: D
   includes:
@@ -2638,7 +1748,7 @@
   - camping equipment (09.2.2.2)
   - carrycots, pushchairs/strollers; and wall thermometers and barometers (13.2.9.1)
   - works of art and antique furniture acquired primarily as stores of value (capital formation)
-05.1.1.1:
+'05.1.1.1':
   title: Household furniture
   product_type: D
   includes:
@@ -2653,7 +1763,7 @@
   excludes:
   - repair, installation and hire of household furniture (05.1.2.0)
   - antique furniture acquired primarily as stores of value (capital formation)
-05.1.1.2:
+'05.1.1.2':
   title: Garden and camping furniture
   product_type: D
   includes:
@@ -2667,7 +1777,7 @@
   - decorative garden materials (09.3.1.1)
   - repair, installation and hire of garden and camping furniture (05.1.2.0)
   - camping equipment (09.2.2.2)
-05.1.1.3:
+'05.1.1.3':
   title: Lighting equipment
   product_type: D
   includes:
@@ -2676,7 +1786,7 @@
   - repair and hire of lighting equipment (05.1.2.0)
   - light bulbs, tubes and LEDs (05.5.2.2)
   - light strings for Christmas trees (09.2.1.3)
-05.1.1.4:
+'05.1.1.4':
   title: Furnishings, loose carpets and rugs
   product_type: D
   includes:
@@ -2698,7 +1808,7 @@
   - installation of furniture and furnishings if not separately priced from delivery (07.4.9.2)
   - carrycots, pushchairs and strollers; and wall thermometers and barometers (13.2.9.1)
   - works of art acquired primarily as stores of value (capital formation)
-05.1.2:
+'05.1.2':
   title: Repair, installation and hire of furniture, furnishings and loose carpets
   product_type: S
   intro: The cost of materials is included only if the materials are not separately priced.
@@ -2711,7 +1821,7 @@
   - laying and repair of fitted carpets, linoleum and other such floor coverings (04.3.2.0)
   - materials purchased by households with the intention of undertaking maintenance and repair themselves (05.1.1)
   - dry-cleaning and shampooing of carpets (05.6.2.9)
-05.1.2.0:
+'05.1.2.0':
   title: Repair, installation and hire of furniture, furnishings and loose carpets
   product_type: S
   intro: The cost of materials is included only if the materials are not separately priced.
@@ -2726,7 +1836,7 @@
   - dry-cleaning and shampooing of carpets (05.6.2.9)
 '05.2':
   title: Household textiles
-05.2.1:
+'05.2.1':
   title: Household textiles
   product_type: SD
   includes:
@@ -2745,14 +1855,14 @@
   - electric blankets (05.3.2.9)
   - covers for motor cars, motorcycles, etc. (07.2.1.3)
   - air mattresses and sleeping bags (09.2.2.2)
-05.2.1.1:
+'05.2.1.1':
   title: Furnishing fabrics and curtains
   product_type: SD
   includes:
   - furnishing fabrics, curtain material, curtains, double curtains, awnings, door curtains and fabric blinds
   excludes:
   - repair and sewing of curtains (05.2.2.0)
-05.2.1.2:
+'05.2.1.2':
   title: Bed linen and bedding
   product_type: SD
   includes:
@@ -2762,14 +1872,14 @@
   - repair and sewing of bed linen (05.2.2.0)
   - electric blankets (05.3.2.9)
   - air mattresses and sleeping bags (09.2.2.2)
-05.2.1.3:
+'05.2.1.3':
   title: Table linen and bathroom linen
   product_type: SD
   includes:
   - table and bathroom linen, such as tablecloths, table napkins, towels and face cloths
   excludes:
   - repair and sewing of table and bathroom linen (05.2.2.0)
-05.2.1.9:
+'05.2.1.9':
   title: Other household textiles
   product_type: SD
   includes:
@@ -2783,7 +1893,7 @@
   - floor coverings, such as loose carpets and rugs; and tapestries (05.1.1.4)
   - repair and sewing of other household textiles (05.2.2.0)
   - covers for motor cars, motorcycles, etc. (07.2.1.3)
-05.2.2:
+'05.2.2':
   title: Repair, hire and sewing services of household textiles
   product_type: S
   intro: The cost of materials is included only if they are not separately priced.
@@ -2791,7 +1901,7 @@
   - repair of household textiles
   - sewing of household textiles
   - hire of household textiles
-05.2.2.0:
+'05.2.2.0':
   title: Repair, hire and sewing services of household textiles
   product_type: S
   intro: The cost of materials is included only if they are not separately priced.
@@ -2801,7 +1911,7 @@
   - hire of household textiles
 '05.3':
   title: Household appliances
-05.3.1:
+'05.3.1':
   title: Major electric and other household appliances
   product_type: D
   includes:
@@ -2820,7 +1930,7 @@
   excludes:
   - repair and hire of household appliances (05.3.3.0)
   - such appliances that are built into the structure of the building (capital formation)
-05.3.1.1:
+'05.3.1.1':
   title: Major kitchen appliances
   product_type: D
   includes:
@@ -2830,7 +1940,7 @@
   - extractor hoods
   excludes:
   - repair, installation and hire of kitchen appliances (05.3.3.0)
-05.3.1.2:
+'05.3.1.2':
   title: Major laundry appliances
   product_type: D
   includes:
@@ -2838,28 +1948,28 @@
   - ironing machines and electric mangles
   excludes:
   - repair, installation and hire of laundry appliances (05.3.3.0)
-05.3.1.3:
+'05.3.1.3':
   title: Heaters and air conditioners
   product_type: D
   includes:
   - air conditioners, humidifiers, space heaters, water heaters and ventilators
   excludes:
   - repair, installation and hire of these appliances (05.3.3.0)
-05.3.1.4:
+'05.3.1.4':
   title: Cleaning equipment
   product_type: D
   includes:
   - vacuum cleaners; steam-cleaning machines; carpet shampooing machines; and machines for scrubbing, waxing and polishing floors
   excludes:
   - repair, installation and hire of cleaning equipment (05.3.3.0)
-05.3.1.9:
+'05.3.1.9':
   title: Other major household appliances
   product_type: D
   includes:
   - other major household appliances, such as safes, sewing machines, knitting machines and water softeners
   excludes:
   - repair and hire of household appliances (05.3.3.0)
-05.3.2:
+'05.3.2':
   title: Small household appliances
   product_type: SD
   includes:
@@ -2895,7 +2005,7 @@
   - small non-electric household articles and kitchen utensils (05.4.0.3)
   - baby scales (06.1.2.1)
   - personal weighing machines (13.1.2.0)
-05.3.2.1:
+'05.3.2.1':
   title: Small appliances for the cooking and processing of food
   product_type: SD
   includes:
@@ -2916,7 +2026,7 @@
   - non-electric appliances for the cooking and processing of food, such as purée makers, mincers, hot plates and household scales
   excludes:
   - repair, installation and hire of food processing appliances (05.3.3.0)
-05.3.2.2:
+'05.3.2.2':
   title: Small appliances for the preparation of beverages
   product_type: SD
   includes:
@@ -2931,7 +2041,7 @@
   - non-electric appliances for the preparation of beverages, such as coffee mills, sparkling- water makers and juice extractors
   excludes:
   - repair, installation and hire of coffee machines, tea makers and similar appliances (05.3.3.0)
-05.3.2.9:
+'05.3.2.9':
   title: Other small household appliances
   product_type: SD
   includes:
@@ -2946,7 +2056,7 @@
   - personal weighing machines (13.1.2.0)
   - baby scales (06.1.2.1)
   - repair, installation and hire of other small household appliances (05.3.3.0)
-05.3.3:
+'05.3.3':
   title: Repair, installation and hire of household appliances
   product_type: S
   intro: The cost of materials is included only if the materials are not separately priced.
@@ -2956,7 +2066,7 @@
   - installation of household appliances (if priced separately)
   excludes:
   - materials purchased by households with the intention of undertaking maintenance and repair themselves (05.3.1, 05.3.2)
-05.3.3.0:
+'05.3.3.0':
   title: Repair, installation and hire of household appliances
   product_type: S
   intro: The cost of materials is included only if the materials are not separately priced.
@@ -2968,7 +2078,7 @@
   - materials purchased by households with the intention of undertaking maintenance and repair themselves (05.3.1, 05.3.2)
 '05.4':
   title: Glassware, tableware and household utensils
-05.4.0:
+'05.4.0':
   title: Glassware, tableware and household utensils
   product_type: SD
   includes:
@@ -2980,21 +2090,21 @@
   excludes:
   - disposable tableware (05.6.1.9)
   - ashtrays (13.2.9.1)
-05.4.0.1:
+'05.4.0.1':
   title: Glassware, crystal ware, ceramic ware and china ware
   product_type: SD
   includes:
   - glassware, crystal ware, ceramic ware and china ware of the kind used for table, kitchen, bathroom or toilet
   excludes:
   - repair and hire of glassware, crystal ware, ceramic ware and chinaware (05.4.0.4)
-05.4.0.2:
+'05.4.0.2':
   title: Cutlery, flatware and silverware
   product_type: SD
   includes:
   - cutlery, flatware and silverware
   excludes:
   - repair and hire of cutlery, flatware and silverware (05.4.0.4)
-05.4.0.3:
+'05.4.0.3':
   title: Kitchen utensils and articles
   product_type: SD
   includes:
@@ -3004,7 +2114,7 @@
   - repair and hire of kitchen utensils and articles (05.4.0.4)
   - disposable tableware (05.6.1.9)
   - ashtrays (13.2.9.1)
-05.4.0.4:
+'05.4.0.4':
   title: Repair and hire of glassware, tableware and household utensils
   product_type: S
   intro: The cost of materials is included only if the materials are not separately priced.
@@ -3012,7 +2122,7 @@
   - repair and hire of glassware, crystal ware, ceramic ware and china ware; cutlery, flatware and silverware; and kitchen utensils and articles
 '05.5':
   title: Tools and equipment for house and garden
-05.5.1:
+'05.5.1':
   title: Motorized tools and equipment
   product_type: D
   includes:
@@ -3022,7 +2132,7 @@
   - electric screwdrivers
   excludes:
   - repair and hire of motorized major tools and equipment (05.5.3.0)
-05.5.1.0:
+'05.5.1.0':
   title: Motorized tools and equipment
   product_type: D
   includes:
@@ -3032,7 +2142,7 @@
   - electric screwdrivers
   excludes:
   - repair, installation and hire of motorized major tools and equipment (05.5.3.0)
-05.5.2:
+'05.5.2':
   title: Non-motorized tools and miscellaneous accessories
   product_type: SD
   includes:
@@ -3046,7 +2156,7 @@
   - repair and hire of miscellaneous small tool accessories (05.5.3.0)
   - batteries for information and communication equipment (08.1.9.2)
   - batteries for photographic and cinematographic equipment (09.1.1.2)
-05.5.2.1:
+'05.5.2.1':
   title: Non-motorized tools
   product_type: SD
   includes:
@@ -3055,7 +2165,7 @@
   - ladders and steps
   excludes:
   - repair and hire of non-motorized small tools (05.5.3.0)
-05.5.2.2:
+'05.5.2.2':
   title: Miscellaneous accessories
   product_type: SD
   includes:
@@ -3067,14 +2177,14 @@
   - fuses for cars, motorcycles, etc. (07.2.1.2)
   - batteries for information and communication equipment (08.1.9.2)
   - batteries for photographic and cinematographic equipment (09.1.1.2)
-05.5.3:
+'05.5.3':
   title: Repair and hire of motorized and non-motorized tools and equipment
   product_type: S
   intro: The cost of materials is included only if the materials are not separately priced.
   includes:
   - repair and hire of motorized tools and equipment
   - repair and hire of non-motorized tools and miscellaneous accessories
-05.5.3.0:
+'05.5.3.0':
   title: Repair and hire of motorized and non-motorized tools and equipment
   product_type: S
   intro: The cost of materials is included only if the materials are not separately priced.
@@ -3083,7 +2193,7 @@
   - repair and hire of non-motorized small tools and miscellaneous accessories
 '05.6':
   title: Goods and services for routine household maintenance
-05.6.1:
+'05.6.1':
   title: Non-durable household goods
   product_type: ND
   includes:
@@ -3107,7 +2217,7 @@
   - horticultural products for the upkeep of ornamental gardens (09.3.1.1)
   - paper handkerchiefs, toilet paper, toilet soaps, toilet sponges and other personal hygiene products (13.1.2.0)
   - cigarette, cigar and pipe lighters and lighter fuel (13.2.9.1)
-05.6.1.1:
+'05.6.1.1':
   title: Household cleaning and maintenance products
   product_type: ND
   includes:
@@ -3124,7 +2234,7 @@
   - brushes and scrapers for paint, varnish and wallpaper (04.3.1.1)
   - products used specifically for the cleaning and maintenance of transport equipment, such as paints, chrome cleaners, sealing compounds and bodywork polishes (07.2.1.3)
   - horticultural products for the upkeep of ornamental gardens (09.3.1.1)
-05.6.1.9:
+'05.6.1.9':
   title: Other non-durable household goods
   product_type: ND
   includes:
@@ -3136,7 +2246,7 @@
   excludes:
   - paper handkerchiefs, toilet paper, toilet soaps, toilet sponges and other personal hygiene products (13.1.2.0)
   - cigarette, cigar and pipe lighters and lighter fuel (13.2.9.1)
-05.6.2:
+'05.6.2':
   title: Domestic services and household services
   product_type: S
   intro: Domestic services (05.6.2.1) include services provided by personnel employed by households (such as butlers, maids, cooks, nannies, governesses, cleaners, au pairs and gardeners), as well as similar household services such as babysitting, gardening and cleaning supplied by enterprises and self-employed persons. Other household services (05.6.2.9) are non-routine domestic services typically provided by enterprises and self-employed persons, such as carpet cleaning, pest extermination and disinfection.
@@ -3160,7 +2270,7 @@
   - child-minding with an educational component (10.1.0.1)
   - child-minding outside the home (13.3.0.1)
   - bodyguards (13.9.0.9)
-05.6.2.1:
+'05.6.2.1':
   title: Domestic services provided by paid staff
   product_type: S
   includes:
@@ -3171,7 +2281,7 @@
   excludes:
   - child-minding with an educational component (10.1.0.1)
   - child-minding outside the home (13.3.0.1)
-05.6.2.9:
+'05.6.2.9':
   title: Other household services
   product_type: S
   intro: Other household services typically provided by enterprises and self-employed persons.
@@ -3213,7 +2323,7 @@
   - fees charged by a health-care provider for dispensing medicines needed during delivery of an outpatient care service that is not identifiable separately from those medicines (06.2); and fees charged by a health-care provider for dispensing medicines needed for delivery of an inpatient care service (06.3), if identifiable separately from the service
   - veterinary products (09.3.2.2)
   - products for personal care (13.1) including articles for personal hygiene (e.g., aromatherapy products) and beauty products (including beauty enhancing and slimming creams)
-06.1.1:
+'06.1.1':
   title: Medicines
   product_type: ND
   includes:
@@ -3229,7 +2339,7 @@
   - fees charged by a health-care practitioner for dispensing medicines needed during delivery of an outpatient care service (06.2) or an inpatient care service (06.3) that are not identifiable separately from the cost of those medicines if not separately identifiable from the service
   - veterinary products (09.3.2.2)
   - products for personal care (13.1) including articles for personal hygiene (e.g., aromatherapy products) and beauty products including beauty enhancing and slimming creams)
-06.1.1.1:
+'06.1.1.1':
   title: Medicines, vaccines and other pharmaceutical preparations
   product_type: ND
   includes:
@@ -3246,7 +2356,7 @@
   - service fees charged by a health-care practitioner for dispensing medicines needed during delivery of an outpatient service (06.2) or during delivery of an inpatient service (06.3), if not separately identifiable from the service
   - veterinary products (09.3.2.2)
   - products for personal care (13.1) including articles for personal hygiene (e.g., aromatherapy products) and beauty products (including beauty enhancing and slimming creams)
-06.1.1.2:
+'06.1.1.2':
   title: Herbal medicines and homeopathic products
   product_type: ND
   includes:
@@ -3254,7 +2364,7 @@
   - homeopathic medicines prepared in accordance with a homeopathic manufacturing procedure described in a pharmacopeia in official use or in other official documents and which may contain a number of homeopathic preparations
   excludes:
   - homeopathic products herbal medicines and homeopathic products supplied directly by a health care provider to outpatients (no overnight stay) or inpatients (overnight stay) for consumption or use outside a health facility are to be classified with outpatient services (06.2) or inpatient services (06.3), if not separately priced from the service
-06.1.2:
+'06.1.2':
   title: Medical products
   product_type: ND
   includes:
@@ -3266,7 +2376,7 @@
   - oral contraceptives (06.1.1.1)
   - diagnostic products for use within a health facility or institution (06.2, 06.3)
   - scales (13.1.2.0)
-06.1.2.1:
+'06.1.2.1':
   title: Medical diagnostic products
   product_type: ND
   includes:
@@ -3277,21 +2387,21 @@
   excludes:
   - diagnostic products for use within a health facility or institution (06.2, 06.3)
   - scales (13.1.2.0)
-06.1.2.2:
+'06.1.2.2':
   title: Preventive and protective devices
   product_type: ND
   includes:
   - condoms and other mechanical contraceptive devices, masks, medicinal stockings (e.g., compression stockings), medicinal gloves, insecticide-treated mosquito nets and so on
   excludes:
   - oral contraceptives (06.1.1.1)
-06.1.2.3:
+'06.1.2.3':
   title: Treatment devices for personal use
   product_type: ND
   includes:
   - inhalers, syringes, humidifiers, nebulizers, hot bags, ice packs, first-aid kits, bandages and so on
   excludes:
   - inhalators and nebulizers with medication (06.1.1.1)
-06.1.3:
+'06.1.3':
   title: Assistive products
   product_type: D
   includes:
@@ -3301,7 +2411,7 @@
   - goggles for protection against potential eye damage resulting from the practice of a sport (09.2.2.1)
   - walking sticks and canes for recreational purposes (hiking and tracking) (09.2.2.1)
   - (non-corrective) sunglasses and ear plugs (13.2.9.1)
-06.1.3.1:
+'06.1.3.1':
   title: Assistive products for vision
   product_type: D
   intro: All assistive products whose primary purpose is to maintain or improve an individual's vision, to compensate for an impairment or loss of intrinsic visual function or to mitigate the consequences of a gradual decline in visual function.
@@ -3313,7 +2423,7 @@
   - walking sticks and canes for recreational purposes (e.g., hiking and tracking) (09.2.2.1)
   - goggles for protection against potential eye damage resulting from the practice of a sport (09.2.2.1)
   - (non-corrective) sunglasses and protective glasses (13.2.9.1)
-06.1.3.2:
+'06.1.3.2':
   title: Assistive products for hearing and communication
   product_type: D
   intro: All assistive products whose primary purpose is to maintain or improve an individual's hearing and capacity to communicate, to compensate for an impairment or loss of intrinsic hearing and communication capacity or to reduce the consequences of a gradual decline in functional hearing or communication capacity.
@@ -3321,7 +2431,7 @@
   - digital hearing aids
   also_includes:
   - cleaning, adjustment and batteries if not priced separately from the product
-06.1.3.3:
+'06.1.3.3':
   title: Assistive products for mobility and daily living
   product_type: D
   intro: All assistive products whose primary purpose is to maintain or improve an individual's mobility and daily living; in compensating for the impairment or loss of intrinsic mobility or the inability to perform daily activities; or in reducing the consequences of a gradual decline in functional mobility and the ability to perform daily activities.
@@ -3340,12 +2450,12 @@
   excludes:
   - dental implants and dentures, to be classified to 06.3.1.0 when an overnight stay is required and to 06.2.2.9 when an overnight stay is not required
   - walking sticks and canes for recreational purposes (e.g., hiking and tracking) (09.2.2.1)
-06.1.4:
+'06.1.4':
   title: Repair, rental and maintenance of medical and assistive products
   product_type: S
   includes:
   - repair, rental, maintenance and cleaning of medical diagnostic products for personal use and of assistive products for vision, hearing, mobility and daily living (e.g., rental of medical alarms for in-home use)
-06.1.4.0:
+'06.1.4.0':
   title: Repair, rental and maintenance of medical and assistive products
   product_type: S
   includes:
@@ -3363,7 +2473,7 @@
   - diagnostic imaging services and medical laboratory services priced separately from the preventive services (06.4)
   - vaccines when priced separately from the preventive service itself (06.1.1.1)
   - non-medical services provided to maintain persons in the privacy of their own home that are not integrated into a medical care package (13.3.0.3)
-06.2.1:
+'06.2.1':
   title: Preventive care services
   product_type: S
   intro: Preventive services aim at preventing illnesses and diseases, and detecting the presence of diseases (e.g., through screening). The main distinction between preventive services and other outpatient services rests upon the fact that preventive services are administered before symptoms appear.
@@ -3382,7 +2492,7 @@
   - diagnostic imaging services and medical laboratory services priced separately from outpatient preventive services (06.4)
   - vaccines when priced separately from the preventive service itself (06.1.1.1)
   - non-medical services to maintain persons in the private home that are not integrated into a medical care package (13.3.0.2)
-06.2.1.1:
+'06.2.1.1':
   title: Immunization services
   product_type: S
   intro: >-
@@ -3405,7 +2515,7 @@
   - tourism and travel-related vaccination as well as all other types of compulsory or voluntary immunization and vaccination services
   excludes:
   - the vaccine itself when priced separately from the service (06.1.1.1)
-06.2.1.9:
+'06.2.1.9':
   title: Other preventive care services
   product_type: S
   includes:
@@ -3422,7 +2532,7 @@
   - control and follow-up services for the treatment of symptoms that arise in the course of services that do not require an overnight stay (06.2.2 and 06.2.3)
   - control and follow-up services for the treatment of symptoms that arise during the provision of overnight care (06.3)
   - laboratory and imaging services priced separately from preventive care services (06.4)
-06.2.2:
+'06.2.2':
   title: Outpatient dental services
   product_type: S
   includes:
@@ -3432,12 +2542,12 @@
   excludes:
   - all health products (e.g., assistive, medical, pharmaceutical, and therapeutic) needed to deliver outpatient dental services that are priced separately from the service of the provider (06.1)
   - services of medical laboratories performing analytical testing and diagnostic imaging centres priced separately from dental services received (06.4.1.0)
-06.2.2.1:
+'06.2.2.1':
   title: Dental preventive services
   product_type: S
   includes:
   - routine preventive dental check-ups
-06.2.2.9:
+'06.2.2.9':
   title: Other outpatient dental services
   product_type: S
   includes:
@@ -3448,7 +2558,7 @@
   excludes:
   - all health products (e.g., assistive, medical, pharmaceutical and therapeutic) needed to deliver outpatient dental services that are priced separately from the provider's services (06.1)
   - services of medical laboratories performing analytic testing and diagnostic imaging centres priced separately from dental services received (06.4.1.0)
-06.2.3:
+'06.2.3':
   title: Other outpatient care services
   product_type: S
   intro: >-
@@ -3470,7 +2580,7 @@
   - outpatient dental services (06.2.2)
   - diagnostic imaging services and medical laboratory services whose cost is priced separately from the service fee charged by the provider (specialist, physician, nurse specialist/ or another type of health-care practitioner) (06.4.1.0)
   - patient emergency transportation services and emergency rescue (06.4.2.0)
-06.2.3.1:
+'06.2.3.1':
   title: Outpatient curative and rehabilitative services
   product_type: S
   intro: >-
@@ -3493,7 +2603,7 @@
   - outpatient dental services (06.2.2)
   - diagnostic imaging services and medical laboratory services priced separately from the services of the provider (specialist, physician, nurse or another type of health-care practitioner) (06.4.1.0)
   - patient emergency transportation services and emergency rescue (06.4.2.0)
-06.2.3.2:
+'06.2.3.2':
   title: Outpatient long-term care services
   product_type: S
   intro: >-
@@ -3532,7 +2642,7 @@
   - services delivered in a hospital or a hospital setting without an overnight stay (06.2) including services provided by facilities, such as surgeries, clinics and dispensaries, devoted exclusively to outpatient care (06.2)
   - emergency patient transportation services and emergency rescue (06.4.2.0)
   - services provided by non-medical retirement homes for elderly persons; non-medical residences for disabled persons; non-medical rehabilitation centres offering primarily long-term social support; and retirement villages without inpatient medical services (13.3.0.2)
-06.3.1:
+'06.3.1':
   title: Inpatient curative and rehabilitative services
   product_type: S
   intro: This category comprises inpatient curative, dental and rehabilitative care that requires an overnight stay. The principal purpose of the inpatient curative care administered during the overnight stay is to relieve the symptoms of an illness, disease or injury, to reduce its severity or to protect against the exacerbation or the complications that could be life threatening or a threat to normal functioning. Inpatient rehabilitation services that require an overnight stay are provided so that optimal functioning can be achieved and maintained.
@@ -3548,7 +2658,7 @@
   - services provided in a hospital or a hospital setting without an overnight stay (06.2), including services provided by facilities, such as surgeries, clinics and dispensaries, devoted exclusively to outpatient care (06.2)
   - patient emergency transportation services and emergency rescue (06.4.2.0)
   - services provided by non-medical retirement homes for elderly persons, non-medical institutions for disabled persons, non-medical rehabilitation centres offering primarily long-term social support and retirement villages that do not offer inpatient medical services (13.3.0.2)
-06.3.1.0:
+'06.3.1.0':
   title: Inpatient curative and rehabilitative services
   product_type: S
   intro: This category comprises inpatient curative, dental and rehabilitative care that requires an overnight stay. The principal purpose of the inpatient curative care administered during the overnight stay is to relieve the symptoms of an illness, disease or injury, to reduce its severity or to protect against the exacerbation or the complications that could be life threatening or a threat to normal functioning. Inpatient rehabilitation services that require an overnight stay are provided so that optimal functioning can be achieved and maintained.
@@ -3564,7 +2674,7 @@
   - services provided in a hospital or a hospital setting without an overnight stay (06.2), including services provided by facilities, such as surgeries, clinics and dispensaries, devoted exclusively to outpatient care (06.2)
   - patient emergency transportation services and emergency rescue (06.4.2.0)
   - services provided by non-medical retirement homes for elderly persons, non-medical institutions for disabled persons, non-medical rehabilitation centres offering primarily long-term social support and retirement villages that do not offer inpatient medical services (13.3.0.2)
-06.3.2:
+'06.3.2':
   title: Inpatient long-term care services
   product_type: S
   intro: >-
@@ -3590,7 +2700,7 @@
   excludes:
   - social protection services (13.3)
   - non-medical retirement homes for elderly persons and non-medical residences for disabled persons (13.3.0.2)
-06.3.2.0:
+'06.3.2.0':
   title: Inpatient long-term care services
   product_type: S
   intro: >-
@@ -3621,7 +2731,7 @@
   includes:
   - diagnostic imaging services and medical laboratory services
   - patient emergency transportation and rescue services
-06.4.1:
+'06.4.1':
   title: Diagnostic imaging services and medical laboratory services
   product_type: S
   includes:
@@ -3629,7 +2739,7 @@
   - diagnostic imaging services for patient diagnosis and monitoring, including all diagnostic imaging methods (e.g., computed tomography (CT), magnetic resonance imaging (MRI), sonography and X-rays and radiation)
   excludes:
   - diagnostic imaging services and medical laboratory services not priced separately from outpatient preventive care services (06.2.1)
-06.4.1.0:
+'06.4.1.0':
   title: Diagnostic imaging services and medical laboratory services
   product_type: S
   includes:
@@ -3637,7 +2747,7 @@
   - diagnostic imaging services including all diagnostic imaging methods (i.e. CT, MRI, sonography); imagining diagnosis comprises a variety of services that employ imaging technology, such as X-rays and radiation for the diagnosis and monitoring of patients
   excludes:
   - diagnostic imaging services and medical laboratory services not priced separately from outpatient preventive care services (06.2.1)
-06.4.2:
+'06.4.2':
   title: Patient emergency transportation and emergency rescue services
   product_type: S
   includes:
@@ -3645,7 +2755,7 @@
   - medical emergency transportation by airplane or other types of vehicles, whether or not they have been specially adapted for medical purposes
   also_includes:
   - medical transport services memberships
-06.4.2.0:
+'06.4.2.0':
   title: Patient emergency transportation and emergency rescue services
   product_type: S
   includes:
@@ -3678,7 +2788,7 @@
   - purchase of vehicles used for transport
   excludes:
   - purchase of recreational vehicles, such as camper vans, caravans, trailers, aeroplanes and boats (09.1.2)
-07.1.1:
+'07.1.1':
   title: Motor cars
   product_type: D
   includes:
@@ -3689,7 +2799,7 @@
   - invalid carriages (06.1.3.3)
   - camper vans (09.1.2.1)
   - golf carts (09.1.2.9)
-07.1.1.1:
+'07.1.1.1':
   title: New motor cars
   product_type: D
   includes:
@@ -3700,7 +2810,7 @@
   - invalid carriages (06.1.3.3)
   - camper vans (09.1.2.1)
   - golf carts (09.1.2.9)
-07.1.1.2:
+'07.1.1.2':
   title: Second-hand motor cars
   product_type: D
   includes:
@@ -3711,7 +2821,7 @@
   - invalid carriages (06.1.3.3)
   - camper vans (09.1.2.1)
   - golf carts (09.1.2.9)
-07.1.2:
+'07.1.2':
   title: Motorcycles
   product_type: D
   includes:
@@ -3723,7 +2833,7 @@
   - snowmobiles
   excludes:
   - electric bicycles (e-bikes), pedelecs (07.1.3.0)
-07.1.2.0:
+'07.1.2.0':
   title: Motorcycles
   product_type: D
   includes:
@@ -3735,7 +2845,7 @@
   - snowmobiles
   excludes:
   - electric bicycles (e-bikes), pedelecs (07.1.3.0)
-07.1.3:
+'07.1.3':
   title: Bicycles
   product_type: D
   includes:
@@ -3747,7 +2857,7 @@
   excludes:
   - motorized bicycles with combustion engines (07.1.2.0)
   - toy bicycles and toy tricycles (09.2.1.2)
-07.1.3.0:
+'07.1.3.0':
   title: Bicycles
   product_type: D
   includes:
@@ -3759,7 +2869,7 @@
   excludes:
   - motorized bicycles with combustion engines (07.1.2.0)
   - toy bicycles and toy tricycles (09.2.1.2)
-07.1.4:
+'07.1.4':
   title: Animal-drawn vehicles
   product_type: D
   includes:
@@ -3767,7 +2877,7 @@
   - animals used to draw vehicles and related equipment (e.g., yokes, collars, harnesses, bridles, reins)
   excludes:
   - horses and ponies and horse- and pony-drawn vehicles purchased for recreational purposes and related equipment (09.1.2.4)
-07.1.4.0:
+'07.1.4.0':
   title: Animal-drawn vehicles
   product_type: D
   includes:
@@ -3778,7 +2888,7 @@
 '07.2':
   title: Operation of personal transport equipment
   intro: Purchase of parts, accessories and lubricants made by households with the intention of undertaking maintenance, repair or fitting themselves should be assigned to class 07.2.1 or class 07.2.2. If a household pays an enterprise to carry out maintenance, repair or fitting, the total value of the service, including the cost of the materials used, should be assigned to class 07.2.3 if the materials are not separately priced.
-07.2.1:
+'07.2.1':
   title: Parts and accessories for personal transport equipment
   product_type: SD
   includes:
@@ -3797,12 +2907,12 @@
   - non-specific products used for cleaning and maintenance, such as household sponges, chamois leathers and detergents (05.6.1.1)
   - services purchased for the fitting of parts and accessories and for the painting, washing and polishing of bodywork (07.2.3.0)
   - audio and video systems for cars (08.1.4.0)
-07.2.1.1:
+'07.2.1.1':
   title: Tyres
   product_type: SD
   includes:
   - new, used or retreaded, including inner tubes for cars, bicycles, motorcycles and so on
-07.2.1.2:
+'07.2.1.2':
   title: Parts for personal transport equipment
   product_type: SD
   includes:
@@ -3810,7 +2920,7 @@
   - rims
   excludes:
   - services purchased for the fitting of parts and accessories and for the painting, washing and polishing of bodywork (07.2.3.0)
-07.2.1.3:
+'07.2.1.3':
   title: Accessories for personal transport equipment
   product_type: SD
   includes:
@@ -3829,7 +2939,7 @@
   excludes:
   - non-specific products used for cleaning and maintenance, such as household sponges, chamois leathers and detergents (05.6.1.1)
   - audio and video systems for cars (08.1.4.0)
-07.2.2:
+'07.2.2':
   title: Fuels and lubricants for personal transport equipment
   product_type: ND
   includes:
@@ -3841,12 +2951,12 @@
   - fuel and lubricants for major tools and equipment covered under class 05.5.1 and recreational vehicles covered under class 09.1.2
   excludes:
   - services purchased for oil changes and greasing (07.2.3.0)
-07.2.2.1:
+'07.2.2.1':
   title: Diesel
   product_type: ND
   includes:
   - diesel fuel
-07.2.2.2:
+'07.2.2.2':
   title: Petrol
   product_type: ND
   includes:
@@ -3855,21 +2965,21 @@
   - petrol/gasoline blends (e.g., petrol with 10 per cent ethanol content)
   excludes:
   - two-stroke mixtures (07.2.2.3)
-07.2.2.3:
+'07.2.2.3':
   title: Other fuels for personal transport equipment
   product_type: ND
   includes:
   - liquefied petroleum gas (LPG), natural gas (compressed natural gas (CNG)), liquefied natural gas (LNG), alcohol, biofuels (ethanol, methanol), methane and two-stroke mixtures
   - electricity used as fuel for personal transport when priced separately from other electricity
   - hydrogen
-07.2.2.4:
+'07.2.2.4':
   title: Lubricants
   product_type: ND
   includes:
   - lubricants, brake and transmission fluids, coolants and additives
   excludes:
   - services purchased for oil changes and greasing (07.2.3.0)
-07.2.3:
+'07.2.3':
   title: Maintenance and repair of personal transport equipment
   product_type: S
   intro: The cost of materials is included only if the materials are not separately priced.
@@ -3880,7 +2990,7 @@
   excludes:
   - parts, accessories and lubricants purchased by households intending to undertake maintenance or repair themselves (07.2.1, 07.2.2.4)
   - roadworthiness tests (07.2.4.3)
-07.2.3.0:
+'07.2.3.0':
   title: Maintenance and repair of personal transport equipment
   product_type: S
   intro: The cost of materials is included only if the materials are not separately priced.
@@ -3891,7 +3001,7 @@
   excludes:
   - parts, accessories and lubricants purchased by households intending to undertake maintenance or repair themselves (07.2.1, 07.2.2.4)
   - roadworthiness tests (07.2.4.3)
-07.2.4:
+'07.2.4':
   title: Other services related to personal transport equipment
   product_type: S
   includes:
@@ -3911,7 +3021,7 @@
   - hire of a car with driver; payments made to share a mode of transport through private arrangements (carpooling, ride sharing) (07.3.2.2)
   - rental of personal transport equipment for recreation (09.4.2.2)
   - service charges for insurance in respect of personal transport equipment (12.1.4.1)
-07.2.4.1:
+'07.2.4.1':
   title: Parking services
   product_type: S
   includes:
@@ -3922,13 +3032,13 @@
   - parking permits valid for designated areas (e.g., residential parking permits)
   excludes:
   - rental of a parking space or a garage that provides parking in connection with a dwelling (04.1.2.2)
-07.2.4.2:
+'07.2.4.2':
   title: Toll facilities
   product_type: S
   includes:
   - bridge tolls, tunnel tolls, motorway tolls and so on
   - charges for rental or purchase of electronic tags and toll devices
-07.2.4.3:
+'07.2.4.3':
   title: Driving lessons, tests, licences and roadworthiness tests
   product_type: S
   includes:
@@ -3938,7 +3048,7 @@
   also_includes:
   - charges associated with the transfer of vehicle ownership
   - driving lessons, driving tests and driving licences associated with recreational transport vehicles (mobile homes, boats, planes, etc.)
-07.2.4.4:
+'07.2.4.4':
   title: Hire of personal transport equipment without driver
   product_type: S
   includes:
@@ -3958,7 +3068,7 @@
 
 
     School transport services are included in group 07.3; ambulance services, on the other hand, are excluded and assigned to subclass 06.4.2.0.
-07.3.1:
+'07.3.1':
   title: Passenger transport by railway
   product_type: S
   includes:
@@ -3966,7 +3076,7 @@
   - transport of accompanied private vehicles
   excludes:
   - funicular transport (07.3.6.0)
-07.3.1.1:
+'07.3.1.1':
   title: Passenger transport by train
   product_type: S
   includes:
@@ -3974,13 +3084,13 @@
   - transport of accompanied private vehicles
   excludes:
   - funicular transport (07.3.6.0)
-07.3.1.2:
+'07.3.1.2':
   title: Passenger transport by rapid transit and tram
   product_type: S
   includes:
   - transport of persons and accompanied luggage by rapid transit (electric railways that operate on an exclusive right of way, which cannot be accessed by pedestrians or any other types of vehicles, and which is often grade-separated in tunnels or on elevated railways), light rail, underground, rubber-tyred metro and people mover
   - transport of persons and accompanied luggage by tram
-07.3.2:
+'07.3.2':
   title: Passenger transport by road
   product_type: S
   includes:
@@ -3994,26 +3104,26 @@
   - transport of persons and accompanied luggage by animal-drawn vehicles, with driver
   also_includes:
   - tuk-tuks, auto and cycle rickshaws and motorcycles serving as taxis
-07.3.2.1:
+'07.3.2.1':
   title: Passenger transport by bus and coach
   product_type: S
   includes:
   - transport of persons and accompanied luggage by bus, trolleybus, and coach
   - transport of persons and accompanied luggage by share taxi, a vehicle for hire that may be characterized as a cross between a taxicab and a bus. This mode of transport is often utilized in developing countries. Share taxis are typically smaller in size than buses, ranging from four-seat cars to minibuses, and are often owner-operated. They usually operate without a timetable along a fixed or semi-fixed route and may stop anywhere along that route to pick up or drop off passengers
-07.3.2.2:
+'07.3.2.2':
   title: Passenger transport by taxi and hired vehicle with driver
   product_type: S
   includes:
   - transport of persons and accompanied luggage by taxi and hired vehicle, with driver
   - transport of persons and accompanied luggage through private arrangements, such as carpooling and ride sharing
-07.3.2.3:
+'07.3.2.3':
   title: Passenger transport for students to and from school
   product_type: S
   includes:
   - local school bus charter services, with driver
   - inter-urban and intercity school bus charter services operating by schedule
   - transportation of pupils by school bus between their homes and school and between schools, including in rural areas
-07.3.2.9:
+'07.3.2.9':
   title: Other passenger transport by road
   product_type: S
   includes:
@@ -4022,14 +3132,14 @@
   - tuk-tuks, auto and cycle rickshaws and motorcycles serving as taxis
   excludes:
   - transport of persons and accompanied luggage by busses with driver (07.3.2.1)
-07.3.3:
+'07.3.3':
   title: Passenger transport by air
   product_type: S
   includes:
   - transport of persons and accompanied luggage by aeroplane and helicopter
   also_includes:
   - passenger transport by drone and multi-copter
-07.3.3.1:
+'07.3.3.1':
   title: Passenger transport by air, domestic
   product_type: S
   includes:
@@ -4037,28 +3147,28 @@
   - domestic transport of persons and accompanied luggage by aeroplane and helicopter
   also_includes:
   - domestic air passenger transport by drone and multi-copter
-07.3.3.2:
+'07.3.3.2':
   title: Passenger transport by air, international
   product_type: S
   includes:
   - transportation of persons and accompanied luggage by air on an international scheduled and chartered flight
   also_includes:
   - international air passenger transport by drone and multi-copter
-07.3.4:
+'07.3.4':
   title: Passenger transport by sea and inland waterway
   product_type: S
   includes:
   - transport of persons and accompanied luggage by ship, boat, ferry, hovercraft and hydrofoil
   - transport of accompanied private vehicles
   - water taxis
-07.3.4.0:
+'07.3.4.0':
   title: Passenger transport by sea and inland waterway
   product_type: S
   includes:
   - transport of persons and accompanied luggage by ship, boat, ferry, hovercraft and hydrofoil
   - transport of accompanied private vehicles
   - water taxis
-07.3.5:
+'07.3.5':
   title: Combined passenger transport
   product_type: S
   includes:
@@ -4068,7 +3178,7 @@
   - transport of accompanied private vehicles (as covered, e.g., by a ticket for a combined train and ferry trip)
   excludes:
   - package holidays (09.8.0.0)
-07.3.5.0:
+'07.3.5.0':
   title: Combined passenger transport
   product_type: S
   includes:
@@ -4078,7 +3188,7 @@
   - transport of accompanied private vehicles (as covered, e.g., by a ticket for a combined train and ferry trip)
   excludes:
   - package holidays (09.8.0.0)
-07.3.6:
+'07.3.6':
   title: Other passenger transport services
   product_type: S
   includes:
@@ -4088,7 +3198,7 @@
   - transporter bridges and transport elevators including incline elevators
   excludes:
   - cable car and chairlift transport at ski resorts and holiday centres (09.4.6.2)
-07.3.6.0:
+'07.3.6.0':
   title: Other passenger transport services
   product_type: S
   includes:
@@ -4100,7 +3210,7 @@
   - cable-car and chairlift transport at ski resorts and holiday centres (09.4.6.2)
 '07.4':
   title: Transport services for goods
-07.4.1:
+'07.4.1':
   title: Postal and courier services
   product_type: S
   includes:
@@ -4114,7 +3224,7 @@
   - services of porters and left-luggage and luggage-forwarding offices (07.3.6.0)
   - services of delivery of goods, such as furniture and groceries, if separately priced; local delivery of purchased items, such as take-out meals and prescription drugs; and delivery services made immediately after the item is purchased or scheduled within a short time (07.4.9.2)
   - postcards, envelopes and other postal matter, not pre-franked (09.7.4.0)
-07.4.1.1:
+'07.4.1.1':
   title: Letter handling services
   product_type: S
   includes:
@@ -4123,7 +3233,7 @@
   - mailbox rentals
   excludes:
   - postcards, envelopes and other postal matter, not pre-franked (09.7.4.0)
-07.4.1.2:
+'07.4.1.2':
   title: Courier and parcel delivery services
   product_type: S
   includes:
@@ -4132,7 +3242,7 @@
   - parcel delivery services for goods purchased online
   excludes:
   - delivery services for goods (e.g., furniture and groceries), if separately priced (07.4.9.2)
-07.4.9:
+'07.4.9':
   title: Other transport of goods
   product_type: S
   includes:
@@ -4144,7 +3254,7 @@
   - self-storage units (04.1.2.2)
   - installation of goods (furniture, electric devices, etc.), if separately priced (05.1.2.0, 05.3.3.0)
   - services of porters and left-luggage and luggage-forwarding offices (07.3.6.0)
-07.4.9.1:
+'07.4.9.1':
   title: Removal and storage services
   product_type: S
   includes:
@@ -4152,7 +3262,7 @@
   excludes:
   - self-storage units (04.1.2.2)
   - services of porters and left-luggage and luggage-forwarding offices (07.3.6.0)
-07.4.9.2:
+'07.4.9.2':
   title: Delivery of goods
   product_type: S
   includes:
@@ -4161,7 +3271,7 @@
   - delivery services generally provided immediately after the purchase of an item or scheduled shortly thereafter
   excludes:
   - installation of goods (furniture, electric devices, etc.) when separately priced (05.1.2.0, 05.3.3.0)
-08:
+'08':
   title: Information and communication
   intro: >-
     Division 08 covers three main groups of goods and services: information and communication equipment, including equipment for the reception, recording and reproduction of sound and vision (08.1); software (08.2); and information and communication services (08.3). Information and communication services include telephone services, services providing Internet access, television and radio licences and fees, and subscription services, including streaming services of film and music.
@@ -4170,33 +3280,33 @@
     Division 08 also includes repair, maintenance and rental of all information and communication equipment.
 '08.1':
   title: Information and communication equipment
-08.1.1:
+'08.1.1':
   title: Fixed telephone equipment
   product_type: D
   includes:
   - telephones, telefax and telephone answering machines, and telephone loudspeakers
   excludes:
   - telefax and telephone-answering facilities provided by personal computers (08.1.3.1)
-08.1.1.0:
+'08.1.1.0':
   title: Fixed telephone equipment
   product_type: D
   includes:
   - telephones, telefax and telephone answering machines, and telephone loudspeakers
   excludes:
   - telefax and telephone-answering facilities provided by personal computers (08.1.3.1)
-08.1.2:
+'08.1.2':
   title: Mobile telephone equipment
   product_type: D
   includes:
   - mobile telephone handsets, including multifunctional devices
   - smartphones
-08.1.2.0:
+'08.1.2.0':
   title: Mobile telephone equipment
   product_type: D
   includes:
   - mobile telephone handsets, including multifunctional devices
   - smartphones
-08.1.3:
+'08.1.3':
   title: Information processing equipment
   product_type: D
   includes:
@@ -4212,7 +3322,7 @@
   - computer software packages, comprising, for example, operating systems, applications and programming languages (08.2.0.0)
   - video game software; and video game computers and consoles (09.2.1.1)
   - books, dictionaries, encyclopaedias, foreign language trainers, multimedia presentations, etc. in the form of software (09.7.1.1)
-08.1.3.1:
+'08.1.3.1':
   title: Computers, laptops and tablets
   product_type: D
   includes:
@@ -4224,7 +3334,7 @@
   - computer software packages, comprising, for example, operating systems, applications and programming languages (08.2.0.0)
   - video game software; and video game computers and consoles (09.2.1.1)
   - books, dictionaries, encyclopaedias, foreign language trainers, multimedia presentations, etc. in the form of software (09.7.1.1)
-08.1.3.2:
+'08.1.3.2':
   title: Peripheral equipment and its consumable components
   product_type: D
   includes:
@@ -4235,7 +3345,7 @@
   - web cameras
   also_includes:
   - 3-D printers
-08.1.4:
+'08.1.4':
   title: Equipment for the reception, recording and reproduction of sound and vision
   product_type: D
   includes:
@@ -4249,7 +3359,7 @@
   - set-top boxes, satellite receivers, Internet Protocol television receivers and television converter boxes
   - digital media players
   - headphones, earplugs and wireless, including Bluetooth headsets
-08.1.4.0:
+'08.1.4.0':
   title: Equipment for the reception, recording and reproduction of sound and vision
   product_type: D
   includes:
@@ -4263,7 +3373,7 @@
   - set-top boxes, satellite receivers, Internet Protocol television receivers and television converter boxes
   - digital media players
   - headphones, earplugs and wireless, including Bluetooth headsets
-08.1.5:
+'08.1.5':
   title: Unrecorded recording media
   product_type: SD
   includes:
@@ -4281,7 +3391,7 @@
   - other recording media (phase-change recording media, holographic recording media, molecular recording media, etc.)
   excludes:
   - recorded recording media (09.5.2.0, 09.7.1)
-08.1.5.0:
+'08.1.5.0':
   title: Unrecorded recording media
   product_type: SD
   includes:
@@ -4299,7 +3409,7 @@
   - other recording media (phase-change recording media, holographic recording media, molecular recording media, etc.)
   excludes:
   - recorded recording media (09.5.2.0, 09.7.1)
-08.1.9:
+'08.1.9':
   title: Other information and communication equipment and accessories
   product_type: D
   includes:
@@ -4309,7 +3419,7 @@
   - e-book readers
   - chargers, batteries, cables, power banks, docking stations, covers, cases, cradles and mounts
   - computer components, for example, processors, internal hard drives, solid-state drives, motherboards, memory, DVD drives, hard drives
-08.1.9.1:
+'08.1.9.1':
   title: Other information and communication equipment
   product_type: D
   includes:
@@ -4317,7 +3427,7 @@
   - smartwatches
   - fitness trackers and other wearable devices (e.g., smartglasses) that, in general, do not work without a smartphone or tablet connection
   - e-book readers
-08.1.9.2:
+'08.1.9.2':
   title: Other information and communication accessories
   product_type: SD
   includes:
@@ -4325,7 +3435,7 @@
   - computer components, for example, processors, internal hard drives, solid-state drives, motherboards, memory, DVD drives, hard drives
 '08.2':
   title: Software, excluding games
-08.2.0:
+'08.2.0':
   title: Software, excluding games
   product_type: S
   includes:
@@ -4335,7 +3445,7 @@
   excludes:
   - video game software (09.2.1.1)
   - books, dictionaries, encyclopaedias, foreign language trainers, multimedia presentations, etc. in the form of software (09.7.1.1)
-08.2.0.0:
+'08.2.0.0':
   title: Software, excluding games
   product_type: S
   includes:
@@ -4347,7 +3457,7 @@
   - books, dictionaries, encyclopaedias, foreign language trainers, multimedia presentations, etc. in the form of software (09.7.1.1)
 '08.3':
   title: Information and communication services
-08.3.1:
+'08.3.1':
   title: Fixed communication services
   product_type: S
   includes:
@@ -4355,7 +3465,7 @@
   - telephone calls made from a private line or from a public line (public telephone box, post office cabin, etc.)
   - local, regional, national and international calls
   - telephone calls from hotels, cafés, restaurants and the like
-08.3.1.0:
+'08.3.1.0':
   title: Fixed communication services
   product_type: S
   includes:
@@ -4363,7 +3473,7 @@
   - telephone calls made from a private line; or from a public line (public telephone box, post office cabin, etc.)
   - local, regional, national and international calls
   - telephone calls made from hotels, cafés, restaurants and so on
-08.3.2:
+'08.3.2':
   title: Mobile communication services
   product_type: S
   includes:
@@ -4376,7 +3486,7 @@
   also_includes:
   - costs of telephone equipment if included in subscription costs
   - mobile telephones included in a (prepaid or post-paid) package, generally tied to a specific operator for a certain period of time, if not separately priced
-08.3.2.0:
+'08.3.2.0':
   title: Mobile communication services
   product_type: S
   includes:
@@ -4389,7 +3499,7 @@
   also_includes:
   - costs of telephone equipment if included in subscription costs
   - mobile telephones included in a (prepaid or post-paid) package, generally tied to a specific operator for a certain period of time, if not separately priced
-08.3.3:
+'08.3.3':
   title: Internet access provision services and online storage services
   product_type: S
   includes:
@@ -4398,7 +3508,7 @@
   - subscriptions for email services
   also_includes:
   - activation and installation fees and monthly rates
-08.3.3.0:
+'08.3.3.0':
   title: Internet access provision services and online storage services
   product_type: S
   includes:
@@ -4407,19 +3517,19 @@
   - subscriptions for email services
   also_includes:
   - activation and installation fees and monthly rates
-08.3.4:
+'08.3.4':
   title: Bundled telecommunication services
   product_type: S
   includes:
   - packages bundling together telephony, Internet and television services
   - packages comprising any combination of telecommunications services
-08.3.4.0:
+'08.3.4.0':
   title: Bundled telecommunication services
   product_type: S
   includes:
   - packages bundling together telephony, Internet and television services
   - packages comprising any combination of telecommunications services
-08.3.5:
+'08.3.5':
   title: Repair and rental of information and communication equipment
   product_type: S
   includes:
@@ -4428,7 +3538,7 @@
   - rental of wireless telephone equipment
   - rental of Internet access provision equipment
   - rental of telegraphy, telex and telefax equipment
-08.3.5.0:
+'08.3.5.0':
   title: Repair and rental of information and communication equipment
   product_type: S
   includes:
@@ -4437,7 +3547,7 @@
   - rental of wireless telephone equipment
   - rental of Internet access provision equipment
   - rental of telegraphy, telex and telefax equipment
-08.3.9:
+'08.3.9':
   title: Other information and communication services
   product_type: S
   includes:
@@ -4456,12 +3566,12 @@
   excludes:
   - rental of and subscription to video game software and online games (09.4.3.1)
   - audiovisual content purchased online for immediate downloading (09.5.2.0)
-08.3.9.1:
+'08.3.9.1':
   title: Television and radio licences and fees
   product_type: S
   includes:
   - fees/licenses for access to/reception of public television or radio broadcasts or the possession of a television set or radio
-08.3.9.2:
+'08.3.9.2':
   title: Subscriptions to audiovisual streaming services and rental of audiovisual content
   product_type: S
   includes:
@@ -4474,7 +3584,7 @@
   excludes:
   - rental of and subscription to video game software and online games (09.4.3.1)
   - audiovisual content purchased online for immediate download (09.5.2.0)
-08.3.9.9:
+'08.3.9.9':
   title: Other information and communication services n.e.c.
   product_type: S
   includes:
@@ -4482,13 +3592,13 @@
   - provision of nomadic voice over Internet Protocol (VoIP) services
   - software installation services
   - repair, rental, and installation of equipment for the reception, recording and reproduction of sound and vision
-09:
+'09':
   title: Recreation, sport and culture
   intro: "Division 09 includes a wide range of goods and services related to recreation, sport and culture structured into eight groups:\n(a) Recreational durables: photographic and cinematographic equipment and optical instruments; and major recreational durables such as camper vans, boats, yachts and aeroplanes (group 09.1)\n(b) Non-major durable recreational goods, such as games and toys, including video game computers and celebration articles; and sporting, camping and open-air equipment (group 09.2)\n(c) Garden products, plants and flowers; pets and products for pets (excluding veterinary services) (group 09.3)\n(d) Recreational services: rental, maintenance and repair of goods classified under division 09; veterinary and other pet services; games of chance; and recreational, sporting and leisure services, such as those provided by amusement parks, as well as fees for participation in sports competitions and for admission to sporting events \n(e) Cultural goods, such as musical instruments\
     \ and audiovisual media (group 09.5) \n(f) Cultural services (09.6), such as those provided by cinemas, theatres and concert venues and by museums libraries and cultural sites; and photographic services (group 09.6) \n(g) Books, newspapers and periodicals, in both printed and electronic format; and stationery and drawing materials (group 09.7)\n(h) Package holidays, which bundle services such as transportation, accommodation, provision of food, and excursion tours including tour guides (group 09.8). The fact that expenditure on package holiday services cannot be broken down into the separate expenditures on each kind of service led to the creation of a separate package holiday category. Neither the duration of the package holiday nor whether the holiday destination is within or outside the home country is taken into consideration."
 '09.1':
   title: Recreational durables
-09.1.1:
+'09.1.1':
   title: Photographic and cinematographic equipment and optical instruments
   product_type: D
   includes:
@@ -4504,7 +3614,7 @@
   excludes:
   - dash cameras (07.2.1.3)
   - web cameras (08.1.3.2)
-09.1.1.1:
+'09.1.1.1':
   title: Cameras
   product_type: D
   includes:
@@ -4515,7 +3625,7 @@
   excludes:
   - dash cameras (07.2.1.3)
   - web cameras (08.1.3.2)
-09.1.1.2:
+'09.1.1.2':
   title: Accessories for photographic and cinematographic equipment
   product_type: D
   includes:
@@ -4525,12 +3635,12 @@
   - materials purchased by households with the intention of undertaking maintenance and repairs themselves
   - unexposed photographic and cinematographic films
   - camera-specific batteries and chargers
-09.1.1.3:
+'09.1.1.3':
   title: Optical instruments
   product_type: D
   includes:
   - binoculars, microscopes, telescopes and compasses
-09.1.2:
+'09.1.2':
   title: Major recreational durables
   product_type: D
   includes:
@@ -4550,17 +3660,17 @@
   excludes:
   - horses and ponies, horse- and pony-drawn vehicles, camels and dromedaries, and related equipment, purchased for personal transport (07.1.4.0)
   - inflatable boats, rafts and swimming pools for use by children and at the beach (09.2.2.2)
-09.1.2.1:
+'09.1.2.1':
   title: Camper vans, caravans and trailers
   product_type: D
   includes:
   - camper vans, caravans and trailers
-09.1.2.2:
+'09.1.2.2':
   title: Aeroplanes, microlight aircraft, gliders, hang gliders and hot-air balloons
   product_type: D
   includes:
   - aeroplanes, microlight aircraft, gliders, hang gliders and hot-air balloons
-09.1.2.3:
+'09.1.2.3':
   title: Boats, yachts, outboard motors and other water-sport equipment
   product_type: D
   includes:
@@ -4571,14 +3681,14 @@
   - water sport equipment and related accessories
   excludes:
   - inflatable boats, rafts and swimming pools (09.2.2.2)
-09.1.2.4:
+'09.1.2.4':
   title: Horses, ponies, camels and dromedaries and accessories
   product_type: D
   includes:
   - horses and ponies, horse- and pony-drawn vehicles, and camels and dromedaries, and related equipment (harnesses, bridles, reins, saddles, etc.), purchased for recreational purposes
   excludes:
   - horses and ponies, horse- and pony-drawn vehicles, camels and dromedaries, and related equipment, purchased for personal transport (07.1.4.0)
-09.1.2.9:
+'09.1.2.9':
   title: Other major recreational durables
   product_type: D
   includes:
@@ -4592,7 +3702,7 @@
   - inflatable boats, rafts and swimming pools (09.2.2.2)
 '09.2':
   title: Other recreational goods
-09.2.1:
+'09.2.1':
   title: Games, toys and hobby-related articles
   product_type: SD
   includes:
@@ -4610,7 +3720,7 @@
   - collector's items classifiable as works of art or antiques (05.1.1), or capital formation if acquired primarily as stores of value
   - video game subscriptions and rentals (09.4.3.1)
   - children's scrapbooks (09.7.1.9)
-09.2.1.1:
+'09.2.1.1':
   title: Video game computers, consoles, game applications and software
   product_type: SD
   includes:
@@ -4622,7 +3732,7 @@
   - game applications
   excludes:
   - video game subscriptions and rentals (09.4.3.1)
-09.2.1.2:
+'09.2.1.2':
   title: Other games, toys and hobby-related articles
   product_type: SD
   includes:
@@ -4645,7 +3755,7 @@
   excludes:
   - collectors' items classifiable as works of art or antiques (05.1.1), or capital formation if acquired primarily as stores of value
   - children's scrapbooks (09.7.1.9)
-09.2.1.3:
+'09.2.1.3':
   title: Celebration articles
   product_type: ND
   includes:
@@ -4653,7 +3763,7 @@
   - festoons
   - Christmas trees
   - holiday decorations (for Christmas, Easter, Diwali, Eid, Hanukkah and other celebrations)
-09.2.2:
+'09.2.2':
   title: Sporting, camping and open-air recreation equipment
   product_type: SD
   includes:
@@ -4674,7 +3784,7 @@
   - garden and camping furniture (05.1.1.2)
   - motorcycle and bicycle crash helmets (07.2.1.3)
   - rental and repair of sporting, camping and open-air recreation equipment (09.4.4.0)
-09.2.2.1:
+'09.2.2.1':
   title: Sporting equipment
   product_type: SD
   includes:
@@ -4692,7 +3802,7 @@
   excludes:
   - motorcycle and bicycle crash helmets (07.2.1.3)
   - rental and repair of sporting, camping and open-air recreation equipment (09.4.4.0)
-09.2.2.2:
+'09.2.2.2':
   title: Camping and open-air recreation equipment
   product_type: SD
   includes:
@@ -4705,7 +3815,7 @@
   - rental and repair of camping and open-air recreation equipment (09.4.4.0)
 '09.3':
   title: Garden products and pets
-09.3.1:
+'09.3.1':
   title: Garden products, plants and flowers
   product_type: ND
   includes:
@@ -4731,7 +3841,7 @@
   - insecticides, pesticide and fungicides for household use; gardening gloves (05.6.1.9)
   - flower and plant delivery charges, if priced separately (07.4.9.2)
   - Christmas trees (09.2.1.3)
-09.3.1.1:
+'09.3.1.1':
   title: Garden products
   product_type: ND
   includes:
@@ -4744,7 +3854,7 @@
   - motorized gardening equipment (05.5.1.0)
   - non-motorized gardening tools (05.5.2.1)
   - insecticides, pesticides and fungicides for household use; gardening gloves (05.6.1.9)
-09.3.1.2:
+'09.3.1.2':
   title: Plants, seeds and flowers
   product_type: ND
   includes:
@@ -4761,7 +3871,7 @@
   - flower and plant delivery charges, if separately priced (07.4.9.2)
   - Christmas trees (09.2.1.3)
   - soil, peat, composts and fertilizers (09.3.1.1)
-09.3.2:
+'09.3.2':
   title: Pets and pet products
   product_type: D
   includes:
@@ -4772,7 +3882,7 @@
   - horses, ponies, camels and dromedaries used for transport (07.1.4.0)
   - horses, ponies, camels and dromedaries used for recreation (09.1.2.4)
   - veterinary and other services for pets and other household animals (09.4.5.0)
-09.3.2.1:
+'09.3.2.1':
   title: Pets
   product_type: D
   includes:
@@ -4780,7 +3890,7 @@
   excludes:
   - horses, ponies, camels and dromedaries used for transport (07.1.4.0)
   - horses, ponies, camels and dromedaries used for recreation (09.1.2.4)
-09.3.2.2:
+'09.3.2.2':
   title: Products for pets and other household animals
   product_type: ND
   includes:
@@ -4791,7 +3901,7 @@
   - veterinary and other services for pets and other household animals (09.4.5.0)
 '09.4':
   title: Recreational services
-09.4.1:
+'09.4.1':
   title: Hire and repair of photographic and cinematographic equipment and optical instruments
   product_type: S
   intro: The cost of materials is included only if the materials are not priced separately.
@@ -4800,7 +3910,7 @@
   - repair of photographic and cinematographic equipment and optical instruments
   excludes:
   - separate purchases of materials made by households with the intention of undertaking maintenance and repair themselves (09.1.1)
-09.4.1.0:
+'09.4.1.0':
   title: Hire and repair of photographic and cinematographic equipment and optical instruments
   product_type: S
   intro: The cost of materials is included only if the materials are not priced separately.
@@ -4809,7 +3919,7 @@
   - repair of photographic and cinematographic equipment and optical instruments
   excludes:
   - separate purchases of materials made by households with the intention of undertaking maintenance and repair themselves (09.1.1)
-09.4.2:
+'09.4.2':
   title: Hire, maintenance and repair of major recreational durables
   product_type: S
   intro: The cost of materials is included only if the materials are not priced separately.
@@ -4821,7 +3931,7 @@
   - fuel and lubricants for recreational vehicles (07.2.2)
   - hire of equipment for transport (07.2.4.4)
   - materials purchased by households with the intention of undertaking maintenance or repair themselves (09.1.2.1)
-09.4.2.1:
+'09.4.2.1':
   title: Hire, maintenance and repair of camper vans and caravans
   product_type: S
   intro: The cost of materials is included only if the materials are not priced separately.
@@ -4832,7 +3942,7 @@
   excludes:
   - fuel and lubricants for recreational vehicles (07.2.2)
   - materials purchased by households with the intention of undertaking maintenance or repair themselves (09.1.2)
-09.4.2.2:
+'09.4.2.2':
   title: Hire, maintenance and repair of other major recreational durables
   product_type: S
   intro: The cost of materials is included only if the materials are not priced separately.
@@ -4843,7 +3953,7 @@
   - fuel and lubricants for recreational vehicles (07.2.2)
   - rental of equipment for transport (07.2.4.4)
   - materials purchased by households with the intention of undertaking maintenance or repair themselves (09.1.2)
-09.4.3:
+'09.4.3':
   title: Hire and repair of games, toys and hobby-related articles
   product_type: S
   intro: The cost of materials is included only if the materials are not priced separately.
@@ -4851,14 +3961,14 @@
   - hire of video game consoles
   - hire of and subscriptions to software and applications
   - repair of video game consoles, toys and hobby-related articles
-09.4.3.1:
+'09.4.3.1':
   title: Hire of game software and subscription to online games
   product_type: S
   includes:
   - hire of game software (i.e., games contained on CDs, DVDs, Blu-ray discs, etc.)
   - subscriptions to game software and applications
   - subscriptions to play online games, for video game network services and for cloud gaming services
-09.4.3.2:
+'09.4.3.2':
   title: Hire and repair of other games, toys and hobby-related articles
   product_type: S
   intro: The cost of materials is included only if the materials are not priced separately.
@@ -4866,7 +3976,7 @@
   - hire and repair of video game consoles and other video game-related equipment
   - hire and repair of toys and hobby-related articles
   - hire of toys and games
-09.4.4:
+'09.4.4':
   title: Hire and repair of sporting, camping and open-air recreational equipment
   product_type: S
   intro: The cost of materials is included only if the materials are not priced separately.
@@ -4875,7 +3985,7 @@
   - hire of beach umbrellas and deckchairs
   excludes:
   - hire of major recreational durables, as listed under 09.1.2.2, 09.1.2.3, 09.1.2.4 and 09.1.2.9
-09.4.4.0:
+'09.4.4.0':
   title: Hire and repair of sporting, camping and open-air recreational equipment
   product_type: S
   intro: The cost of materials is included only if the materials are not priced separately.
@@ -4884,7 +3994,7 @@
   - hire of beach umbrellas and deckchairs
   excludes:
   - hire of major recreational durables, as listed under 09.1.2.2, 09.1.2.3, 09.1.2.4 and 09.1.2.9
-09.4.5:
+'09.4.5':
   title: Veterinary and other services for pets
   product_type: S
   includes:
@@ -4894,7 +4004,7 @@
   - veterinary and hosting services for household animals, such as animals used for transportation, own consumption or recreation
   excludes:
   - pet products (09.3.2.2)
-09.4.5.0:
+'09.4.5.0':
   title: Veterinary and other services for pets
   product_type: S
   includes:
@@ -4904,7 +4014,7 @@
   - veterinary and hosting services for household animals, such as animals used for transportation, own consumption or recreation
   excludes:
   - pet products (09.3.2.2)
-09.4.6:
+'09.4.6':
   title: Recreational and sporting services
   product_type: S
   includes:
@@ -4927,7 +4037,7 @@
   excludes:
   - cable-car and chairlift transport other than at ski resorts and holiday centres (07.3.6.0)
   - games of chance (09.4.7.0)
-09.4.6.1:
+'09.4.6.1':
   title: Recreational and leisure services
   product_type: S
   includes:
@@ -4941,7 +4051,7 @@
   - dancing establishment and nightclub entrance fees
   excludes:
   - games of chance (09.4.7.0)
-09.4.6.2:
+'09.4.6.2':
   title: Services associated with the practice of sports
   product_type: S
   includes:
@@ -4959,18 +4069,18 @@
   - fees for membership in fishermen's and hunters' clubs
   excludes:
   - cable-car and chairlift transport other than at ski resorts or holiday centres (07.3.6.0)
-09.4.6.3:
+'09.4.6.3':
   title: Services associated with attendance at sporting events
   product_type: S
   includes:
   - admission tickets to live sporting events, such as football games, hockey games, ice-skating competitions, ski competitions, soccer games, tennis matches, horse-racing, motor-racing, track cycling (at velodromes) and so on
-09.4.7:
+'09.4.7':
   title: Games of chance
   product_type: S
   includes:
   - service charges associated with lotteries, bookmakers, totalizators, casinos and other gambling establishments, gaming machines, bingo halls, sale of scratch cards, sweepstakes and so on
   - online games of chance
-09.4.7.0:
+'09.4.7.0':
   title: Games of chance
   product_type: S
   includes:
@@ -4978,7 +4088,7 @@
   - online games of chance
 '09.5':
   title: Cultural goods
-09.5.1:
+'09.5.1':
   title: Musical instruments
   product_type: D
   includes:
@@ -4987,7 +4097,7 @@
   - replacement parts for musical instruments
   excludes:
   - toy instruments (09.2.1.2)
-09.5.1.0:
+'09.5.1.0':
   title: Musical instruments
   product_type: D
   includes:
@@ -4996,7 +4106,7 @@
   - replacement parts for musical instruments
   excludes:
   - toy instruments (09.2.1.2)
-09.5.2:
+'09.5.2':
   title: Audiovisual media
   product_type: SD
   includes:
@@ -5006,7 +4116,7 @@
   - software (other than video game software) (08.2.0.0)
   - video games and game applications and software (09.2.1.1)
   - recorded tapes, CDs, DVDs, Blu-ray discs, gramophone records and flash drives, reproducing books, both educational and non-educational, novels, plays, poetry, dictionaries, encyclopaedias, guidebooks and musical scores (09.7.1)
-09.5.2.0:
+'09.5.2.0':
   title: Audiovisual media
   product_type: SD
   includes:
@@ -5018,7 +4128,7 @@
   - recorded tapes, CDs, DVDs, Blu-ray discs, gramophone records and flash drives, reproducing books, both educational and non-educational, novels, plays, poetry, dictionaries, encyclopaedias, guidebooks and musical scores (09.7.1)
 '09.6':
   title: Cultural services
-09.6.1:
+'09.6.1':
   title: Services provided by cinemas, theatres and concert venues
   product_type: S
   includes:
@@ -5030,7 +4140,7 @@
   - services of musicians, clowns, performers for private entertainments
   - music, dancing and artistic performances
   - arts and music festivals
-09.6.1.0:
+'09.6.1.0':
   title: Services provided by cinemas, theatres and concert venues
   product_type: S
   includes:
@@ -5042,21 +4152,21 @@
   - services of musicians, clowns, performers for private entertainments
   - music, dancing and artistic performance
   - art and music festivals
-09.6.2:
+'09.6.2':
   title: Services provided by museums, libraries and cultural sites
   product_type: S
   includes:
   - services provided by museums, art galleries, exhibitions, historical monuments and archaeologic sites
   - services provided by libraries
   - services provided by national parks, zoological and botanical gardens and aquaria
-09.6.2.0:
+'09.6.2.0':
   title: Services provided by museums, libraries and cultural sites
   product_type: S
   includes:
   - services provided by museums, art galleries, exhibitions, historical monuments and archaeologic sites
   - services provided by libraries
   - services provided by national parks, zoological and botanical gardens and aquaria
-09.6.3:
+'09.6.3':
   title: Photographic services
   product_type: S
   includes:
@@ -5064,7 +4174,7 @@
   also_includes:
   - photographic services provided by non-specialized shops (e.g., supermarkets, consumer electronic stores, etc.)
   - online photographic services
-09.6.3.0:
+'09.6.3.0':
   title: Photographic services
   product_type: S
   includes:
@@ -5072,7 +4182,7 @@
   also_includes:
   - photographic services provided by non-specialized shops (e.g., supermarkets, consumer electronic stores, etc.)
   - online photographic services
-09.6.9:
+'09.6.9':
   title: Other cultural services
   product_type: S
   includes:
@@ -5083,7 +4193,7 @@
   - rental of the premises of cultural venues for amateur music group rehearsals and weddings and other celebrations
   excludes:
   - formal music, dance and art education (division 10 according to the level)
-09.6.9.0:
+'09.6.9.0':
   title: Other cultural services
   product_type: S
   includes:
@@ -5096,7 +4206,7 @@
   - formal music, dance and art education (division 10 according to the level)
 '09.7':
   title: Newspapers, books and stationery
-09.7.1:
+'09.7.1':
   title: Books
   product_type: SD
   includes:
@@ -5106,13 +4216,13 @@
   - scrapbooks and albums for children
   excludes:
   - stamp albums (09.2.1.2)
-09.7.1.1:
+'09.7.1.1':
   title: Educational books and textbooks
   product_type: SD
   includes:
   - education textbooks (school/academic manuals, etc.) in any form, complete or in excerpts, and on any media (including electronic formats and as photocopies)
   - encyclopaedias and dictionaries
-09.7.1.9:
+'09.7.1.9':
   title: Other books
   product_type: SD
   includes:
@@ -5128,14 +4238,14 @@
   - scrapbooks and albums for children
   excludes:
   - stamp albums (09.2.1.2)
-09.7.2:
+'09.7.2':
   title: Newspapers and periodicals
   product_type: ND
   includes:
   - newspapers, magazines and other periodicals
   also_includes:
   - newspapers and periodicals in all electronic formats
-09.7.2.1:
+'09.7.2.1':
   title: Newspapers
   product_type: ND
   includes:
@@ -5144,7 +4254,7 @@
   - newspaper subscriptions (digital access)
   also_includes:
   - newspapers in all electronic formats
-09.7.2.2:
+'09.7.2.2':
   title: Magazines and periodicals
   product_type: ND
   includes:
@@ -5157,7 +4267,7 @@
   - magazines and periodical subscriptions (digital access)
   also_includes:
   - magazines and periodicals in all electronic formats
-09.7.3:
+'09.7.3':
   title: Miscellaneous printed matter
   product_type: ND
   intro: Miscellaneous printed matter, including in electronic form.
@@ -5169,7 +4279,7 @@
   excludes:
   - pre-franked postcards, envelopes and aerogrammes (07.4.1.1)
   - stamp albums (09.2.1.2)
-09.7.3.0:
+'09.7.3.0':
   title: Miscellaneous printed matter
   product_type: ND
   intro: Miscellaneous printed matter, including in electronic form.
@@ -5181,7 +4291,7 @@
   excludes:
   - pre-franked postcards, envelopes and aerogrammes (07.4.1.1)
   - stamp albums (09.2.1.2)
-09.7.4:
+'09.7.4':
   title: Stationery and drawing materials
   product_type: ND
   includes:
@@ -5199,7 +4309,7 @@
   excludes:
   - pre-franked postcards, envelopes and aerogrammes (07.4.1.1)
   - pocket calculators (08.1.3.2)
-09.7.4.0:
+'09.7.4.0':
   title: Stationery and drawing materials
   product_type: ND
   includes:
@@ -5219,14 +4329,14 @@
   - pocket calculators (08.1.3.2)
 '09.8':
   title: Package holidays
-09.8.0:
+'09.8.0':
   title: Package holidays
   product_type: S
   includes:
   - all-inclusive holidays or tours that provide for travel, food, accommodation, guides and so on
   - excursion tours, including transport and guide
   - sport and recreation camps for children as well as for adults (usually during summer holidays), which include catering and accommodation as well as activities
-09.8.0.0:
+'09.8.0.0':
   title: Package holidays
   product_type: S
   includes:
@@ -5259,7 +4369,7 @@
     * accommodation services (11.2.0.3)
 '10.1':
   title: Early childhood and primary education
-10.1.0:
+'10.1.0':
   title: Early childhood and primary education
   product_type: S
   includes:
@@ -5270,7 +4380,7 @@
   - excursions that are part of the normal school programme (travel and accommodation costs)
   excludes:
   - childcare services without educational programme (13.3.0.1)
-10.1.0.1:
+'10.1.0.1':
   title: Early childhood education
   product_type: S
   includes:
@@ -5280,7 +4390,7 @@
   - excursions that are part of the normal school programme (travel and accommodation costs)
   excludes:
   - childcare services without educational programme (13.3.0.1)
-10.1.0.2:
+'10.1.0.2':
   title: Primary education
   product_type: S
   includes:
@@ -5290,7 +4400,7 @@
   - excursions that are part of the normal school programme (travel and accommodation costs)
 '10.2':
   title: Secondary education
-10.2.0:
+'10.2.0':
   title: Secondary education
   product_type: S
   includes:
@@ -5300,7 +4410,7 @@
   - education services for adolescents with special educational needs
   also_includes:
   - excursions or student exchanges that are part of the normal school programme (travel and accommodation costs)
-10.2.0.0:
+'10.2.0.0':
   title: Secondary education
   product_type: S
   includes:
@@ -5312,7 +4422,7 @@
   - excursions or student exchanges that are part of the normal school programme (travel and accommodation costs)
 '10.3':
   title: Post-secondary non-tertiary education
-10.3.0:
+'10.3.0':
   title: Post-secondary non-tertiary education
   product_type: S
   includes:
@@ -5322,7 +4432,7 @@
   - education services for young people and adults with special educational needs
   also_includes:
   - excursions or student exchanges that are part of the normal school programme (travel and accommodation costs)
-10.3.0.0:
+'10.3.0.0':
   title: Post-secondary non-tertiary education
   product_type: S
   includes:
@@ -5334,7 +4444,7 @@
   - excursions or student exchanges that are part of the normal school programme (travel and accommodation costs)
 '10.4':
   title: Tertiary education
-10.4.0:
+'10.4.0':
   title: Tertiary education
   product_type: S
   includes:
@@ -5342,7 +4452,7 @@
   also_includes:
   - excursions or student exchanges that are part of the normal school programme (travel and accommodation costs)
   - university admission tests
-10.4.0.0:
+'10.4.0.0':
   title: Tertiary education
   product_type: S
   includes:
@@ -5352,7 +4462,7 @@
   - university admission tests
 '10.5':
   title: Education not defined by level
-10.5.0:
+'10.5.0':
   title: Education not defined by level
   product_type: S
   includes:
@@ -5368,14 +4478,14 @@
   - driving lessons (07.2.4.3)
   - training courses for recreation and sports that are not part of an educational programme (09.4.6)
   - removable media containing foreign language trainers (09.7.1.1)
-10.5.0.1:
+'10.5.0.1':
   title: Tutoring
   product_type: S
   includes:
   - independent tutors (private lessons to support formal education), tutor centres, homework help centres and so on
   - exam preparation courses
   - online tutoring
-10.5.0.9:
+'10.5.0.9':
   title: Other education not defined by level
   product_type: S
   includes:
@@ -5399,7 +4509,7 @@
   - permanent principal or secondary residence accommodation (division 04)
 '11.1':
   title: Food and beverage serving services
-11.1.1:
+'11.1.1':
   title: Restaurants, cafés and the like
   product_type: S
   intro: Food and beverages services provided by restaurants, cafés and similar eating facilities providing full, limited or self-service.
@@ -5416,7 +4526,7 @@
   - food and beverage services in establishments providing recreational, cultural, sporting or entertainment services, if not separately priced (09.4.6, 09.6.1.0, 09.6.2.0, 09.6.9.0)
   - food and beverage services provided in package holidays, if not separately priced (09.8.0.0)
   - food and beverage services provided by hotels or other lodging establishments, if not separately priced from accommodation (11.2)
-11.1.1.1:
+'11.1.1.1':
   title: Restaurants, cafés and the like - with full service
   product_type: S
   intro: Food and beverage serving services provided by restaurants, cafés and similar eating facilities providing full service consisting of waiter service to individual customers seated at tables, with or without entertainment.
@@ -5436,7 +4546,7 @@
   - entrance fees for dancing establishments and nightclubs (09.4.6.1)
   - food and beverage services provided in package holidays, if not separately priced (09.8.0.0)
   - food and beverage services in hotels or other lodging establishments, if not separately priced from accommodation (11.2)
-11.1.1.2:
+'11.1.1.2':
   title: Restaurants, cafés and the like - with limited service
   product_type: S
   intro: Food and beverage serving services provided by limited and self-service facilities (i.e., without waiter service and with or without seating).
@@ -5461,7 +4571,7 @@
   - entrance fees for dancing establishments and nightclubs (09.4.6.1)
   - food and beverage services provided in package holidays, if not separately priced (09.8.0.0)
   - food and beverage services in hotels or other lodging establishments, if not separately priced from accommodation (11.2)
-11.1.2:
+'11.1.2':
   title: Canteens, cafeterias and refectories
   product_type: S
   intro: Food and beverages provided by canteens, cafeterias or refectories (i.e., restaurants, cafés, etc.) at work/office premises, in schools, universities and other educational establishments, to hospital in-patients, if separately invoiced.
@@ -5470,7 +4580,7 @@
   excludes:
   - food and beverages provided by schools, universities and other educational establishments, if not separately priced (10.1 - 10.5)
   - food and beverages provided to hospital in-patients, if not separately priced (06.3)
-11.1.2.1:
+'11.1.2.1':
   title: Canteens and cafeterias of universities, schools and kindergartens
   product_type: S
   intro: Food and beverages provided to students by canteens, cafeterias or refectories (i.e., restaurants, café, etc.) at schools, universities and other educational establishments.
@@ -5480,7 +4590,7 @@
   - university refectories
   excludes:
   - food and beverages provided by schools, universities and other educational establishments, if not separately priced (10.1 - 10.5)
-11.1.2.9:
+'11.1.2.9':
   title: Other canteens, cafeterias and refectories
   product_type: S
   intro: Food and beverages provided by canteens, cafeterias or refectories (i.e. restaurants, cafés, etc.) at work/office premises, to hospital in-patients, if separately invoiced.
@@ -5490,7 +4600,7 @@
   - food and beverages provided to hospital in-patients, if not separately priced (06.3)
 '11.2':
   title: Accommodation services
-11.2.0:
+'11.2.0':
   title: Accommodation services
   product_type: S
   intro: Accommodation services for visitors and other travellers away from their permanent principal or secondary residence. Included here are other services, if not separately priced, such as food and beverage services, housekeeping, parking, laundry, swimming pools and exercise rooms, recreational facilities and conference and convention facilities.
@@ -5513,7 +4623,7 @@
   - package holidays (09.8.0.0)
   - breakfast, meals and other food and beverages provided in accommodation and similar establishments, if separately priced (11.1.1)
   - non-medical retirement homes for elderly persons and residences for disabled persons (13.3.0.2)
-11.2.0.1:
+'11.2.0.1':
   title: Hotels, motels, inns and similar accommodation services
   product_type: S
   includes:
@@ -5529,7 +4639,7 @@
   - telephone calls (08.3.1.0)
   - package holidays (09.8.0.0)
   - breakfast, meals and other food and beverages provided in accommodation and similar establishments, if separately priced (11.1.1)
-11.2.0.2:
+'11.2.0.2':
   title: Holiday centres, camping sites, youth hostels and similar accommodation services
   product_type: S
   includes:
@@ -5541,14 +4651,14 @@
   - payments of households occupying a room in holiday centres, camping sites, youth hostels and similar accommodation as their main or secondary residence (04.1.1.0)
   - telephone calls (08.3.1.0)
   - breakfast, meals and other food and beverages provided in accommodation and similar establishments, if separately priced (11.1.1)
-11.2.0.3:
+'11.2.0.3':
   title: Accommodation services of boarding schools, universities and other educational establishments
   product_type: S
   includes:
   - student residences, school and other educational establishments dormitories, if separately priced
   excludes:
   - homes for disabled or maladjusted persons (13.3.0.2)
-11.2.0.9:
+'11.2.0.9':
   title: Other accommodation services
   product_type: S
   includes:
@@ -5577,7 +4687,7 @@
 
 
     The basic method for measuring the service charge for life insurance is premiums earned plus investment income earned from investing the premiums, less benefits due to fewer increases (plus decreases) in life insurance technical reserves.
-12.1.1:
+'12.1.1':
   title: Life and accident insurance
   product_type: S
   includes:
@@ -5585,7 +4695,7 @@
   also_includes:
   - service charges for funeral insurance
   - service charges for accident insurance
-12.1.1.0:
+'12.1.1.0':
   title: Life and accident insurance
   product_type: S
   includes:
@@ -5593,7 +4703,7 @@
   also_includes:
   - service charges for funeral insurance
   - service charges for accident insurance
-12.1.2:
+'12.1.2':
   title: Insurance connected with health
   product_type: S
   includes:
@@ -5607,7 +4717,7 @@
   - service charges for travel health insurance
   also_includes:
   - service charges for medical transport (e.g., ambulance) insurance
-12.1.2.0:
+'12.1.2.0':
   title: Insurance connected with health
   product_type: S
   includes:
@@ -5621,7 +4731,7 @@
   - service charges for travel health insurance
   also_includes:
   - service charges for medical transport (e.g., ambulance) insurance
-12.1.3:
+'12.1.3':
   title: Insurance connected with dwellings
   product_type: S
   includes:
@@ -5629,7 +4739,7 @@
   - service charges for household contents insurance
   excludes:
   - service charges paid by owner-occupiers for the kinds of insurance typically taken out by landlords (intermediate consumption)
-12.1.3.0:
+'12.1.3.0':
   title: Insurance connected with dwellings
   product_type: S
   includes:
@@ -5637,13 +4747,13 @@
   - service charges paid by owner-occupiers and by tenants for household contents insurance
   excludes:
   - service charges paid by owner-occupiers for the kinds of insurance typically taken out by landlords (intermediate consumption)
-12.1.4:
+'12.1.4':
   title: Insurance connected with transport
   product_type: S
   includes:
   - service charges for insurance in respect of personal transport equipment
   - service charges for travel insurance (for change of travel plans, travel cancellation, etc.) and luggage insurance
-12.1.4.1:
+'12.1.4.1':
   title: Personal transport insurance
   product_type: S
   includes:
@@ -5652,14 +4762,14 @@
   - service charges for insurances covering civil liability or damage to third parties or their property arising from the operation of personal transport equipment
   also_includes:
   - service charges for insurance in respect of bikes, motorcycles, boats, yachts, sailboats, airplanes and so on
-12.1.4.2:
+'12.1.4.2':
   title: Travel insurance
   product_type: S
   includes:
   - service charges for travel insurance (for change of travel plans, travel cancellation, etc.) and luggage insurance
   excludes:
   - travel health insurance (12.1.2.0)
-12.1.9:
+'12.1.9':
   title: Other insurance
   product_type: S
   includes:
@@ -5669,7 +4779,7 @@
   - service charges for pet medical insurance
   excludes:
   - civil liability or damage to third parties or their property arising from the operation of personal transport equipment (12.1.4.1)
-12.1.9.0:
+'12.1.9.0':
   title: Other insurance
   product_type: S
   includes:
@@ -5682,7 +4792,7 @@
 '12.2':
   title: Financial services
   intro: Financial services are subdivided by financial intermediation services indirectly measured and by the other forms of actual and implicit charges and remittance fees for financial services.
-12.2.1:
+'12.2.1':
   title: Financial intermediation services indirectly measured
   product_type: S
   intro: Financial intermediation services indirectly measured is calculated as the difference between the actual bank interest receivable and SNA interest receivable by financial corporations on the loans that they issue, and the difference between SNA interest payable and the actual bank interest payable by financial corporations on the deposits of their customers.
@@ -5690,7 +4800,7 @@
   - financial intermediation services, indirectly measured, of deposit-taking corporations
   also_includes:
   - implicit financial services provided by moneylenders, credit card issuers, finance associates of retailers who may be responsible for providing loans, pawnshops and corporations involved in lending (e.g., in providing student loans and import/export loans)
-12.2.1.0:
+'12.2.1.0':
   title: Financial intermediation services indirectly measured
   product_type: S
   intro: Financial intermediation services indirectly measured is calculated as the difference between the actual bank interest receivable and SNA interest receivable by financial corporations on the loans that they issue, and the difference between SNA interest payable and the actual bank interest payable by financial corporations on the deposits of their customers.
@@ -5698,21 +4808,21 @@
   - financial intermediation services, indirectly measured, of deposit-taking corporations
   also_includes:
   - implicit financial services provided by moneylenders, credit card issuers, finance associates of retailers who may be responsible for providing loans, pawnshops and corporations involved in lending (e.g., in providing student loans and import/export loans)
-12.2.2:
+'12.2.2':
   title: Explicit charges by deposit-taking corporations
   product_type: S
   includes:
   - explicit charges for the financial services of deposit-taking corporations, such as commercial banks, credit unions, cooperative banks, savings banks, post banks and postal savings banks
   excludes:
   - remittances fees (12.2.9.1)
-12.2.2.0:
+'12.2.2.0':
   title: Explicit charges by deposit-taking corporations
   product_type: S
   includes:
   - actual charges for the financial services of deposit-taking corporations, such as commercial banks, credit unions, cooperative banks, savings banks, post banks and postal savings banks
   excludes:
   - remittances fees (12.2.9.1)
-12.2.9:
+'12.2.9':
   title: Other financial services
   product_type: S
   includes:
@@ -5721,12 +4831,12 @@
   - fees and service charges and implicit charges of money market funds, non-money market investment funds, brokers and the like
   - administrative charges and implicit charges of pension funds and the like
   - remittance fees
-12.2.9.1:
+'12.2.9.1':
   title: Remittances fees
   product_type: S
   includes:
   - remittance fees for financial services provided by financial auxiliaries, such as money transfer agents
-12.2.9.9:
+'12.2.9.9':
   title: Other financial services n.e.c.
   product_type: S
   includes:
@@ -5747,26 +4857,26 @@
     This division also includes religious services.
 '13.1':
   title: Personal care
-13.1.1:
+'13.1.1':
   title: Electric appliances for personal care
   product_type: SD
   includes:
   - electric razors, hair trimmers and epilators, hand-held and hood hairdryers, straightening irons, curling tongs and styling combs, sunlamps, vibrators, electric toothbrushes and other electric appliances for dental hygiene and so on
   - repair of electric appliances for personal care
-13.1.1.1:
+'13.1.1.1':
   title: Purchase of electric appliances for personal care
   product_type: SD
   includes:
   - electric razors, hair trimmers and epilators, hand-held and hood hairdryers, straightening irons, curling tongs and styling combs, sunlamps, vibrators, electric toothbrushes and other electric appliances for dental hygiene and so on
   excludes:
   - repair of electric appliances for personal care (13.1.1.2)
-13.1.1.2:
+'13.1.1.2':
   title: Repair of electric appliances for personal care
   product_type: S
   intro: The cost of materials is included only if the materials are not separately priced.
   includes:
   - repair of electric appliances for personal care
-13.1.2:
+'13.1.2':
   title: Other appliances, articles and products for personal care
   product_type: ND
   includes:
@@ -5776,7 +4886,7 @@
   excludes:
   - handkerchiefs made of fabric (03.1.3.1)
   - baby scales (06.1.2.1)
-13.1.2.0:
+'13.1.2.0':
   title: Other appliances, articles and products for personal care
   product_type: ND
   includes:
@@ -5786,7 +4896,7 @@
   excludes:
   - handkerchiefs made of fabric (03.1.3.1)
   - baby scales (06.1.2.1)
-13.1.3:
+'13.1.3':
   title: Hairdressing salons and personal grooming establishments
   product_type: S
   includes:
@@ -5797,12 +4907,12 @@
   - spas for medical purposes (06.2, 06.3)
   - animal tattooing (09.4.5.0)
   - fitness centres (09.4.6.2)
-13.1.3.1:
+'13.1.3.1':
   title: Hairdressing
   product_type: S
   includes:
   - hairdressing salons or barbers for women, men and children
-13.1.3.2:
+'13.1.3.2':
   title: Personal grooming treatments
   product_type: S
   includes:
@@ -5814,7 +4924,7 @@
   - fitness centres (09.4.6.2)
 '13.2':
   title: Other personal effects
-13.2.1:
+'13.2.1':
   title: Jewellery and watches
   product_type: D
   includes:
@@ -5829,7 +4939,7 @@
   - radio clocks (08.1.4.0)
   - smartwatches (08.1.9.1)
   - precious stones and metals and jewellery fashioned out of such stones and metals acquired primarily as stores of value (capital formation)
-13.2.1.1:
+'13.2.1.1':
   title: Purchase of jewellery and watches
   product_type: D
   includes:
@@ -5842,7 +4952,7 @@
   - radio clocks (08.1.4.0)
   - smartwatches (08.1.9.1)
   - precious stones and metals and jewellery fashioned out of such stones and metals acquired primarily as stores of value (capital formation)
-13.2.1.2:
+'13.2.1.2':
   title: Repair and hire of jewellery, clocks and watches
   product_type: S
   intro: The cost of materials is included only if the materials are not separately priced.
@@ -5852,7 +4962,7 @@
   - hire of jewellery, clocks and watches
   excludes:
   - repair of floor standing and similar household clocks (05.1.2.0)
-13.2.2:
+'13.2.2':
   title: Devotional articles and articles for religious and ritual celebrations
   product_type: SD
   includes:
@@ -5862,7 +4972,7 @@
   - Christmas trees, holiday decorations (for Christmas, Easter, Hanukkah, Eid, Diwali and similar) (09.2.1.3)
   - religious books (09.7.1.9)
   - funerary articles (13.2.9.1)
-13.2.2.0:
+'13.2.2.0':
   title: Devotional articles and articles for religious and ritual celebrations
   product_type: SD
   includes:
@@ -5872,7 +4982,7 @@
   - Christmas trees, holiday decorations (for Christmas, Easter, Hanukkah, Eid, Diwali and similar) (09.2.1.3)
   - religious books (09.7.1.9)
   - funerary articles (13.2.9.1)
-13.2.9:
+'13.2.9':
   title: Other personal effects n.e.c.
   product_type: SD
   includes:
@@ -5892,7 +5002,7 @@
   - car seats for babies (07.2.1.3)
   - protection glasses for the practice of a sport (09.2.2.1)
   - backpacks for camping and open-air recreation (09.2.2.2)
-13.2.9.1:
+'13.2.9.1':
   title: Travel goods, baby articles and other personal effects n.e.c.
   product_type: SD
   includes:
@@ -5911,7 +5021,7 @@
   - car seats for babies (07.2.1.3)
   - protection glasses for the practice of a sport (09.2.2.1)
   - backpacks for camping and open-air recreation (09.2.2.2)
-13.2.9.2:
+'13.2.9.2':
   title: Repair and hire of other personal effects
   product_type: S
   intro: The cost of materials is included only if the materials are not separately priced.
@@ -5925,7 +5035,7 @@
 
 
     It also covers assistance and support services provided to families and children.
-13.3.0:
+'13.3.0':
   title: Social protection
   product_type: S
   intro: Social protection services include residential care, home help and day care.
@@ -5939,7 +5049,7 @@
   - social assistance and other social care services that are integrated into a package of care along with medical services are to be included in 06.2.3 if medical services do not require an overnight stay and in 06.3.2 if they do. For example, services of medical convalescent homes or convalescent hospitals; services of homes for the elderly with nursing care; inpatient care hospices; services of palliative care establishments for the terminally ill; services of nursing homes; rest homes with nursing care; services of skilled nursing facilities; services of teaching nursing homes; services of residential mental retardation facilities; mental health and substance abuse facilities for chronic patients (e.g., those with dementia); services of alcoholism or drug addiction rehabilitation facilities (other than licensed hospitals)
   - services of mental health convalescent homes or hospitals (06.3.2.0)
   - educational kindergartens (10.1.0.1)
-13.3.0.1:
+'13.3.0.1':
   title: Childcare services
   product_type: S
   includes:
@@ -5947,7 +5057,7 @@
   excludes:
   - babysitters and so on (05.6.2.1)
   - educational kindergartens (10.1.0.1)
-13.3.0.2:
+'13.3.0.2':
   title: Retirement homes for elderly persons and residences for disabled persons, not providing medical care
   product_type: S
   includes:
@@ -5956,12 +5066,12 @@
   excludes:
   - social assistance and other social care services that are integrated into a package of care along with medical services are to be included in 06.2.3 if medical services do not require an overnight stay and in 06.3.2 if they do. For example, services of medical convalescent homes or convalescent hospitals; services of homes for the elderly with nursing care; inpatient care hospices; services of palliative care establishments for the terminally ill; services of nursing homes; rest homes with nursing care; services of skilled nursing facilities; services of teaching nursing homes; services of residential mental retardation facilities; mental health and substance abuse facilities for chronic patients (e.g., those with dementia); services of alcoholism or drug addiction rehabilitation facilities (other than licensed hospitals)
   - services of mental health convalescent homes or hospitals (06.3.2.0)
-13.3.0.3:
+'13.3.0.3':
   title: Home care services for elderly and disabled
   product_type: S
   includes:
   - help to maintain elderly and disabled persons at home (home-cleaning services, meal programmes, day-care centres, day-care services and holiday-care services)
-13.3.0.9:
+'13.3.0.9':
   title: Other social protection services
   product_type: S
   includes:
@@ -5969,7 +5079,7 @@
   - guidance, arbitration, fostering and adoption services for families
 '13.9':
   title: Other services
-13.9.0:
+'13.9.0':
   title: Other services
   product_type: S
   includes:
@@ -5987,19 +5097,19 @@
   - firearm licences
   excludes:
   - food or beverages consumed in brothels, if separately priced (11.1.1)
-13.9.0.1:
+'13.9.0.1':
   title: Prostitution
   product_type: S
   includes:
   - services provided by prostitutes, sex workers and the like
   excludes:
   - food or beverages consumed in brothels, if separately priced (11.1.1)
-13.9.0.2:
+'13.9.0.2':
   title: Religious services
   product_type: S
   includes:
   - expenditures for religious services (e.g., requiem, baptizing and marriage services)
-13.9.0.9:
+'13.9.0.9':
   title: Other services n.e.c.
   product_type: S
   includes:
@@ -6013,495 +5123,3 @@
   - newspaper notices and advertisements
   - services of graphologists, astrologers, palmists, private detectives, bodyguards, dating services, matrimonial agencies and marriage guidance counsellors, public writers, miscellaneous concessions (seats, toilets and cloakrooms) and so on
   - firearm licences
-'14':
-  title: Individual consumption expenditure of Non-profit Institutions Serving Households
-'14.1':
-  title: Housing
-  intro: >-
-    The same function is covered under COPNI group 01.0.
-
-    This group corresponds to COICOP groups 04.1 and 15.1.
-14.1.0:
-  title: Housing
-  product_type: S
-  intro: >-
-    The same function is covered under COPNI class 01.0.0.
-
-    This class corresponds to COICOP classes 04.1.1 and 15.1.0.
-14.1.0.0:
-  title: Housing
-  product_type: S
-  intro: >-
-    The same function is covered under COPNI class 01.0.0.
-
-    This subclass corresponds to COICOP classes 04.1.1 and 15.1.0.
-'14.2':
-  title: Health
-  intro: >-
-    The same function is covered under COPNI groups 02.1 to 02.6.
-
-    This group corresponds to COICOP division 06 and group 15.2.
-14.2.1:
-  title: Pharmaceutical products
-  product_type: ND
-  intro: >-
-    The same function is covered under COPNI class 02.1.1.
-
-    This class corresponds to COICOP classes 06.1.1 and 15.2.1.
-14.2.1.0:
-  title: Pharmaceutical products
-  product_type: ND
-  intro: >-
-    The same function is covered under COPNI class 02.1.1.
-
-    This subclass corresponds to COICOP classes 06.1.1 and 15.2.1.
-14.2.2:
-  title: Other medical products
-  product_type: ND
-  intro: >-
-    The same function is covered under COPNI class 02.1.2.
-
-    This class corresponds to COICOP classes 06.1.2 and 15.2.2.
-14.2.2.0:
-  title: Other medical products
-  product_type: ND
-  intro: >-
-    The same function is covered under COPNI class 02.1.2.
-
-    This subclass corresponds to COICOP classes 06.1.2 and 15.2.2.
-14.2.3:
-  title: Therapeutic appliances and equipment
-  product_type: D
-  intro: >-
-    The same function is covered under COPNI class 02.1.3.
-
-    This class corresponds to COICOP classes 06.1.3 and 15.2.3.
-14.2.3.0:
-  title: Therapeutic appliances and equipment
-  product_type: D
-  intro: >-
-    The same function is covered under COPNI class 02.1.3.
-
-    This subclass corresponds to COICOP classes 06.1.3 and 15.2.3.
-14.2.4:
-  title: Outpatient medical services
-  product_type: S
-  intro: >-
-    The same function is covered under COPNI class 02.2.1.
-
-    This class corresponds to COICOP classes 06.2.1, 06.2.3 and 15.2.4.
-14.2.4.0:
-  title: Outpatient medical services
-  product_type: S
-  intro: >-
-    The same function is covered under COPNI class 02.2.1.
-
-    This subclass corresponds to COICOP classes 06.2.1, 06.2.3 and 15.2.4.
-14.2.5:
-  title: Outpatient dental services
-  product_type: S
-  intro: >-
-    The same function is covered under COPNI class 02.2.2.
-
-    This class corresponds to COICOP classes 06.2.2 and 15.2.5.
-14.2.5.0:
-  title: Outpatient dental services
-  product_type: S
-  intro: >-
-    The same function is covered under COPNI class 02.2.2.
-
-    This subclass corresponds to COICOP classes 06.2.2 and 15.2.5.
-14.2.6:
-  title: Outpatient paramedical services
-  product_type: S
-  intro: >-
-    The same function is covered under COPNI class 02.2.3.
-
-    This class corresponds to COICOP classes 06.1.4, 06.2.1, 06.2.3, 06.4 and 15.2.6.
-14.2.6.0:
-  title: Outpatient paramedical services
-  product_type: S
-  intro: >-
-    The same function is covered under COPNI class 02.2.3.
-
-    This subclass corresponds to COICOP classes 06.1.4, 06.2.1, 06.2.3, 06.4 and 15.2.6.
-14.2.7:
-  title: Hospital services
-  product_type: S
-  intro: >-
-    The same function is covered under COPNI class 02.3.0.
-
-    This class corresponds to COICOP groups 06.3 and 15.2.7.
-14.2.7.0:
-  title: Hospital services
-  product_type: S
-  intro: >-
-    The same function is covered under COPNI class 02.3.0.
-
-    This subclass corresponds to COICOP groups 06.3 and 15.2.7.
-14.2.8:
-  title: Other health services
-  product_type: S
-  intro: The same function is covered under COPNI classes 02.4.0, 02.5.0 and 02.6.0.
-14.2.8.0:
-  title: Other health services
-  product_type: S
-  intro: The same function is covered under COPNI classes 02.4.0, 02.5.0 and 02.6.0.
-'14.3':
-  title: Recreation and culture
-  intro: >-
-    The same function is covered under COPNI groups 03.1 and 03.2.
-
-    This group corresponds to COICOP groups 09.4, 09.6 and 15.3.
-14.3.1:
-  title: Recreational and sporting services
-  product_type: S
-  intro: >-
-    The same function is covered under COPNI class 03.1.0.
-
-    This class corresponds to COICOP group 09.4 and class 15.3.1.
-14.3.1.0:
-  title: Recreational and sporting services
-  product_type: S
-  intro: >-
-    The same function is covered under COPNI class 03.1.0.
-
-    This subclass corresponds to COICOP group 09.4 and class 15.3.1.
-14.3.2:
-  title: Cultural services
-  product_type: S
-  intro: >-
-    The same function is covered under COPNI class 03.2.0.
-
-    This class corresponds to COICOP group 09.6 and class 15.3.2.
-14.3.2.0:
-  title: Cultural services
-  product_type: S
-  intro: >-
-    The same function is covered under COPNI class 03.2.0.
-
-    This subclass corresponds to COICOP group 09.6 and class 15.3.2.
-'14.4':
-  title: Education
-  intro: >-
-    The same function is covered under COPNI groups 04.1 to 04.7.
-
-    This group corresponds to COICOP division 10 and group 15.4.
-14.4.1:
-  title: Pre-primary and primary education
-  product_type: S
-  intro: >-
-    The same function is covered under COPNI class 04.1.0.
-
-    This class corresponds to COICOP classes 10.1.0 and 15.4.1.
-14.4.1.0:
-  title: Pre-primary and primary education
-  product_type: S
-  intro: >-
-    The same function is covered under COPNI class 04.1.0.
-
-    This subclass corresponds to COICOP classes 10.1.0 and 15.4.1.
-14.4.2:
-  title: Secondary education
-  product_type: S
-  intro: >-
-    The same function is covered under COPNI class 04.2.0.
-
-    This class corresponds to COICOP classes 10.2.0 and 15.4.2.
-14.4.2.0:
-  title: Secondary education
-  product_type: S
-  intro: >-
-    The same function is covered under COPNI class 04.2.0.
-
-    This subclass corresponds to COICOP classes 10.2.0 and 15.4.2.
-14.4.3:
-  title: Post-secondary non-tertiary education
-  product_type: S
-  intro: >-
-    The same function is covered under COPNI class 04.3.0.
-
-    This class corresponds to COICOP classes 10.3.0 and 15.4.3.
-14.4.3.0:
-  title: Post-secondary non-tertiary education
-  product_type: S
-  intro: >-
-    The same function is covered under COPNI class 04.3.0.
-
-    This subclass corresponds to COICOP classes 10.3.0 and 15.4.3.
-14.4.4:
-  title: Tertiary education
-  product_type: S
-  intro: >-
-    The same function is covered under COPNI class 04.4.0.
-
-    This class corresponds to COICOP classes 10.4.0 and 15.4.4.
-14.4.4.0:
-  title: Tertiary education
-  product_type: S
-  intro: >-
-    The same function is covered under COPNI class 04.4.0.
-
-    This subclass corresponds to COICOP classes 10.4.0 and 15.4.4.
-14.4.5:
-  title: Education not defined by level
-  product_type: S
-  intro: >-
-    The same function is covered under COPNI class 04.5.0.
-
-    This class corresponds to COICOP classes 10.5.0 and 15.4.5.
-14.4.5.0:
-  title: Education not defined by level
-  product_type: S
-  intro: >-
-    The same function is covered under COPNI class 04.5.0.
-
-    This subclass corresponds to COICOP classes 10.5.0 and 15.4.5.
-14.4.6:
-  title: Other educational services
-  product_type: S
-  intro: The same function is covered under COPNI classes 04.6.0 and 04.7.0.
-14.4.6.0:
-  title: Other educational services
-  product_type: S
-  intro: The same function is covered under COPNI classes 04.6.0 and 04.7.0.
-'14.5':
-  title: Social protection
-  intro: >-
-    The same function is covered under COPNI groups 05.1 and 05.2.
-
-    This group corresponds to COICOP groups 13.3 and 15.5.
-14.5.0:
-  title: Social protection
-  product_type: S
-  intro: >-
-    The same function is covered under COPNI classes 05.1.0 and 05.2.0.
-
-    This class corresponds to COICOP classes 13.3.0 and 15.5.0.
-14.5.0.0:
-  title: Social protection
-  product_type: S
-  intro: >-
-    The same function is covered under COPNI classes 05.1.0 and 05.2.0.
-
-    This subclass corresponds to COICOP classes 13.3.0 and 15.5.0.
-'14.6':
-  title: Other services
-  intro: >-
-    These functions are covered under COPNI groups 06.0, 07.1, 07.2, 07.3, 08.1, 08.2, 09.1 and 09.2.
-
-    This group has, to a great extent, no counterpart in COICOP divisions 01 to 13 or in division 15. The only exception are religious services, which correspond to COICOP subclass 13.9.0.2.
-14.6.1:
-  title: Religion
-  product_type: S
-  intro: >-
-    The same function is covered under COPNI class 06.0.0.
-
-    This class corresponds to COICOP subclass 13.9.0.2.
-14.6.1.0:
-  title: Religion
-  product_type: S
-  intro: >-
-    The same function is covered under COPNI class 06.0.0.
-
-    This subclass corresponds to COICOP subclass 13.9.0.2.
-14.6.2:
-  title: Political parties, labour and professional organizations
-  product_type: S
-  intro: The same function is covered under COPNI classes 07.1.0, 07.2.0 and 07.3.0.
-14.6.2.0:
-  title: Political parties, labour and professional organizations
-  product_type: S
-  intro: The same function is covered under COPNI classes 07.1.0, 07.2.0 and 07.3.0.
-14.6.3:
-  title: Environmental protection
-  product_type: S
-  intro: The same function is covered under COPNI classes 08.1.0 and 08.2.0.
-14.6.3.0:
-  title: Environmental protection
-  product_type: S
-  intro: The same function is covered under COPNI classes 08.1.0 and 08.2.0.
-14.6.4:
-  title: Services n.e.c.
-  product_type: S
-  intro: The same function is covered under COPNI classes 09.1.0 and 09.2.0.
-14.6.4.0:
-  title: Services n.e.c.
-  product_type: S
-  intro: The same function is covered under COPNI classes 09.1.0 and 09.2.0.
-'15':
-  title: Individual consumption expenditure of general government
-'15.1':
-  title: Housing
-  intro: >-
-    The same function is covered under COFOG group 10.6.
-
-    This group corresponds to COICOP groups 04.1 and 14.1.
-15.1.0:
-  title: Housing
-  product_type: S
-  intro: "The same function is covered under COFOG class 10.6.0. \nThis class corresponds to COICOP classes 04.1.1 and 14.1.0."
-15.1.0.0:
-  title: Housing
-  product_type: S
-  intro: "The same function is covered under COFOG class 10.6.0. \nThis subclass corresponds to COICOP classes 04.1.1 and 14.1.0."
-'15.2':
-  title: Health
-  intro: >-
-    The same function is covered under COFOG groups 07.1 to 07.4.
-
-    This group corresponds to COICOP division 06 and group 14.2.
-15.2.1:
-  title: Pharmaceutical products
-  product_type: ND
-  intro: "The same function is covered under COFOG class 07.1.1. \nThis class corresponds to COICOP classes 06.1.1 and 14.2.1."
-15.2.1.0:
-  title: Pharmaceutical products
-  product_type: ND
-  intro: "The same function is covered under COFOG class 07.1.1. \nThis subclass corresponds to COICOP classes 06.1.1 and 14.2.1."
-15.2.2:
-  title: Other medical products
-  product_type: ND
-  intro: "The same function is covered under COFOG class 07.1.2. \nThis class corresponds to COICOP classes 06.1.2 and 14.2.2."
-15.2.2.0:
-  title: Other medical products
-  product_type: ND
-  intro: "The same function is covered under COFOG class 07.1.2. \nThis subclass corresponds to COICOP classes 06.1.2 and 14.2.2."
-15.2.3:
-  title: Therapeutic appliances and equipment
-  product_type: D
-  intro: "The same function is covered under COFOG class 07.1.3. \nThis class corresponds to COICOP classes 06.1.3 and 14.2.3."
-15.2.3.0:
-  title: Therapeutic appliances and equipment
-  product_type: D
-  intro: "The same function is covered under COFOG class 07.1.3. \nThis subclass corresponds to COICOP classes 06.1.3 and 14.2.3."
-15.2.4:
-  title: Outpatient medical services
-  product_type: S
-  intro: "The same function is covered under COFOG classes 07.2.1 and 07.2.2. \nThis class corresponds to COICOP classes 06.2.1, 06.2.3 and 14.2.4."
-15.2.4.0:
-  title: Outpatient medical services
-  product_type: S
-  intro: "The same function is covered under COFOG classes 07.2.1 and 07.2.2. \nThis subclass corresponds to COICOP classes 06.2.1, 06.2.3 and 14.2.4."
-15.2.5:
-  title: Outpatient dental services
-  product_type: S
-  intro: "The same function is covered under COFOG class 07.2.3. \nThis class corresponds to COICOP classes 06.2.2 and 14.2.5."
-15.2.5.0:
-  title: Outpatient dental services
-  product_type: S
-  intro: "The same function is covered under COFOG class 07.2.3. \nThis subclass corresponds to COICOP classes 06.2.2 and 14.2.5."
-15.2.6:
-  title: Outpatient paramedical services
-  product_type: S
-  intro: "The same function is covered under COFOG class 07.2.4. \nThis class corresponds to COICOP classes 06.1.4, 06.2.1, 06.2.3, 06.4 and 14.2.6."
-15.2.6.0:
-  title: Outpatient paramedical services
-  product_type: S
-  intro: "The same function is covered under COFOG class 07.2.4. \nThis subclass corresponds to COICOP classes 06.1.4, 06.2.1, 06.2.3, 06.4 and 14.2.6."
-15.2.7:
-  title: Hospital services
-  product_type: S
-  intro: "The same function is covered under COFOG classes 07.3.1, 07.3.2, 07.3.3 and 07.3.4. \nThis class corresponds to COICOP group 06.3 and class 14.2.7."
-15.2.7.0:
-  title: Hospital services
-  product_type: S
-  intro: "The same function is covered under COFOG classes 07.3.1, 07.3.2, 07.3.3 and 07.3.4. \nThis subclass corresponds to COICOP group 06.3 and class 14.2.7."
-15.2.8:
-  title: Public health services
-  product_type: S
-  intro: The same function is covered under COFOG class 07.4.0.
-15.2.8.0:
-  title: Public health services
-  product_type: S
-  intro: The same function is covered under COFOG class 07.4.0.
-'15.3':
-  title: Recreation and culture
-  intro: >-
-    The same function is covered under COFOG groups 08.1 and 08.2.
-
-    This group corresponds to COICOP groups 09.4, 09.6 and 14.3.
-15.3.1:
-  title: Recreational and sporting services
-  product_type: S
-  intro: "The same function is covered under COFOG class 08.1.0. \nThis class corresponds to COICOP group 09.4 and class 14.3.1."
-15.3.1.0:
-  title: Recreational and sporting services
-  product_type: S
-  intro: "The same function is covered under COFOG class 08.1.0. \nThis subclass corresponds to COICOP group 09.4 and class 14.3.1."
-15.3.2:
-  title: Cultural services
-  product_type: S
-  intro: "The same function is covered under COFOG class 08.2.0. \nThis class corresponds to COICOP group 09.6 and class 14.3.2."
-15.3.2.0:
-  title: Cultural services
-  product_type: S
-  intro: "The same function is covered under COFOG class 08.2.0. \nThis subclass corresponds to COICOP group 09.6 and class 14.3.2."
-'15.4':
-  title: Education
-  intro: >-
-    The same function is covered under COFOG groups 09.1 to 09.6.
-
-    This group corresponds to COICOP division 10 and group 14.4.
-15.4.1:
-  title: Pre-primary and primary education
-  product_type: S
-  intro: "The same function is covered under COFOG classes 09.1.1 and 09.1.2. \nThis class corresponds to COICOP classes 10.1.0 and 14.4.1."
-15.4.1.0:
-  title: Pre-primary and primary education
-  product_type: S
-  intro: "The same function is covered under COFOG classes 09.1.1 and 09.1.2. \nThis subclass corresponds to COICOP classes 10.1.0 and 14.4.1."
-15.4.2:
-  title: Secondary education
-  product_type: S
-  intro: "The same function is covered under COFOG classes 09.2.1 and 09.2.2. \nThis class corresponds to COICOP classes 10.2.0 and 14.4.2."
-15.4.2.0:
-  title: Secondary education
-  product_type: S
-  intro: "The same function is covered under COFOG classes 09.2.1 and 09.2.2. \nThis subclass corresponds to COICOP classes 10.2.0 and 14.4.2."
-15.4.3:
-  title: Post-secondary non-tertiary education
-  product_type: S
-  intro: "The same function is covered under COFOG class 09.3.0. \nThis class corresponds to COICOP classes 10.3.0 and 14.4.3."
-15.4.3.0:
-  title: Post-secondary non-tertiary education
-  product_type: S
-  intro: "The same function is covered under COFOG class 09.3.0. \nThis subclass corresponds to COICOP classes 10.3.0 and 14.4.3."
-15.4.4:
-  title: Tertiary education
-  product_type: S
-  intro: "The same function is covered under COFOG classes 09.4.1 and 09.4.2. \nThis class corresponds to COICOP classes 10.4.0 and 14.4.4."
-15.4.4.0:
-  title: Tertiary education
-  product_type: S
-  intro: "The same function is covered under COFOG classes 09.4.1 and 09.4.2. \nThis subclass corresponds to COICOP classes 10.4.0 and 14.4.4."
-15.4.5:
-  title: Education not defined by level
-  product_type: S
-  intro: "The same function is covered under COFOG class 09.5.0. \nThis class corresponds to COICOP classes 10.5.0 and 14.4.5."
-15.4.5.0:
-  title: Education not defined by level
-  product_type: S
-  intro: "The same function is covered under COFOG class 09.5.0. \nThis subclass corresponds to COICOP classes 10.5.0 and 14.4.5."
-15.4.6:
-  title: Subsidiary services to education
-  product_type: S
-  intro: The same function is covered under COFOG class 09.6.0.
-15.4.6.0:
-  title: Subsidiary services to education
-  product_type: S
-  intro: The same function is covered under COFOG class 09.6.0.
-'15.5':
-  title: Social protection
-  intro: >-
-    The same function is covered under COFOG groups 10.1 to 10.5 and 10.7.
-
-    This group corresponds to COICOP groups 13.3 and 14.5.
-15.5.0:
-  title: Social protection
-  product_type: S
-  intro: "The same function is covered under COFOG classes 10.1.1 to 10.5.0 and 10.7.0. \nThis class corresponds to COICOP classes 13.3.0 and 14.5.0."
-15.5.0.0:
-  title: Social protection
-  product_type: S
-  intro: "The same function is covered under COFOG classes 10.1.1 to 10.5.0 and 10.7.0. \nThis subclass corresponds to COICOP classes 13.3.0 and 14.5.0."

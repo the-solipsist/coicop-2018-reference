@@ -1,4 +1,5 @@
 import yaml
+import re
 
 meta = {
     "name": "COICOP 2018 Interpretive Guide",
@@ -169,12 +170,20 @@ rules = [
 guide_yaml = {"meta": meta, "concepts": concepts, "rules": rules}
 
 
-# Custom Dumper to handle multi-line strings nicely
+# Custom Dumper to handle multi-line strings nicely and quote codes
 class FoldedDumper(yaml.SafeDumper):
-    def represent_scalar(self, tag, value, style=None):
-        if tag == "tag:yaml.org,2002:str" and len(value) > 80:
-            return super(FoldedDumper, self).represent_scalar(tag, value, style=">")
-        return super(FoldedDumper, self).represent_scalar(tag, value, style)
+    pass
+
+
+def string_representer(dumper, data):
+    if re.match(r"^\d+(\.\d+)*$", data):
+        return dumper.represent_scalar("tag:yaml.org,2002:str", data, style="'")
+    if "\n" in data and len(data) > 80:
+        return dumper.represent_scalar("tag:yaml.org,2002:str", data, style=">")
+    return dumper.represent_scalar("tag:yaml.org,2002:str", data)
+
+
+FoldedDumper.add_representer(str, string_representer)
 
 
 with open("coicop_guide.yaml", "w", encoding="utf-8") as f:

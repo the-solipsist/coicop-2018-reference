@@ -91,7 +91,7 @@
   intro: Purchases of transport services are generally classified by mode of transport. When a ticket covers two or more modes of transport - for example, intra-urban bus and underground; or inter-urban train and ferry - and the expenditure cannot be apportioned between them, then such purchases should be assigned to subclass 07.3.5.0.
 '07.4':
   title: Transport services for goods
-08:
+'08':
   title: Information and communication
   intro: 'Division 08 covers three main groups of goods and services: information and communication equipment, including equipment for the reception, recording and reproduction of sound and vision (08.1); software (08.2); and information and communication services (08.3). Information and communication services include telephone services, services providing Internet access, television and radio licences and fees, and subscription services, including streaming services of film and music.'
 '08.1':
@@ -100,7 +100,7 @@
   title: Software, excluding games
 '08.3':
   title: Information and communication services
-09:
+'09':
   title: Recreation, sport and culture
   intro: 'Division 09 includes a wide range of goods and services related to recreation, sport and culture structured into eight groups:'
 '09.1':
@@ -160,40 +160,3 @@
   intro: Social protection, as defined here, covers non-medical assistance and support services provided to persons who are elderly, disabled, have occupational injuries and diseases, are survivors, unemployed, destitute, homeless, low-income earners, indigenous people, immigrants, refugees, alcohol and substance abusers and so on
 '13.9':
   title: Other services
-'14':
-  title: Individual consumption expenditure of Non-profit Institutions Serving Households
-'14.1':
-  title: Housing
-  intro: The same function is covered under COPNI group 01.0.
-'14.2':
-  title: Health
-  intro: The same function is covered under COPNI groups 02.1 to 02.6.
-'14.3':
-  title: Recreation and culture
-  intro: The same function is covered under COPNI groups 03.1 and 03.2.
-'14.4':
-  title: Education
-  intro: The same function is covered under COPNI groups 04.1 to 04.7.
-'14.5':
-  title: Social protection
-  intro: The same function is covered under COPNI groups 05.1 and 05.2.
-'14.6':
-  title: Other services
-  intro: These functions are covered under COPNI groups 06.0, 07.1, 07.2, 07.3, 08.1, 08.2, 09.1 and 09.2.
-'15':
-  title: Individual consumption expenditure of general government
-'15.1':
-  title: Housing
-  intro: The same function is covered under COFOG group 10.6.
-'15.2':
-  title: Health
-  intro: The same function is covered under COFOG groups 07.1 to 07.4.
-'15.3':
-  title: Recreation and culture
-  intro: The same function is covered under COFOG groups 08.1 and 08.2.
-'15.4':
-  title: Education
-  intro: The same function is covered under COFOG groups 09.1 to 09.6.
-'15.5':
-  title: Social protection
-  intro: The same function is covered under COFOG groups 10.1 to 10.5 and 10.7.

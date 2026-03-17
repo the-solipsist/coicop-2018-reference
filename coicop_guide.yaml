@@ -2,100 +2,83 @@ meta:
   name: COICOP 2018 Interpretive Guide
   source: Classification of Individual Consumption According to Purpose (COICOP) 2018
   document_symbol: ST/ESA/STAT/SER.M/99
-  note: >-
-    This file captures conceptual rules and interpretive guidance from the COICOP 2018 handbook. It is a companion to the classification data, not part of it.
+  note: This file captures conceptual rules and interpretive guidance from the COICOP 2018 handbook. It is a companion to the classification data, not part of it.
 concepts:
 - id: individual_consumption
   title: Individual consumption
-  text: >-
-    Individual consumption expenditures are incurred by households, NPISH, and general government. All household and NPISH expenditures are individual. General government expenditures are individual only if they benefit specific households (e.g., housing, health, education), while collective expenditures (e.g., defense, public order) are excluded.
+  text: Individual consumption expenditures are incurred by households, NPISH, and general government. All household and NPISH expenditures are individual. General government expenditures are individual only if they benefit specific households (e.g., housing, health, education), while collective expenditures (e.g., defense, public order) are excluded.
 - id: purpose_based_classification
   title: Purpose-based classification
-  text: >-
-    COICOP is designed to classify outlays according to the 'why' or purpose. It provides a framework of homogeneous categories of goods and services considered a function of household consumption expenditure.
+  text: COICOP is designed to classify outlays according to the 'why' or purpose. It provides a framework of homogeneous categories of goods and services considered a function of household consumption expenditure.
 - id: product_types
   title: Durable, semi-durable, non-durable and services
-  text: >-
-    Products are categorized by durability and form. Durables (D) last considerably more than a year and have high prices. Non-durables (ND) are used once. Semi-durables (SD) fall in between. Services (S) denote intangible outlays. Predominant components determine the tag if mixed.
+  text: Products are categorized by durability and form. Durables (D) last considerably more than a year and have high prices. Non-durables (ND) are used once. Semi-durables (SD) fall in between. Services (S) denote intangible outlays. Predominant components determine the tag if mixed.
 rules:
 - id: imputed_transactions
   title: Imputed transaction values
-  text: >-
-    Captures non-monetary flows like barter, goods produced for own consumption, and imputed housing services for owner-occupiers. The value is estimated based on market rentals for similar quality accommodation.
+  text: Captures non-monetary flows like barter, goods produced for own consumption, and imputed housing services for owner-occupiers. The value is estimated based on market rentals for similar quality accommodation.
   applies_to:
   - '04.2'
 - id: diy_repairs
   title: DIY repairs and maintenance
-  text: >-
-    Materials purchased for 'do-it-yourself' repairs are included in COICOP. However, the labor/service value of the household's own work is excluded. Major repairs (e.g., roof repair) are treated as intermediate expenditure for housing production and are out of scope.
+  text: Materials purchased for 'do-it-yourself' repairs are included in COICOP. However, the labor/service value of the household's own work is excluded. Major repairs (e.g., roof repair) are treated as intermediate expenditure for housing production and are out of scope.
   applies_to:
-  - 04.3.1
+  - '04.3.1'
 - id: multi_purpose_goods
   title: Multi-purpose goods and services
-  text: >-
-    Assigned to the division representing the predominant purpose. For example, motor fuel is classified under Transport. If purpose varies by region, the main function in the most important region determines the classification (e.g., bicycles are assigned to Transport).
+  text: Assigned to the division representing the predominant purpose. For example, motor fuel is classified under Transport. If purpose varies by region, the main function in the most important region determines the classification (e.g., bicycles are assigned to Transport).
   applies_to:
   - '07'
-  - 09
+  - '09'
   - '03'
 - id: bundled_goods_services
   title: Bundled goods and services
-  text: >-
-    Outlays covering multiple purposes not separately invoiced are categorized by the predominant good/service. Examples include telecommunication bundles or all-inclusive tours. Outlays linked with education should be separated into Health, Transport, etc., if possible.
+  text: Outlays covering multiple purposes not separately invoiced are categorized by the predominant good/service. Examples include telecommunication bundles or all-inclusive tours. Outlays linked with education should be separated into Health, Transport, etc., if possible.
 - id: internet_virtual_services
   title: Internet-enabled and other virtual services
-  text: >-
-    Virtual products (e.g., e-books, streaming) are classified in the same class as their physical counterparts based on purpose. Online game subscriptions are rentals (service), while outright purchases of software are goods.
+  text: Virtual products (e.g., e-books, streaming) are classified in the same class as their physical counterparts based on purpose. Online game subscriptions are rentals (service), while outright purchases of software are goods.
   applies_to:
-  - 09.4.3.1
-  - 09.2.1.1
+  - '09.4.3.1'
+  - '09.2.1.1'
 - id: software_and_apps
   title: Software and apps
-  text: >-
-    Regular software (OS, office suites) is classified under 08.2.0.0. If payment is for a service facilitated by an app (e.g., taxi, dating), it is classified under that service (e.g., 07.3.2.2 for taxis).
+  text: Regular software (OS, office suites) is classified under 08.2.0.0. If payment is for a service facilitated by an app (e.g., taxi, dating), it is classified under that service (e.g., 07.3.2.2 for taxis).
   applies_to:
-  - 08.2.0.0
-  - 09.2.1.1
-  - 07.3.2.2
-  - 13.9.0.9
+  - '08.2.0.0'
+  - '09.2.1.1'
+  - '07.3.2.2'
+  - '13.9.0.9'
 - id: second_hand_goods
   title: Second-hand goods
-  text: >-
-    Classified with the original good. For second-hand motor vehicles, only the trade margin is part of household consumption expenditure, unless previously owned by business/government or imported.
+  text: Classified with the original good. For second-hand motor vehicles, only the trade margin is part of household consumption expenditure, unless previously owned by business/government or imported.
   applies_to:
-  - 07.1.1.2
+  - '07.1.1.2'
 - id: rental_and_leasing
   title: Rental and leasing
-  text: >-
-    Payments for operating leases are treated as rentals (services). Financial leases, where ownership transfers, are treated as purchasing a good. Renting of land alone is out of scope.
+  text: Payments for operating leases are treated as rentals (services). Financial leases, where ownership transfers, are treated as purchasing a good. Renting of land alone is out of scope.
 - id: ready_made_food_vs_restaurant
   title: Ready-made meals vs. Restaurant services
-  text: >-
-    Ready-made meals (goods) are classified in Division 01, regardless of whether they are consumed at home or at the premises. Restaurant services (Division 11) prioritize the serving and cooking service. The distinction is based on whether the payment is for the good (supermarket) or the service (restaurant), not the location of consumption.
+  text: Ready-made meals (goods) are classified in Division 01, regardless of whether they are consumed at home or at the premises. Restaurant services (Division 11) prioritize the serving and cooking service. The distinction is based on whether the payment is for the good (supermarket) or the service (restaurant), not the location of consumption.
   applies_to:
   - '01'
   - '11'
 - id: housing_vs_accommodation
   title: Housing vs. Accommodation services
-  text: >-
-    Expenditure related to principal or secondary dwellings is in Division 04. Accommodation services away from home (hotels, motels, vacation homes) are classified in Group 11.2.
+  text: Expenditure related to principal or secondary dwellings is in Division 04. Accommodation services away from home (hotels, motels, vacation homes) are classified in Group 11.2.
   applies_to:
   - '04'
   - '11.2'
 - id: delivery_fees
   title: Delivery fees
-  text: >-
-    Classified separately from the good being delivered if separately invoiced. They are treated as transport margins or delivery services.
+  text: Classified separately from the good being delivered if separately invoiced. They are treated as transport margins or delivery services.
   applies_to:
   - '07'
 - id: tips_and_gratuities
   title: Tips and gratuities
-  text: >-
-    Expenditure on tips and gratuities are classified with the service to which the tipping relates.
+  text: Expenditure on tips and gratuities are classified with the service to which the tipping relates.
   applies_to:
   - '11'
   - '07'
 - id: gifts_and_donations
   title: Gifts and donations
-  text: >-
-    Outlays on gifts or donations are transfers and out of scope. However, goods or services received as gifts are recorded as consumption expenditure by the receiver at market value.
+  text: Outlays on gifts or donations are transfers and out of scope. However, goods or services received as gifts are recorded as consumption expenditure by the receiver at market value.
