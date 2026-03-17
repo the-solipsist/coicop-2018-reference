@@ -13,6 +13,13 @@ for col in df.columns:
         df[col] = df[col].astype(str).str.replace(r"_x[0-9A-F]{4}_", "", regex=True)
         # Also catch x000D if underscores were stripped somehow
         df[col] = df[col].str.replace("x000D", "", regex=False)
+        # Replace non-breaking spaces (\xa0) with standard spaces
+        df[col] = df[col].str.replace("\xa0", " ", regex=False)
+        # Normalize en-dashes and smart quotes
+        df[col] = df[col].str.replace("–", "-", regex=False)
+        df[col] = df[col].str.replace("’", "'", regex=False)
+        df[col] = df[col].str.replace("“", '"', regex=False)
+        df[col] = df[col].str.replace("”", '"', regex=False)
         # Convert "nan" strings back to actual NaN
         df.loc[df[col] == "nan", col] = pd.NA
 

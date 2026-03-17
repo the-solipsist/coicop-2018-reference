@@ -2,7 +2,7 @@
   {
     "code": "01",
     "title": "Food and non-alcoholic beverages",
-    "intro": "Division 01 covers food (01.1) purchased by households mainly for consumption or preparation at home and non-alcoholic beverages (01.2) purchased by households, regardless of where they are consumed. Division 01 excludes food and non-alcoholic beverages that are provided by facilities such as restaurants and school cafeterias through their food and beverage serving services (division 11).\n\nServices purchased for the processing of primary goods provided by households to produce food and non-alcoholic beverages for their own consumption are also classified under this division (01.3).\n\nFood comprises all edible goods that are purchased and consumed by households for the purpose of nourishment. Food includes: cereals and cereal products; meat; fish and other seafood; milk, other dairy products and eggs; oils and fats; fruit and nuts; vegetables, tubers, plantains, cooking bananas and pulses; sugar, confectionery and desserts; salt, condiments and sauces; and spices, culinary herbs and seeds.\n\nDivision 01 also includes baby food and ready-made food that can be eaten as is or after heating.\n\nDivision 01 does not include alcoholic beverages (02.1).",
+    "intro": "Division 01 covers food (01.1) purchased by households mainly for consumption or preparation at home and non-alcoholic beverages (01.2) purchased by households, regardless of where they are consumed. Division 01 excludes food and non-alcoholic beverages that are provided by facilities such as restaurants and school cafeterias through their food and beverage serving services (division 11).\n\nServices purchased for the processing of primary goods provided by households to produce food and non-alcoholic beverages for their own consumption are also classified under this division (01.3).\n\nFood comprises all edible goods that are purchased and consumed by households for the purpose of nourishment. Food includes: cereals and cereal products; meat; fish and other seafood; milk, other dairy products and eggs; oils and fats; fruit and nuts; vegetables, tubers, plantains, cooking bananas and pulses; sugar, confectionery and desserts; salt, condiments and sauces; and spices, culinary herbs and seeds.\n\nDivision 01 also includes baby food and ready-made food that can be eaten as is or after heating.\n\nDivision 01 does not include alcoholic beverages (02.1).",
     "children": [
       {
         "code": "01.1",
@@ -15,7 +15,7 @@
         "excludes": [
           "services related to local delivery of food or drinks, when separately priced (07.4.9.2)",
           "products for animal feeding (09.3.2.2)",
-          "food provided by food serving services (division 11)"
+          "food provided by food serving services (division 11)"
         ],
         "children": [
           {
@@ -48,7 +48,7 @@
                   "canary seed",
                   "quihuicha, or Inca wheat",
                   "canagua, or coaihua",
-                  "adlay or Job’s tears",
+                  "adlay or Job's tears",
                   "mixed cereal grains, in the form of dried grains, also including other ingredients (provided that none of these is the main ingredient) but not further processed"
                 ],
                 "excludes": [
@@ -128,7 +128,7 @@
                       "canary seed",
                       "quihuicha or Inca wheat",
                       "canagua or coaihua",
-                      "adlay or Job’s tears",
+                      "adlay or Job's tears",
                       "other cereals n.e.c",
                       "mixed cereal grains, in the form of dried grains, but not further prepared, also including other dehydrated ingredients (e.g., vegetables), provided that these are not the main ingredients"
                     ]
@@ -138,9 +138,9 @@
               {
                 "code": "01.1.1.2",
                 "title": "Flour of cereals",
-                "intro": "Flour of cereals mentioned in subclass 01.1.1.1 whether instant (precooked – steamed – or added with yeasts) or not.",
+                "intro": "Flour of cereals mentioned in subclass 01.1.1.1 whether instant (precooked - steamed - or added with yeasts) or not.",
                 "includes": [
-                  "flour of cereals listed under subclass 01.1.1.1"
+                  "flour of cereals listed under subclass 01.1.1.1"
                 ],
                 "alsoIncludes": [
                   "instant flour for bakery products with yeasts added",
@@ -368,7 +368,7 @@
                     "intro": "Cattle and buffaloes purchased live for human consumption as food.",
                     "includes": [
                       "cattle: cows, calves, common ox, zebu or humped ox, watusi, gaur, gayal, banteng, yak",
-                      "buffaloes (Indian or water buffaloes; arnis, or wild water buffaloes; Asiatic buffalo or arni, Sulwaesi anoas, or pygmy buffaloes, African buffaloes, such as the dwarf buffalo and the large Caffrarian buffalo, the American bisons, known simply as or “buffaloes”; European bisons; and the “beefaloes” (hybrid offspring of the American bisons and domestic cattle)"
+                      "buffaloes (Indian or water buffaloes; arnis, or wild water buffaloes; Asiatic buffalo or arni, Sulwaesi anoas, or pygmy buffaloes, African buffaloes, such as the dwarf buffalo and the large Caffrarian buffalo, the American bisons, known simply as or \"buffaloes\"; European bisons; and the \"beefaloes\" (hybrid offspring of the American bisons and domestic cattle)"
                     ]
                   },
                   {
@@ -450,7 +450,7 @@
                     "includes": [
                       "Fresh, chilled or frozen meat of:",
                       "cattle: cow, calves, common ox, zebu or humped ox, watusi, gaur, gayal, banteng, yak",
-                      "buffaloes (Indian or water buffaloes; arnis, or wild water buffaloes; Asiatic buffalo or arni, Sulwaesi anoas, or pygmy buffaloes, African buffaloes, such as the dwarf buffalo and the large Caffrarian buffalo, the American bisons, known simply as or “buffaloes”; European bisons; and the “beefaloes” (hybrid offspring of the American bisons and domestic cattle)"
+                      "buffaloes (Indian or water buffaloes; arnis, or wild water buffaloes; Asiatic buffalo or arni, Sulwaesi anoas, or pygmy buffaloes, African buffaloes, such as the dwarf buffalo and the large Caffrarian buffalo, the American bisons, known simply as or \"buffaloes\"; European bisons; and the \"beefaloes\" (hybrid offspring of the American bisons and domestic cattle)"
                     ]
                   },
                   {
@@ -521,7 +521,7 @@
                     "includes": [
                       "Salted, dried or smoked meat of:",
                       "cattle: cow, calves, common ox, zebu or humped ox, watusi, gaur, gayal, banteng, yak",
-                      "buffaloes (Indian or water buffaloes; arnis, or wild water buffaloes; Asiatic buffalo or arni, Sulwaesi anoas, or pygmy buffaloes, African buffaloes, such as the dwarf buffalo and the large Caffrarian buffalo, the American bisons, known simply as or “buffaloes”; European bisons; and the “beefaloes” (hybrid offspring of the American bisons and domestic cattle)"
+                      "buffaloes (Indian or water buffaloes; arnis, or wild water buffaloes; Asiatic buffalo or arni, Sulwaesi anoas, or pygmy buffaloes, African buffaloes, such as the dwarf buffalo and the large Caffrarian buffalo, the American bisons, known simply as or \"buffaloes\"; European bisons; and the \"beefaloes\" (hybrid offspring of the American bisons and domestic cattle)"
                     ]
                   },
                   {
@@ -900,7 +900,7 @@
               {
                 "code": "01.1.3.6",
                 "title": "Other seafood preparations",
-                "intro": "Prepared foodstuffs consisting of other seafood, as listed in subclass 01.1.3.4, whether frozen or not.",
+                "intro": "Prepared foodstuffs consisting of other seafood, as listed in subclass 01.1.3.4, whether frozen or not.",
                 "tags": [
                   "ND"
                 ],
@@ -1002,7 +1002,7 @@
                   {
                     "code": "01.1.4.1.2",
                     "title": "Raw and whole milk of buffaloes",
-                    "intro": "Raw and whole milk of buffaloes (Indian or water buffaloes; arnis, or wild water buffaloes; Asiatic buffalo or arni, Sulwaesi anoas, or pygmy buffaloes, African buffaloes, such as the dwarf buffalo and the large Caffrarian buffalo, the American bisons, known simply as or “buffaloes”; European bisons; and the “beefaloes” (hybrid offspring of the American bisons and domestic cattle)"
+                    "intro": "Raw and whole milk of buffaloes (Indian or water buffaloes; arnis, or wild water buffaloes; Asiatic buffalo or arni, Sulwaesi anoas, or pygmy buffaloes, African buffaloes, such as the dwarf buffalo and the large Caffrarian buffalo, the American bisons, known simply as or \"buffaloes\"; European bisons; and the \"beefaloes\" (hybrid offspring of the American bisons and domestic cattle)"
                   },
                   {
                     "code": "01.1.4.1.3",
@@ -2754,7 +2754,7 @@
       {
         "code": "01.2",
         "title": "Non-alcoholic beverages",
-        "intro": "Non-alcoholic beverages purchased by households, regardless of where they are consumed, and excluding non-alcoholic beverages that are provided by facilities such as restaurants and school cafeterias offering food and beverage serving services (division 11).",
+        "intro": "Non-alcoholic beverages purchased by households, regardless of where they are consumed, and excluding non-alcoholic beverages that are provided by facilities such as restaurants and school cafeterias offering food and beverage serving services (division 11).",
         "includes": [
           "beverages that do not contain any alcohol"
         ],
@@ -3171,7 +3171,7 @@
   {
     "code": "02",
     "title": "Alcoholic beverages, tobacco and narcotics",
-    "intro": "Division 02 covers the purchase of alcoholic beverages (02.1), tobacco products (02.3) and narcotics (02.4), regardless of where they are consumed, excluding the purchase of those products in facilities such as restaurants through their food and beverage serving services.\n \nDivision 02 also includes low-alcohol beverages; and non-alcoholic beverages that are generally alcoholic, such as non-alcoholic beer. Services for the production of alcohol for own consumption (02.2) are also included within this division.\n\nDivision 02 excludes alcoholic beverages purchased for immediate consumption for example in hotels, restaurants, cafés, bars and kiosks and from street vendors and automatic vending machines (11.1.1).",
+    "intro": "Division 02 covers the purchase of alcoholic beverages (02.1), tobacco products (02.3) and narcotics (02.4), regardless of where they are consumed, excluding the purchase of those products in facilities such as restaurants through their food and beverage serving services.\n \nDivision 02 also includes low-alcohol beverages; and non-alcoholic beverages that are generally alcoholic, such as non-alcoholic beer. Services for the production of alcohol for own consumption (02.2) are also included within this division.\n\nDivision 02 excludes alcoholic beverages purchased for immediate consumption for example in hotels, restaurants, cafés, bars and kiosks and from street vendors and automatic vending machines (11.1.1).",
     "children": [
       {
         "code": "02.1",
@@ -3360,7 +3360,7 @@
       {
         "code": "02.3",
         "title": "Tobacco",
-        "intro": "Group 02.3 covers all purchases of tobacco and tobacco products by households, including purchases of tobacco in restaurants, cafés, bars and service stations, since those venues do not add value or a service to the tobacco products sold. The consumption of tobacco through use of shisha or hookah pipes in restaurants, cafés and bars, is covered by division 11, as the venues in this case do provide a service. Electronic cigarettes are included in group 02.3, even though they do not contain tobacco, as they are a substitute for tobacco products.",
+        "intro": "Group 02.3 covers all purchases of tobacco and tobacco products by households, including purchases of tobacco in restaurants, cafés, bars and service stations, since those venues do not add value or a service to the tobacco products sold. The consumption of tobacco through use of shisha or hookah pipes in restaurants, cafés and bars, is covered by division 11, as the venues in this case do provide a service. Electronic cigarettes are included in group 02.3, even though they do not contain tobacco, as they are a substitute for tobacco products.",
         "children": [
           {
             "code": "02.3.0",
@@ -3811,7 +3811,7 @@
                   "parts of footwear, such as heels, soles, etc., purchased by households with the intention of repairing footwear themselves",
                   "sports footwear suitable for everyday or leisure wear (shoes for jogging cross",
                   "training, tennis, basketball, boating, etc.)",
-                  "baby’s booties made of fabric or sheepskin"
+                  "baby's booties made of fabric or sheepskin"
                 ],
                 "excludes": [
                   "cleaning, repair and hire of footwear (03.2.2.0)",
@@ -3880,7 +3880,7 @@
   {
     "code": "04",
     "title": "Housing, water, electricity, gas and other fuels",
-    "intro": "Division 04 covers goods and services related to the maintenance, repair and security of the dwelling as well as water supply, energy supply for heating and cooling, and other dwelling-related services. \n\nActual and imputed rentals for main and secondary residences, which are treated in accordance with the practice of the 2008 System of National Accounts are classified to groups 04.1 and 04.2, respectively.\n\nDwelling maintenance, repair and security includes, under group 04.3, materials purchased by tenants and owner-occupiers with the intention of undertaking maintenance and repair themselves, as well as the services for the maintenance, repair and security of the dwelling purchased from enterprises. It should be noted that only expenditures on materials and services intended for minor maintenance and repairs are covered under group 04.3:  expenditures on materials and services for major maintenance and repair – which are usually the responsibility of a landlord rather than of tenants – are not considered part of individual consumption expenditures of households and are thus out of scope of the classification.",
+    "intro": "Division 04 covers goods and services related to the maintenance, repair and security of the dwelling as well as water supply, energy supply for heating and cooling, and other dwelling-related services. \n\nActual and imputed rentals for main and secondary residences, which are treated in accordance with the practice of the 2008 System of National Accounts are classified to groups 04.1 and 04.2, respectively.\n\nDwelling maintenance, repair and security includes, under group 04.3, materials purchased by tenants and owner-occupiers with the intention of undertaking maintenance and repair themselves, as well as the services for the maintenance, repair and security of the dwelling purchased from enterprises. It should be noted that only expenditures on materials and services intended for minor maintenance and repairs are covered under group 04.3:  expenditures on materials and services for major maintenance and repair - which are usually the responsibility of a landlord rather than of tenants - are not considered part of individual consumption expenditures of households and are thus out of scope of the classification.",
     "children": [
       {
         "code": "04.1",
@@ -4046,7 +4046,7 @@
       {
         "code": "04.3",
         "title": "Maintenance, repair and security of the dwelling",
-        "intro": "Maintenance and repair of dwellings are activities that are distinguished by two features: first, they have to be undertaken regularly if the dwelling is to remain in good working order; second, they do not change the dwelling’s performance, capacity or expected service life.\n\nThere are two types of maintenance and repair of dwellings: those that are minor, such as interior decoration and repair to fittings and that are commonly carried out by both tenants and owner-occupiers, or major, such as replastering walls or repairing roofs, which are carried out only by owners.\n\nOnly the expenditures incurred by tenants and owner-occupiers on materials and services related to interior decoration and to other such minor maintenance and repair, which would normally be seen as the responsibility of a tenant, are considered part of the individual consumption expenditure of households.\n\nExpenditure incurred by owners, including owner-occupiers, on dwelling-related interior decoration and minor maintenance and repair that would normally be seen as the responsibility of a landlord, are considered intermediate expenditure and should not be treated as final consumption expenditure of households. Expenditure incurred by owners, including owner-occupiers, on major maintenance and repair are seen as gross fixed capital formation and thus also outside the scope of COICOP.\n\nMaterials purchased by tenants or owner-occupiers with the intention of undertaking minor maintenance or repair themselves should be assigned to subclass 04.3.1.1. If tenants or owner-occupiers pay an enterprise to carry out the minor maintenance or repair, the total value of the services, including the costs of the materials used, should be assigned to subclass 04.3.2.0. However, the cost of the materials should be assigned to 04.3.1.1 if they are separately priced.",
+        "intro": "Maintenance and repair of dwellings are activities that are distinguished by two features: first, they have to be undertaken regularly if the dwelling is to remain in good working order; second, they do not change the dwelling's performance, capacity or expected service life.\n\nThere are two types of maintenance and repair of dwellings: those that are minor, such as interior decoration and repair to fittings and that are commonly carried out by both tenants and owner-occupiers, or major, such as replastering walls or repairing roofs, which are carried out only by owners.\n\nOnly the expenditures incurred by tenants and owner-occupiers on materials and services related to interior decoration and to other such minor maintenance and repair, which would normally be seen as the responsibility of a tenant, are considered part of the individual consumption expenditure of households.\n\nExpenditure incurred by owners, including owner-occupiers, on dwelling-related interior decoration and minor maintenance and repair that would normally be seen as the responsibility of a landlord, are considered intermediate expenditure and should not be treated as final consumption expenditure of households. Expenditure incurred by owners, including owner-occupiers, on major maintenance and repair are seen as gross fixed capital formation and thus also outside the scope of COICOP.\n\nMaterials purchased by tenants or owner-occupiers with the intention of undertaking minor maintenance or repair themselves should be assigned to subclass 04.3.1.1. If tenants or owner-occupiers pay an enterprise to carry out the minor maintenance or repair, the total value of the services, including the costs of the materials used, should be assigned to subclass 04.3.2.0. However, the cost of the materials should be assigned to 04.3.1.1 if they are separately priced.",
         "children": [
           {
             "code": "04.3.1",
@@ -4299,7 +4299,7 @@
                 "includes": [
                   "road and sidewalk cleaning and chimney sweeping",
                   "measurement of background radiation and the content of harmful substances inside the dwelling",
-                  "landscaping and cleaning of the dwelling’s surrounding grounds",
+                  "landscaping and cleaning of the dwelling's surrounding grounds",
                   "snow removal"
                 ],
                 "tags": [
@@ -4533,7 +4533,7 @@
   {
     "code": "05",
     "title": "Furnishings, household equipment and routine household maintenance",
-    "intro": "Division 05 covers the wide range of products and equipment – durable, semi-durable and non-durable – used to furnish a house or dwelling, as well as the associated household services. This division includes all types of furniture, furnishings and lighting equipment (05.1); household textiles (05.2); major and small electric household appliances (05.3); glassware, tableware and household utensils (05.4); tools and equipment for house and garden (05.5); and goods used for routine household maintenance (05.6.1).\n\nAlso included are repair, installation and rental of the goods classified to division 05.\n\nDomestic services by paid staff in private service, supplied by enterprises and self-employed persons, are included, as well as window cleaning; pest extermination; disinfection; and dry-cleaning, laundering and dyeing of household textiles and carpets (05.6.2)",
+    "intro": "Division 05 covers the wide range of products and equipment - durable, semi-durable and non-durable - used to furnish a house or dwelling, as well as the associated household services. This division includes all types of furniture, furnishings and lighting equipment (05.1); household textiles (05.2); major and small electric household appliances (05.3); glassware, tableware and household utensils (05.4); tools and equipment for house and garden (05.5); and goods used for routine household maintenance (05.6.1).\n\nAlso included are repair, installation and rental of the goods classified to division 05.\n\nDomestic services by paid staff in private service, supplied by enterprises and self-employed persons, are included, as well as window cleaning; pest extermination; disinfection; and dry-cleaning, laundering and dyeing of household textiles and carpets (05.6.2)",
     "children": [
       {
         "code": "05.1",
@@ -5683,7 +5683,7 @@
               {
                 "code": "06.1.3.1",
                 "title": "Assistive products for vision",
-                "intro": "All assistive products whose primary purpose is to maintain or improve an individual’s vision, to compensate for an impairment or loss of intrinsic visual function or to mitigate the consequences of a gradual decline in visual function.",
+                "intro": "All assistive products whose primary purpose is to maintain or improve an individual's vision, to compensate for an impairment or loss of intrinsic visual function or to mitigate the consequences of a gradual decline in visual function.",
                 "includes": [
                   "corrective eyeglasses (spectacles) for low vision; and short",
                   "and long",
@@ -5704,7 +5704,7 @@
               {
                 "code": "06.1.3.2",
                 "title": "Assistive products for hearing and communication",
-                "intro": "All assistive products whose primary purpose is to maintain or improve an individual’s hearing and capacity to communicate, to compensate for an impairment or loss of intrinsic hearing and communication capacity or to reduce the consequences of a gradual decline in functional hearing or communication capacity.",
+                "intro": "All assistive products whose primary purpose is to maintain or improve an individual's hearing and capacity to communicate, to compensate for an impairment or loss of intrinsic hearing and communication capacity or to reduce the consequences of a gradual decline in functional hearing or communication capacity.",
                 "includes": [
                   "digital hearing aids"
                 ],
@@ -5718,7 +5718,7 @@
               {
                 "code": "06.1.3.3",
                 "title": "Assistive products for mobility and daily living",
-                "intro": "All assistive products whose primary purpose is to maintain or improve an individual’s mobility and daily living; in compensating for the impairment or loss of intrinsic mobility or the inability to perform daily activities; or in reducing the consequences of a gradual decline in functional mobility and the ability to perform daily activities.",
+                "intro": "All assistive products whose primary purpose is to maintain or improve an individual's mobility and daily living; in compensating for the impairment or loss of intrinsic mobility or the inability to perform daily activities; or in reducing the consequences of a gradual decline in functional mobility and the ability to perform daily activities.",
                 "includes": [
                   "therapeutic (diabetic, neuropathic and orthopaedic) footwear; and trusses and supports",
                   "orthoses (braces, splints and other artificial external devices serving to support the leg, spine, neck or hand)",
@@ -5771,7 +5771,7 @@
       {
         "code": "06.2",
         "title": "Outpatient care services",
-        "intro": "Group 06.2 covers all preventive, dental, curative, rehabilitative and long-term care services that are not provided during an overnight stay. The admission criteria – as well as the setting in which the outpatient care services are provided and the type of health-care provider – are irrelevant. Those services may be delivered either within or outside a hospital setting (e.g., at home or in a walk-in clinic), by a variety of health-care providers. An outpatient care service includes all medicines and health products supplied directly by a health-care provider for consumption or use outside a health facility or institution, if not priced separately from that service.\n\nGroup 06.2 also includes respite care as well as services provided to maintain persons within their own home which are integrated into a package of outpatient medical care services.",
+        "intro": "Group 06.2 covers all preventive, dental, curative, rehabilitative and long-term care services that are not provided during an overnight stay. The admission criteria - as well as the setting in which the outpatient care services are provided and the type of health-care provider - are irrelevant. Those services may be delivered either within or outside a hospital setting (e.g., at home or in a walk-in clinic), by a variety of health-care providers. An outpatient care service includes all medicines and health products supplied directly by a health-care provider for consumption or use outside a health facility or institution, if not priced separately from that service.\n\nGroup 06.2 also includes respite care as well as services provided to maintain persons within their own home which are integrated into a package of outpatient medical care services.",
         "excludes": [
           "dental, curative, rehabilitative and long",
           "term care services provided during an overnight stay (06.3)",
@@ -5902,7 +5902,7 @@
                   "aesthetic dentistry services"
                 ],
                 "excludes": [
-                  "all health products (e.g., assistive, medical, pharmaceutical and therapeutic) needed to deliver outpatient dental services that are priced separately from the provider’s services (06.1)",
+                  "all health products (e.g., assistive, medical, pharmaceutical and therapeutic) needed to deliver outpatient dental services that are priced separately from the provider's services (06.1)",
                   "services of medical laboratories performing analytic testing and diagnostic imaging centres priced separately from dental services received (06.4.1.0)"
                 ],
                 "tags": [
@@ -5946,11 +5946,11 @@
               {
                 "code": "06.2.3.1",
                 "title": "Outpatient curative and rehabilitative services",
-                "intro": "Subclass 06.2.3.1 comprises curative and rehabilitative services that do not require an overnight stay.\n\nCurative care comprises health-care contacts whose principal intent is to relieve symptoms of illnesses, diseases and injuries; to reduce the severity of illnesses, diseases and injuries; or to protect against exacerbation or complications of illnesses, diseases and injuries that could threaten life or normal function. Curative care services are aimed at restoring the patient’s health status as it existed before the delivery of those services was deemed necessary.\n\nThe aim of rehabilitation is to enable optimal functioning to be achieved and maintained. Rehabilitation can, in some cases, improve a patient’s health status; in other cases, it may only prevent deterioration.",
+                "intro": "Subclass 06.2.3.1 comprises curative and rehabilitative services that do not require an overnight stay.\n\nCurative care comprises health-care contacts whose principal intent is to relieve symptoms of illnesses, diseases and injuries; to reduce the severity of illnesses, diseases and injuries; or to protect against exacerbation or complications of illnesses, diseases and injuries that could threaten life or normal function. Curative care services are aimed at restoring the patient's health status as it existed before the delivery of those services was deemed necessary.\n\nThe aim of rehabilitation is to enable optimal functioning to be achieved and maintained. Rehabilitation can, in some cases, improve a patient's health status; in other cases, it may only prevent deterioration.",
                 "includes": [
                   "all components of the curative care of illnesses and the treatment of injury, surgery performed, diagnostic and therapeutic procedures, and obstetric services, as long as those components do not involve an overnight stay",
                   "outpatient curative and rehabilitative services irrespective of the type of provider, whether a specialist, physician or another type of health professional (e.g., a nurse or a midwife)",
-                  "outpatient curative and rehabilitative services provided in any setting such as a hospital without including an overnight stay, or an individual consulting facility (e.g., a private office), a group consulting facility, the patient’s home or any other non",
+                  "outpatient curative and rehabilitative services provided in any setting such as a hospital without including an overnight stay, or an individual consulting facility (e.g., a private office), a group consulting facility, the patient's home or any other non",
                   "hospital setting, including on the street",
                   "physical, psychological and speech therapy, which includes the services of chiropractors; physiotherapists and physical therapists; speech therapists; audiologists; and inhalation and respiratory therapists, among others",
                   "all health products (e.g., assistive, medical, pharmaceutical and therapeutic) needed to deliver outpatient curative and rehabilitative services that are not separately priced from the services of the provider (e.g., specialist, physician, nurse or another type of health",
@@ -5972,7 +5972,7 @@
               {
                 "code": "06.2.3.2",
                 "title": "Outpatient long-term care services",
-                "intro": "The aim of outpatient long-term care services is not to cure an illness or rehabilitate an individual, but rather to prevent deterioration of the individual’s health condition and to thereby maintain it at a level available. Specific medical and nursing services are inherent contributors to this type of status quo. Individuals who may receive outpatient long-term care include elderly persons whose capacity to perform daily activities is limited, physically disabled household members and persons with chronic conditions.\n\nSometimes, outpatient long-term care services are part of a package of services that include social assistance and social transfer. Wherever possible in such cases, only the medical component should be classified to division 06; the social protection component should be classified to division 13. In cases where it is not possible to clearly distinguish between the components, the choice of division should depend on which component in the package of services is predominant. If the social protection component predominates, then the package should be classified to division 13; if it is the medical component that predominates, then the package should be classified to division 06.",
+                "intro": "The aim of outpatient long-term care services is not to cure an illness or rehabilitate an individual, but rather to prevent deterioration of the individual's health condition and to thereby maintain it at a level available. Specific medical and nursing services are inherent contributors to this type of status quo. Individuals who may receive outpatient long-term care include elderly persons whose capacity to perform daily activities is limited, physically disabled household members and persons with chronic conditions.\n\nSometimes, outpatient long-term care services are part of a package of services that include social assistance and social transfer. Wherever possible in such cases, only the medical component should be classified to division 06; the social protection component should be classified to division 13. In cases where it is not possible to clearly distinguish between the components, the choice of division should depend on which component in the package of services is predominant. If the social protection component predominates, then the package should be classified to division 13; if it is the medical component that predominates, then the package should be classified to division 06.",
                 "includes": [
                   "services provided by medical day",
                   "care centres, including services for the elderly and persons with disabilities",
@@ -6012,7 +6012,7 @@
           "medicines and health products (medical, assistive) needed to deliver inpatient services during an overnight stay, even if separately priced"
         ],
         "alsoIncludes": [
-          "patient accommodation services including meal service and cleaning, even if separately priced, and the hosting of a patient’s relatives associated with the overnight stay",
+          "patient accommodation services including meal service and cleaning, even if separately priced, and the hosting of a patient's relatives associated with the overnight stay",
           "beauty treatments performed in a hospital (e.g., cosmetic surgery, other than reconstructive)"
         ],
         "excludes": [
@@ -6037,7 +6037,7 @@
               "medicines and health products (medical, assistive) needed in the delivery of inpatient services during the overnight stay, even if separately priced from the inpatient care services"
             ],
             "alsoIncludes": [
-              "patient accommodation services including meal service and cleaning, even if separately priced from the inpatient care services; and the hosting of the patient’s relatives, if indispensable, also if separately priced",
+              "patient accommodation services including meal service and cleaning, even if separately priced from the inpatient care services; and the hosting of the patient's relatives, if indispensable, also if separately priced",
               "beauty treatments performed in a hospital (e.g., cosmetic surgery, other than reconstructive)"
             ],
             "excludes": [
@@ -6065,7 +6065,7 @@
                   "medicines and health products (medical, assistive) needed in the delivery of inpatient services during the overnight stay, even if separately priced from the inpatient care services"
                 ],
                 "alsoIncludes": [
-                  "patient accommodation services including meal service and cleaning, even if separately priced from the inpatient care services; and the hosting of the patient’s relatives, if indispensable, also if separately priced",
+                  "patient accommodation services including meal service and cleaning, even if separately priced from the inpatient care services; and the hosting of the patient's relatives, if indispensable, also if separately priced",
                   "beauty treatments performed in a hospital (e.g., cosmetic surgery, other than reconstructive)"
                 ],
                 "excludes": [
@@ -6088,7 +6088,7 @@
           {
             "code": "06.3.2",
             "title": "Inpatient long-term care services",
-            "intro": "This category comprises long-term care services that require an overnight stay.\n\nThe aim of inpatient long-term care services is not to cure an illness or rehabilitate an individual, but rather to prevent deterioration of the individual’s health condition and to thereby maintain it at a level available. Specific medical and nursing services are inherent contributors to this type of status quo.\n\nIndividuals who receive inpatient long-term care include elderly persons whose capacity to perform daily activities is limited, physically disabled household members and persons with chronic conditions.",
+            "intro": "This category comprises long-term care services that require an overnight stay.\n\nThe aim of inpatient long-term care services is not to cure an illness or rehabilitate an individual, but rather to prevent deterioration of the individual's health condition and to thereby maintain it at a level available. Specific medical and nursing services are inherent contributors to this type of status quo.\n\nIndividuals who receive inpatient long-term care include elderly persons whose capacity to perform daily activities is limited, physically disabled household members and persons with chronic conditions.",
             "includes": [
               "services provided by medical convalescent homes and convalescent hospitals; homes for the elderly offering nursing care; inpatient care hospices",
               "services of palliative care facilities for the terminally ill",
@@ -6102,7 +6102,7 @@
             ],
             "alsoIncludes": [
               "patient accommodation services including meal service and cleaning, even if separately priced from the impatient long",
-              "term care services; and services associated with the hosting of a patient’s relatives, if indispensable, during the patient’s overnight stay, also if separately priced"
+              "term care services; and services associated with the hosting of a patient's relatives, if indispensable, during the patient's overnight stay, also if separately priced"
             ],
             "excludes": [
               "social protection services (13.3)",
@@ -6131,7 +6131,7 @@
                 ],
                 "alsoIncludes": [
                   "patient accommodation services including meal service and cleaning, even if separately priced from the impatient long",
-                  "term care services; and services associated with the hosting of a patient’s relatives, if indispensable, during the patient’s overnight stay, also if separately priced"
+                  "term care services; and services associated with the hosting of a patient's relatives, if indispensable, during the patient's overnight stay, also if separately priced"
                 ],
                 "excludes": [
                   "social protection services (13.3)",
@@ -6224,7 +6224,7 @@
   {
     "code": "07",
     "title": "Transport",
-    "intro": "Under division 07, goods and services for the purpose of transportation are classified within four main categories: purchase of vehicles (07.1), goods and services associated with the operation of personal transport equipment (07.2), passenger transport services (07.3) and transport services of goods (07.4).\n\nPurchase of vehicles covers motor cars, motorcycles, bicycles and animal-drawn vehicles. Owing to the high share of second-hand motor vehicles in private consumption expenditures, separate subclasses for new and second-hand motor cars have been established.\n\nGroup 07.2 (operation of personal transport equipment) covers parts and accessories and fuels and lubricants for personal transport equipment and the repair and maintenance of that equipment. Also included in this group are expenditures for parking spaces in garages and public places, expenditures on tolls and expenditures associated with the acquisition of a driving licence.\n\nPassenger transport services (07.3) are structured based on the mode of transport. However, since transport tickets may be for travel using more than one mode of transport, a class covering combined passenger transport (07.3.6) was created.\n\nGroup 07.4 covers postal and courier services, as well as removal and storage services and delivery services of any kinds of goods, if separately priced.\n\nDivision 07, however, does not cover purchases of recreational vehicles, such as camper vans, caravans, trailers, aeroplanes and boats (09.1.2).",
+    "intro": "Under division 07, goods and services for the purpose of transportation are classified within four main categories: purchase of vehicles (07.1), goods and services associated with the operation of personal transport equipment (07.2), passenger transport services (07.3) and transport services of goods (07.4).\n\nPurchase of vehicles covers motor cars, motorcycles, bicycles and animal-drawn vehicles. Owing to the high share of second-hand motor vehicles in private consumption expenditures, separate subclasses for new and second-hand motor cars have been established.\n\nGroup 07.2 (operation of personal transport equipment) covers parts and accessories and fuels and lubricants for personal transport equipment and the repair and maintenance of that equipment. Also included in this group are expenditures for parking spaces in garages and public places, expenditures on tolls and expenditures associated with the acquisition of a driving licence.\n\nPassenger transport services (07.3) are structured based on the mode of transport. However, since transport tickets may be for travel using more than one mode of transport, a class covering combined passenger transport (07.3.6) was created.\n\nGroup 07.4 covers postal and courier services, as well as removal and storage services and delivery services of any kinds of goods, if separately priced.\n\nDivision 07, however, does not cover purchases of recreational vehicles, such as camper vans, caravans, trailers, aeroplanes and boats (09.1.2).",
     "children": [
       {
         "code": "07.1",
@@ -6722,7 +6722,7 @@
       {
         "code": "07.3",
         "title": "Passenger transport services",
-        "intro": "Purchases of transport services are generally classified by mode of transport. When a ticket covers two or more modes of transport – for example, intra-urban bus and underground; or inter-urban train and ferry – and the expenditure cannot be apportioned between them, then such purchases should be assigned to subclass 07.3.5.0.\n\nCosts of meals, snacks, drinks, refreshments and accommodation services need to be included in group 07.3 if they are covered by the fare and not priced separately. If priced separately, those costs need to be classified under division 11.\n\nSchool transport services are included in group 07.3; ambulance services, on the other hand, are excluded and assigned to subclass 06.4.2.0.",
+        "intro": "Purchases of transport services are generally classified by mode of transport. When a ticket covers two or more modes of transport - for example, intra-urban bus and underground; or inter-urban train and ferry - and the expenditure cannot be apportioned between them, then such purchases should be assigned to subclass 07.3.5.0.\n\nCosts of meals, snacks, drinks, refreshments and accommodation services need to be included in group 07.3 if they are covered by the fare and not priced separately. If priced separately, those costs need to be classified under division 11.\n\nSchool transport services are included in group 07.3; ambulance services, on the other hand, are excluded and assigned to subclass 06.4.2.0.",
         "children": [
           {
             "code": "07.3.1",
@@ -6966,8 +6966,8 @@
             "includes": [
               "funicular, elevator, cable car and chairlift transport",
               "services of porters, left",
-              "luggage offices (related to storage of travellers’ luggage for a limited period of time) and luggage forwarding offices",
-              "travel agents’ commissions, if priced separately",
+              "luggage offices (related to storage of travellers' luggage for a limited period of time) and luggage forwarding offices",
+              "travel agents' commissions, if priced separately",
               "transporter bridges and transport elevators including incline elevators"
             ],
             "excludes": [
@@ -6983,8 +6983,8 @@
                 "includes": [
                   "funicular, elevator, cable car and chairlift transport",
                   "services of porters, left",
-                  "luggage offices (related to storage of travellers’ luggage for a limited period of time) and luggage forwarding offices",
-                  "travel agents’ commissions, if priced separately",
+                  "luggage offices (related to storage of travellers' luggage for a limited period of time) and luggage forwarding offices",
+                  "travel agents' commissions, if priced separately",
                   "transporter bridges and transport elevators including incline elevators"
                 ],
                 "excludes": [
@@ -7011,7 +7011,8 @@
               "franked postal matter (e.g., pre",
               "franked postcards, envelopes)",
               "letter courier services",
-              "parcel delivery services (incoming and outgoing – parcels sent and parcel home delivery)",
+              "parcel delivery services (incoming and outgoing",
+              "parcels sent and parcel home delivery)",
               "parcel delivery services for goods purchased online",
               "small parcel courier services",
               "mailbox rentals"
@@ -7051,7 +7052,8 @@
                 "code": "07.4.1.2",
                 "title": "Courier and parcel delivery services",
                 "includes": [
-                  "parcel delivery services (incoming and outgoing – parcel shipment and parcel home delivery)",
+                  "parcel delivery services (incoming and outgoing",
+                  "parcel shipment and parcel home delivery)",
                   "small parcel courier services",
                   "parcel delivery services for goods purchased online"
                 ],
@@ -7126,7 +7128,7 @@
   {
     "code": "08",
     "title": "Information and communication",
-    "intro": "Division 08 covers three main groups of goods and services: information and communication equipment, including equipment for the reception, recording and reproduction of sound and vision (08.1); software (08.2); and information and communication services (08.3). Information and communication services include telephone services, services providing Internet access, television and radio licences and fees, and subscription services, including streaming services of film and music.\n\nDivision 08 also includes repair, maintenance and rental of all information and communication equipment.",
+    "intro": "Division 08 covers three main groups of goods and services: information and communication equipment, including equipment for the reception, recording and reproduction of sound and vision (08.1); software (08.2); and information and communication services (08.3). Information and communication services include telephone services, services providing Internet access, television and radio licences and fees, and subscription services, including streaming services of film and music.\n\nDivision 08 also includes repair, maintenance and rental of all information and communication equipment.",
     "children": [
       {
         "code": "08.1",
@@ -7926,9 +7928,9 @@
               "materials purchased by households with the intention of undertaking maintenance and repair themselves"
             ],
             "excludes": [
-              "collector’s items classifiable as works of art or antiques (05.1.1), or capital formation if acquired primarily as stores of value",
+              "collector's items classifiable as works of art or antiques (05.1.1), or capital formation if acquired primarily as stores of value",
               "video game subscriptions and rentals (09.4.3.1)",
-              "children’s scrapbooks (09.7.1.9)"
+              "children's scrapbooks (09.7.1.9)"
             ],
             "tags": [
               "SD"
@@ -7977,8 +7979,8 @@
                   "other collection items (coins, medals, minerals, zoological and botanical specimens, etc.) and other hobby tools and articles, n.e.c"
                 ],
                 "excludes": [
-                  "collectors’ items classifiable as works of art or antiques (05.1.1), or capital formation if acquired primarily as stores of value",
-                  "children’s scrapbooks (09.7.1.9)"
+                  "collectors' items classifiable as works of art or antiques (05.1.1), or capital formation if acquired primarily as stores of value",
+                  "children's scrapbooks (09.7.1.9)"
                 ],
                 "tags": [
                   "SD"
@@ -8437,7 +8439,7 @@
               "racing courses, motor",
               "racing circuits and velodromes; skating rinks, swimming pools, golf courses, gymnasiums, fitness centres, tennis courts, squash courts, bowling alleys and shooting ranges; fairgrounds and amusement parks; ski slopes and by ski lifts",
               "roundabouts, see",
-              "saws and other children’s playground facilities",
+              "saws and other children's playground facilities",
               "pinball and other games for adults, excluding games of chance",
               "gaming arcades",
               "out",
@@ -8456,7 +8458,7 @@
             "alsoIncludes": [
               "hunting and fishing licences",
               "paid fishing",
-              "fees for membership in fishermen’s and hunters’ clubs"
+              "fees for membership in fishermen's and hunters' clubs"
             ],
             "excludes": [
               "cable",
@@ -8511,7 +8513,7 @@
                 "alsoIncludes": [
                   "hunting and fishing licences",
                   "paid fishing",
-                  "fees for membership in fishermen’s and hunters’ clubs"
+                  "fees for membership in fishermen's and hunters' clubs"
                 ],
                 "excludes": [
                   "cable",
@@ -8824,7 +8826,7 @@
                   "other books in any form, complete or in excerpts, and on any media (including electronic formats and as photocopies)",
                   "fiction and non",
                   "fiction books",
-                  "children’s books and scrapbooks, albums and colouring books for children",
+                  "children's books and scrapbooks, albums and colouring books for children",
                   "art books",
                   "musical scores",
                   "religious books",
@@ -8877,7 +8879,7 @@
                 "title": "Magazines and periodicals",
                 "includes": [
                   "lifestyle magazines",
-                  "children’s magazines",
+                  "children's magazines",
                   "hobby and leisure magazines",
                   "business and political magazines",
                   "television magazines",
@@ -9032,7 +9034,7 @@
   {
     "code": "10",
     "title": "Education services",
-    "intro": "Division 10 covers educational services only. The focus of groups 10.1 to 10.4 is on formal education (that leads to a certificate or diploma). It includes education done through radio or television broadcasting and e-learning and correspondence courses. It also includes admission and registration fees, as well as tuition fees. It further includes other education-related fees, such as camps and field trips, course fees, diploma fees, examination fees, graduation fees, laboratory fees, and physical education fees.\n\nThe breakdown of educational services is based on the level categories of the 2011 revision of the International Standard Classification of Education (ISCED 2011) of UNESCO.\n\nThis division does not include expenditures on other education-related goods and services, such as:\n* school uniforms (03.1.2.4)\n* education support services, such as health-care services (06)\n* transport services, except in the case of excursions that are part of the normal school programme (07.3.2.3)\n* textbooks and academic journals (09.7.1.1)\n* stationery (09.7.4.0)\n* catering services (11.1.2.1)\n* accommodation services (11.2.0.3)",
+    "intro": "Division 10 covers educational services only. The focus of groups 10.1 to 10.4 is on formal education (that leads to a certificate or diploma). It includes education done through radio or television broadcasting and e-learning and correspondence courses. It also includes admission and registration fees, as well as tuition fees. It further includes other education-related fees, such as camps and field trips, course fees, diploma fees, examination fees, graduation fees, laboratory fees, and physical education fees.\n\nThe breakdown of educational services is based on the level categories of the 2011 revision of the International Standard Classification of Education (ISCED 2011) of UNESCO.\n\nThis division does not include expenditures on other education-related goods and services, such as:\n* school uniforms (03.1.2.4)\n* education support services, such as health-care services (06)\n* transport services, except in the case of excursions that are part of the normal school programme (07.3.2.3)\n* textbooks and academic journals (09.7.1.1)\n* stationery (09.7.4.0)\n* catering services (11.1.2.1)\n* accommodation services (11.2.0.3)",
     "children": [
       {
         "code": "10.1",
@@ -9060,7 +9062,7 @@
                 "code": "10.1.0.1",
                 "title": "Early childhood education",
                 "includes": [
-                  "level 0 of ISCED 2011: Early childhood education is designed primarily to support children’s early cognitive, physical, social and emotional development and introduce very young children to organized instruction outside the family context. Programmes are designed for children below the entry age to primary education and are typically centre",
+                  "level 0 of ISCED 2011: Early childhood education is designed primarily to support children's early cognitive, physical, social and emotional development and introduce very young children to organized instruction outside the family context. Programmes are designed for children below the entry age to primary education and are typically centre",
                   "or school",
                   "based. This education may also be provided in hospitals or in special schools or training centres",
                   "education services for children with special educational needs"
@@ -9079,7 +9081,7 @@
                 "code": "10.1.0.2",
                 "title": "Primary education",
                 "includes": [
-                  "level 1 of ISCED 2011: Primary education usually begins at age 5, 6 or 7 and generally lasts for four to seven years. Programmes are normally designed to provide students with fundamental skills in reading, writing and mathematics and to establish a solid foundation for learning and understanding core areas of knowledge and personal and social development",
+                  "level 1 of ISCED 2011: Primary education usually begins at age 5, 6 or 7 and generally lasts for four to seven years. Programmes are normally designed to provide students with fundamental skills in reading, writing and mathematics and to establish a solid foundation for learning and understanding core areas of knowledge and personal and social development",
                   "organized instruction for children with special needs and literacy or basic skills programmes within or outside the school system that are similar in content to programmes in primary education",
                   "literacy programmes for students too old for primary school",
                   "excursions that are part of the normal school programme (travel and accommodation costs)"
@@ -9150,7 +9152,7 @@
             "code": "10.3.0",
             "title": "Post-secondary non-tertiary education",
             "includes": [
-              "level 4 of ISCED 2011 (post",
+              "level 4 of ISCED 2011 (post",
               "secondary non",
               "tertiary education) provides learning experiences building on secondary education, preparing for entry into the labour market and tertiary education. It is aimed at the individual acquisition of knowledge, skills and competencies lower than the level of complexity characteristic of tertiary education. Post",
               "secondary non",
@@ -9174,7 +9176,7 @@
                 "code": "10.3.0.0",
                 "title": "Post-secondary non-tertiary education",
                 "includes": [
-                  "level 4 of ISCED 2011 (post",
+                  "level 4 of ISCED 2011 (post",
                   "secondary non",
                   "tertiary education) provides learning experiences building on secondary education, preparing for entry into the labour market and tertiary education. It is aimed at the individual acquisition of knowledge, skills and competencies lower than the level of complexity characteristic of tertiary education. Post",
                   "secondary non",
@@ -9206,7 +9208,7 @@
             "code": "10.4.0",
             "title": "Tertiary education",
             "includes": [
-              "levels 5, 6, 7 and 8 of ISCED 2011 (tertiary education) build on secondary education and provide learning activities in specialized fields of education. It is aimed at a high level of complexity and specialization. It includes both academic education and advanced vocational or professional education. At the highest levels, programmes lead to an advanced research qualification based on advanced study and original research"
+              "levels 5, 6, 7 and 8 of ISCED 2011 (tertiary education) build on secondary education and provide learning activities in specialized fields of education. It is aimed at a high level of complexity and specialization. It includes both academic education and advanced vocational or professional education. At the highest levels, programmes lead to an advanced research qualification based on advanced study and original research"
             ],
             "alsoIncludes": [
               "excursions or student exchanges that are part of the normal school programme (travel and accommodation costs)",
@@ -9220,7 +9222,7 @@
                 "code": "10.4.0.0",
                 "title": "Tertiary education",
                 "includes": [
-                  "levels 5, 6, 7 and 8 of ISCED 2011 (tertiary education) build on secondary education and provide learning activities in specialized fields of education. It is aimed at a high level of complexity and specialization. They include both academic education and advanced vocational or professional education. At the highest levels, programmes lead to an advanced research qualification based on advanced study and original research"
+                  "levels 5, 6, 7 and 8 of ISCED 2011 (tertiary education) build on secondary education and provide learning activities in specialized fields of education. It is aimed at a high level of complexity and specialization. They include both academic education and advanced vocational or professional education. At the highest levels, programmes lead to an advanced research qualification based on advanced study and original research"
                 ],
                 "alsoIncludes": [
                   "excursions or student exchanges that are part of the normal school programme (travel and accommodation costs)",
@@ -9300,9 +9302,9 @@
   {
     "code": "11",
     "title": "Restaurants and accommodation services",
-    "intro": "Division 11 covers food and beverage serving services provided by restaurants, cafés and similar facilities, either with full, limited or self-service, or by canteens, cafeterias or refectories at work or school and other educational establishment premises (11.1). The distinction between full service and limited service relates to the range of the food and beverage serving services: a service by waiters to the individual customer seated at tables will be qualified as a full service.\n\nAccommodation (11.2) includes services for visitors and other travellers away from their principal or secondary residence. If not separately priced, it also includes food and beverage services and other serving services, such as housekeeping, parking, laundry, swimming pools and exercise rooms, recreational facilities and conference and convention facilities.",
+    "intro": "Division 11 covers food and beverage serving services provided by restaurants, cafés and similar facilities, either with full, limited or self-service, or by canteens, cafeterias or refectories at work or school and other educational establishment premises (11.1). The distinction between full service and limited service relates to the range of the food and beverage serving services: a service by waiters to the individual customer seated at tables will be qualified as a full service.\n\nAccommodation (11.2) includes services for visitors and other travellers away from their principal or secondary residence. If not separately priced, it also includes food and beverage services and other serving services, such as housekeeping, parking, laundry, swimming pools and exercise rooms, recreational facilities and conference and convention facilities.",
     "excludes": [
-      "permanent principal or secondary residence accommodation (division 04)"
+      "permanent principal or secondary residence accommodation (division 04)"
     ],
     "children": [
       {
@@ -9335,7 +9337,7 @@
             "children": [
               {
                 "code": "11.1.1.1",
-                "title": "Restaurants, cafés and the like – with full service",
+                "title": "Restaurants, cafés and the like - with full service",
                 "intro": "Food and beverage serving services provided by restaurants, cafés and similar eating facilities providing full service consisting of waiter service to individual customers seated at tables, with or without entertainment.",
                 "includes": [
                   "food and beverages provided by full",
@@ -9365,7 +9367,7 @@
               },
               {
                 "code": "11.1.1.2",
-                "title": "Restaurants, cafés and the like – with limited service",
+                "title": "Restaurants, cafés and the like - with limited service",
                 "intro": "Food and beverage serving services provided by limited and self-service facilities (i.e., without waiter service and with or without seating).",
                 "includes": [
                   "food and beverage services provided by self",
@@ -9381,7 +9383,7 @@
                   "ice",
                   "cream parlours and cake",
                   "serving places",
-                  "food and beverages provided by catering contractors, whether collected by the customer or delivered to the customer’s home",
+                  "food and beverages provided by catering contractors, whether collected by the customer or delivered to the customer's home",
                   "food and beverage services on public transport (coaches, trains, boats, aeroplanes, etc.), if separately priced",
                   "tobacco that is consumed with a shisha or a hookah pipe in restaurants, cafés or shisha lounges",
                   "tips and gratuities"
@@ -9412,7 +9414,8 @@
               "university refectories, military messes and wardrooms"
             ],
             "excludes": [
-              "food and beverages provided by schools, universities and other educational establishments, if not separately priced (10.1 – 10.5)",
+              "food and beverages provided by schools, universities and other educational establishments, if not separately priced (10.1",
+              "10.5)",
               "food and beverages provided to hospital in",
               "patients, if not separately priced (06.3)"
             ],
@@ -9430,7 +9433,8 @@
                   "university refectories"
                 ],
                 "excludes": [
-                  "food and beverages provided by schools, universities and other educational establishments, if not separately priced (10.1 – 10.5)"
+                  "food and beverages provided by schools, universities and other educational establishments, if not separately priced (10.1",
+                  "10.5)"
                 ],
                 "tags": [
                   "S"
@@ -9465,7 +9469,7 @@
             "intro": "Accommodation services for visitors and other travellers away from their permanent principal or secondary residence. Included here are other services, if not separately priced, such as food and beverage services, housekeeping, parking, laundry, swimming pools and exercise rooms, recreational facilities and conference and convention facilities.",
             "includes": [
               "resorts, hotels, hotels letting rooms by the hour, motels, inns and pensions",
-              "accommodation services provided by private, holiday homes, guesthouses and boarding houses as secondary residence and other “bed and breakfast” establishments",
+              "accommodation services provided by private, holiday homes, guesthouses and boarding houses as secondary residence and other \"bed and breakfast\" establishments",
               "timeshare units",
               "holiday villages and holiday centres, camping, onsite (non",
               "mobile) caravans and boats",
@@ -9497,7 +9501,7 @@
                   "accommodation services in resorts, hotels and motels",
                   "accommodation services in inns, pensions and similar establishments",
                   "short",
-                  "term accommodation services provided by private and holiday homes, guesthouses and boarding houses as secondary residence and other “bed and breakfast” units",
+                  "term accommodation services provided by private and holiday homes, guesthouses and boarding houses as secondary residence and other \"bed and breakfast\" units",
                   "timeshare units"
                 ],
                 "alsoIncludes": [
@@ -9573,7 +9577,7 @@
   {
     "code": "12",
     "title": "Insurance and financial services",
-    "intro": "Division 12 covers insurance (12.1) and financial services (12.2). Insurance and financial services are provided by financial corporations. These may be paid for explicitly or implicitly. Some transactions in financial assets may also involve both explicit and implicit charges. Implicit charges are not always as evident, given that the way in which charges are made for most goods and services and are typically calculated using a number of observable transactions. Examples of implicit charges arise from the financial services provided in association with interest charges on loans and deposits, the acquisition and disposal of financial assets and liabilities in financial markets, and insurance and pension schemes. The imputed values of expenditure on insurance and financial services are not directly observable from household income and expenditure surveys.\n\nInsurance services are subdivided by type of insurance. Financial services are subdivided by financial intermediation services indirectly measured and by the other forms of actual and indirect charges and remittance fees for financial services. For the definition and the measurement of the insurance and financial services, specific national account concepts (2008 SNA) do apply.",
+    "intro": "Division 12 covers insurance (12.1) and financial services (12.2). Insurance and financial services are provided by financial corporations. These may be paid for explicitly or implicitly. Some transactions in financial assets may also involve both explicit and implicit charges. Implicit charges are not always as evident, given that the way in which charges are made for most goods and services and are typically calculated using a number of observable transactions. Examples of implicit charges arise from the financial services provided in association with interest charges on loans and deposits, the acquisition and disposal of financial assets and liabilities in financial markets, and insurance and pension schemes. The imputed values of expenditure on insurance and financial services are not directly observable from household income and expenditure surveys.\n\nInsurance services are subdivided by type of insurance. Financial services are subdivided by financial intermediation services indirectly measured and by the other forms of actual and indirect charges and remittance fees for financial services. For the definition and the measurement of the insurance and financial services, specific national account concepts (2008 SNA) do apply.",
     "children": [
       {
         "code": "12.1",
@@ -9884,7 +9888,7 @@
   {
     "code": "13",
     "title": "Personal care, social protection and miscellaneous goods and services",
-    "intro": "Division 13 covers goods and services for personal care (13.1), jewellery and watches (13.2), services of social protection (13.3) and all other services for households that are not classified elsewhere (13.9). Goods and services for personal care cover electric and non-electric appliances for personal care and hairdressing services. Goods of personal effects cover jewellery and watches, celebration and devotional articles, and travel goods and articles.\n\nSocial protection services cover childcare, non-medical retirement homes for elderly persons and disabled persons, home care services for the elderly and disabled and related services. Group 13.9 covers all the other services for households that are not classified elsewhere, such as fees for legal and administrative services, fees for real estate agencies, charges for undertaking and payment for various personal services (e.g., graphologists, bodyguards and matrimonial agencies).\n\nThis division also includes religious services.",
+    "intro": "Division 13 covers goods and services for personal care (13.1), jewellery and watches (13.2), services of social protection (13.3) and all other services for households that are not classified elsewhere (13.9). Goods and services for personal care cover electric and non-electric appliances for personal care and hairdressing services. Goods of personal effects cover jewellery and watches, celebration and devotional articles, and travel goods and articles.\n\nSocial protection services cover childcare, non-medical retirement homes for elderly persons and disabled persons, home care services for the elderly and disabled and related services. Group 13.9 covers all the other services for households that are not classified elsewhere, such as fees for legal and administrative services, fees for real estate agencies, charges for undertaking and payment for various personal services (e.g., graphologists, bodyguards and matrimonial agencies).\n\nThis division also includes religious services.",
     "children": [
       {
         "code": "13.1",
@@ -10310,7 +10314,7 @@
               "religious services and events, such as coming",
               "of",
               "age celebrations in Latin",
-              "American “quince” or debutante balls",
+              "American \"quince\" or debutante balls",
               "newspaper notices and advertisements",
               "services of graphologists, astrologers, palmists, private detectives, bodyguards, dating services, matrimonial agencies and marriage guidance counsellors, public writers, miscellaneous concessions (seats, toilets and cloakrooms) and so on",
               "services provided by prostitutes, sex workers and the like",
@@ -10356,7 +10360,7 @@
                   "religious services and events, such as coming",
                   "of",
                   "age celebrations in Latin",
-                  "American “quince” or debutante balls",
+                  "American \"quince\" or debutante balls",
                   "services of undertakers and other funeral services",
                   "services of estate agents, housing agents, auctioneers, salesroom operators and other intermediaries",
                   "photocopies and other reproductions of documents",
@@ -10558,7 +10562,7 @@
       {
         "code": "14.3",
         "title": "Recreation and culture",
-        "intro": "The same function is covered under COPNI groups 03.1 and 03.2.\nThis group corresponds to COICOP groups 09.4, 09.6 and 15.3.",
+        "intro": "The same function is covered under COPNI groups 03.1 and 03.2.\nThis group corresponds to COICOP groups 09.4, 09.6 and 15.3.",
         "children": [
           {
             "code": "14.3.1",
@@ -10601,7 +10605,7 @@
       {
         "code": "14.4",
         "title": "Education",
-        "intro": "The same function is covered under COPNI groups 04.1 to 04.7.\nThis group corresponds to COICOP division 10 and group 15.4.",
+        "intro": "The same function is covered under COPNI groups 04.1 to 04.7.\nThis group corresponds to COICOP division 10 and group 15.4.",
         "children": [
           {
             "code": "14.4.1",
@@ -10716,12 +10720,12 @@
       {
         "code": "14.5",
         "title": "Social protection",
-        "intro": "The same function is covered under COPNI groups 05.1 and 05.2.\nThis group corresponds to COICOP groups 13.3 and 15.5.",
+        "intro": "The same function is covered under COPNI groups 05.1 and 05.2.\nThis group corresponds to COICOP groups 13.3 and 15.5.",
         "children": [
           {
             "code": "14.5.0",
             "title": "Social protection",
-            "intro": "The same function is covered under COPNI classes 05.1.0 and 05.2.0.\nThis class corresponds to COICOP classes 13.3.0 and 15.5.0.",
+            "intro": "The same function is covered under COPNI classes 05.1.0 and 05.2.0.\nThis class corresponds to COICOP classes 13.3.0 and 15.5.0.",
             "tags": [
               "S"
             ],
@@ -10729,7 +10733,7 @@
               {
                 "code": "14.5.0.0",
                 "title": "Social protection",
-                "intro": "The same function is covered under COPNI classes 05.1.0 and 05.2.0.\nThis subclass corresponds to COICOP classes 13.3.0 and 15.5.0.",
+                "intro": "The same function is covered under COPNI classes 05.1.0 and 05.2.0.\nThis subclass corresponds to COICOP classes 13.3.0 and 15.5.0.",
                 "tags": [
                   "S"
                 ]
@@ -10741,12 +10745,12 @@
       {
         "code": "14.6",
         "title": "Other services",
-        "intro": "These functions are covered under COPNI groups 06.0, 07.1, 07.2, 07.3, 08.1, 08.2, 09.1 and 09.2.\nThis group has, to a great extent, no counterpart in COICOP divisions 01 to 13 or in division 15. The only exception are religious services, which correspond to COICOP subclass 13.9.0.2.",
+        "intro": "These functions are covered under COPNI groups 06.0, 07.1, 07.2, 07.3, 08.1, 08.2, 09.1 and 09.2.\nThis group has, to a great extent, no counterpart in COICOP divisions 01 to 13 or in division 15. The only exception are religious services, which correspond to COICOP subclass 13.9.0.2.",
         "children": [
           {
             "code": "14.6.1",
             "title": "Religion",
-            "intro": "The same function is covered under COPNI class 06.0.0.\nThis class corresponds to COICOP subclass 13.9.0.2.",
+            "intro": "The same function is covered under COPNI class 06.0.0.\nThis class corresponds to COICOP subclass 13.9.0.2.",
             "tags": [
               "S"
             ],
@@ -10754,7 +10758,7 @@
               {
                 "code": "14.6.1.0",
                 "title": "Religion",
-                "intro": "The same function is covered under COPNI class 06.0.0.\nThis subclass corresponds to COICOP subclass 13.9.0.2.",
+                "intro": "The same function is covered under COPNI class 06.0.0.\nThis subclass corresponds to COICOP subclass 13.9.0.2.",
                 "tags": [
                   "S"
                 ]
@@ -11002,7 +11006,7 @@
       {
         "code": "15.3",
         "title": "Recreation and culture",
-        "intro": "The same function is covered under COFOG groups 08.1 and 08.2.\nThis group corresponds to COICOP groups 09.4, 09.6 and 14.3.",
+        "intro": "The same function is covered under COFOG groups 08.1 and 08.2.\nThis group corresponds to COICOP groups 09.4, 09.6 and 14.3.",
         "children": [
           {
             "code": "15.3.1",
