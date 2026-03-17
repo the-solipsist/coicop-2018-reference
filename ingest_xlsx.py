@@ -36,24 +36,18 @@ def parse_list(text):
     text = text.replace("\r\n", "\n").replace("\r", "\n")
 
     items = []
-    # Split by newlines or bullets
+    # Split by newlines
     lines = text.split("\n")
     for line in lines:
         line = line.strip()
         if not line:
             continue
-        # Split further if multiple items are on one line separated by bullets
-        sublines = re.split(r"(?=[-*•])", line)
-        for sl in sublines:
-            sl = sl.strip()
-            if not sl:
-                continue
-            # Remove leading dash or asterisk
-            sl = re.sub(r"^[-*•]\s*", "", sl)
-            # Remove trailing semi-colons or periods
-            sl = re.sub(r"[;.]+$", "", sl).strip()
-            if sl:
-                items.append(sl)
+        # Remove leading dash, asterisk or bullet
+        item = re.sub(r"^[-*•]\s*", "", line)
+        # Remove trailing semi-colons or periods
+        item = re.sub(r"[;.]+$", "", item).strip()
+        if item:
+            items.append(item)
 
     return items
 
