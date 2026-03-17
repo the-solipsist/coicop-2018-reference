@@ -5,6 +5,14 @@ import re
 # Load the authoritative excel file
 SOURCE_FILE = "COICOP_2018_English_structure.xlsx"
 df = pd.read_excel(SOURCE_FILE)
+
+# Remove _x000D_ from all string columns
+for col in df.columns:
+    if df[col].dtype == "object":
+        df[col] = df[col].astype(str).str.replace("_x000D_", "", regex=False)
+        # Convert "nan" strings back to actual NaN
+        df.loc[df[col] == "nan", col] = pd.NA
+
 df["code"] = df["code"].astype(str).str.strip()
 
 
