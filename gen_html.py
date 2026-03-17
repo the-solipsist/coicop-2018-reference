@@ -1,9 +1,52 @@
 import json
 
-with open("coicop.json", "r") as f:
-    data = json.load(f)
+with open("coicop_master.json", "r", encoding="utf-8") as f:
+    master_data = json.load(f)
 
-json_str = json.dumps(data, ensure_ascii=False).replace("</script>", "<\\/script>")
+nodes = master_data["nodes"]
+
+
+# Build nested tree for the UI
+def build_tree(code):
+    node = nodes[code]
+    tree_node = {
+        "code": node["code"],
+        "title": node["title"],
+    }
+    if node.get("intro"):
+        tree_node["intro"] = node["intro"]
+
+    # In the UI, includes/excludes were just arrays of strings. Let's convert them back to raw HTML strings or just text.
+    # The new structured format has {"text": "...", "refs": [...]}. We can just use the text and add the links in JS,
+    # OR we can just pass the structured array. Let's adapt the JS slightly, but passing text + refs is great.
+
+    # Wait, the JS currently does formatText() with regex anyway! So we can just pass the raw text as strings to minimize JS changes.
+    for field in ["includes", "also_includes", "excludes"]:
+        # Note: the old JSON used 'alsoIncludes', new master uses 'also_includes'
+        out_field = "alsoIncludes" if field == "also_includes" else field
+        if node.get(field):
+            tree_node[out_field] = [item["text"] for item in node[field]]
+
+    if node.get("tags") and len(node["tags"]) > 0:
+        # Re-attach tags to title, or add a tags array.
+        # Actually, if we just pass a tags array, we can update the JS to render it!
+        tree_node["tags"] = node["tags"]
+
+    if node.get("children") and len(node["children"]) > 0:
+        tree_node["children"] = [
+            build_tree(child_code) for child_code in node["children"]
+        ]
+
+    return tree_node
+
+
+# Only top-level divisions
+root_codes = [code for code, n in nodes.items() if n["level"] == 1]
+nested_data = [build_tree(code) for code in root_codes]
+
+json_str = json.dumps(nested_data, ensure_ascii=False).replace(
+    "</script>", "<\\/script>"
+)
 
 html_template = r"""<!DOCTYPE html>
 <html lang="en">
@@ -329,8 +372,13 @@ html_template = r"""<!DOCTYPE html>
                 const level = getLevel(item.code);
                 const headingTag = 'h' + Math.min(level + 1, 6);
                 
+                let titleHtml = formatText(escapeHtml(item.title));
+                if (item.tags && item.tags.length > 0) {
+                    titleHtml += ' ' + formatText('(' + item.tags.join(', ') + ')');
+                }
+                
                 html += `<div class="content-item" id="${item.code}">`;
-                html += `<${headingTag}>${formatText(escapeHtml(item.title))}<span class="code">${item.code}</span></${headingTag}>`;
+                html += `<${headingTag}>${titleHtml}<span class="code">${item.code}</span></${headingTag}>`;
                 
                 if (item.intro) {
                     html += `<div class="content-description">${formatText(escapeHtml(item.intro))}</div>`;
