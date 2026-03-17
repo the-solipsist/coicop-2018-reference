@@ -6,164 +6,120 @@
     <title>COICOP 2018 - Home</title>
     <style>
         :root {
-            --bg-color: #f8f9fa;
-            --text-color: #333;
-            --border-color: #dee2e6;
-            --link-color: #0056b3;
-            --link-hover: #003670;
-            --sidebar-width: 350px;
+            --link-color: #0066cc;
+            --link-hover: #004499;
+            --border-color: #e9ecef;
         }
+        * { box-sizing: border-box; }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-            line-height: 1.6;
-            color: var(--text-color);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.5;
+            color: #333;
             margin: 0;
             padding: 0;
-            display: flex;
-            background: var(--bg-color);
+            background: #fff;
         }
         a { color: var(--link-color); text-decoration: none; }
         a:hover { text-decoration: underline; color: var(--link-hover); }
         
-        .sidebar {
-            width: var(--sidebar-width);
-            height: 100vh;
+        .top-nav {
             position: fixed;
-            overflow-y: auto;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 60px;
             background: #fff;
-            border-right: 1px solid var(--border-color);
-            padding: 20px;
-            box-sizing: border-box;
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            align-items: center;
+            padding: 0 20px;
+            z-index: 200;
         }
-        .sidebar h2 { margin-top: 0; font-size: 1.2rem; }
-        .sidebar ul { list-style: none; padding-left: 0; margin-bottom: 20px; }
-        .sidebar li { margin-bottom: 8px; }
-        .sidebar a { display: block; font-size: 0.9rem; color: #495057; }
-        .sidebar a:hover { color: var(--link-color); }
-        
-        .nav-links {
-            border-bottom: 2px solid var(--border-color);
-            padding-bottom: 15px;
-            margin-bottom: 15px;
-        }
-        .nav-links a { font-weight: bold; font-size: 1rem; color: var(--link-color); margin-bottom: 10px; }
+        .top-nav h1 { margin: 0; font-size: 1.2rem; font-weight: 600; }
+        .top-nav .nav-links { margin-left: 30px; display: flex; gap: 20px; }
+        .top-nav .nav-links a { font-size: 0.95rem; color: #555; font-weight: 500; }
+        .top-nav .nav-links a:hover { color: var(--link-color); }
+        .top-nav .nav-links a.active { color: var(--link-color); border-bottom: 2px solid var(--link-color); padding-bottom: 18px; margin-bottom: -20px; }
         
         .main-content {
-            margin-left: var(--sidebar-width);
+            margin-top: 60px;
             padding: 40px;
-            max-width: 900px;
-            width: 100%;
-            box-sizing: border-box;
-            background: #fff;
-            min-height: 100vh;
-            box-shadow: 0 0 10px rgba(0,0,0,0.05);
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
         }
         
         .downloads {
-            background: #e9ecef;
+            background: #f8f9fa;
             padding: 15px 20px;
             border-radius: 6px;
             margin-bottom: 30px;
             display: flex;
             gap: 15px;
             align-items: center;
+            border: 1px solid var(--border-color);
         }
+        .downloads strong { color: #555; text-transform: uppercase; font-size: 0.85rem; letter-spacing: 0.5px; }
         .downloads a {
             background: #fff;
-            border: 1px solid var(--border-color);
-            padding: 5px 10px;
+            border: 1px solid #ccc;
+            padding: 5px 12px;
             border-radius: 4px;
             font-size: 0.9rem;
-            font-weight: bold;
-        }
-        
-        .node {
-            margin-top: 20px;
-            padding-top: 20px;
-            border-top: 1px solid var(--border-color);
-        }
-        .node-01 { border-top: 3px solid #343a40; padding-top: 40px; margin-top: 40px; }
-        
-        .code-badge {
-            background: #343a40;
-            color: #fff;
-            padding: 2px 8px;
-            border-radius: 4px;
-            font-family: monospace;
-            font-size: 0.9em;
-            margin-right: 10px;
-        }
-        
-        h1.title, h2.title, h3.title, h4.title, h5.title, h6.title {
-            margin: 0 0 10px 0;
             font-weight: 600;
+            color: #444;
         }
-        h2.title { font-size: 1.8rem; margin-bottom: 15px; }
-        h3.title { font-size: 1.5rem; }
-        h4.title { font-size: 1.3rem; }
-        h5.title { font-size: 1.15rem; }
-        h6.title { font-size: 1.05rem; }
-        
-        .intro { margin-bottom: 15px; color: #555; }
-        
-        .list-box {
-            padding: 10px 15px;
-            margin-bottom: 15px;
-            border-radius: 4px;
-            border-left: 4px solid;
+        .downloads a:hover {
+            background: #e9ecef;
+            color: #000;
+            border-color: #999;
+            text-decoration: none;
         }
-        .list-box h4 { margin: 0 0 10px 0; font-size: 0.95rem; text-transform: uppercase; letter-spacing: 0.5px; }
-        .list-box ul { margin: 0; padding-left: 20px; }
-        .list-box li { margin-bottom: 5px; }
         
-        .includes { background: #f0fdf4; border-color: #22c55e; }
-        .includes h4 { color: #166534; }
+        h1, h2, h3, h4, h5, h6 {
+            scroll-margin-top: 80px;
+        }
         
-        .alsoIncludes { background: #f0f9ff; border-color: #0ea5e9; }
-        .alsoIncludes h4 { color: #075985; }
+        h1.title { margin-top: 0; margin-bottom: 20px; font-size: 2rem; font-weight: 700; color: #222; }
+        h2 { margin-top: 30px; font-size: 1.5rem; font-weight: 600; color: #222; border-bottom: 1px solid var(--border-color); padding-bottom: 8px; }
         
-        .excludes { background: #fef2f2; border-color: #ef4444; }
-        .excludes h4 { color: #991b1b; }
-        
-        .children { padding-left: 20px; border-left: 1px dashed #e5e7eb; margin-left: 10px; }
+        p { margin-bottom: 15px; color: #444; }
+        ul { margin-bottom: 20px; padding-left: 25px; color: #444; }
+        li { margin-bottom: 8px; }
         
         abbr { text-decoration: underline dotted; cursor: help; }
+        code { background: #f1f3f5; padding: 2px 6px; border-radius: 3px; font-family: monospace; font-size: 0.9em; color: #555; border: 1px solid #e9ecef; }
+        
+        @media (max-width: 900px) {
+            .main-content {
+                padding: 20px;
+            }
+            .downloads {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .top-nav {
+                padding: 0 10px;
+            }
+            .top-nav .nav-links {
+                margin-left: 10px;
+                gap: 10px;
+            }
+        }
     </style>
 </head>
 <body>
-
-    <div class="sidebar">
-        <h2>COICOP 2018</h2>
-        <p style="font-size: 0.8rem; color: #666;">Classification of Individual Consumption According to Purpose</p>
+    <div class="top-nav">
+        <h1>COICOP 2018</h1>
         <div class="nav-links">
-            <a href="index.html">Home</a>
-            <a href="guide.html">User Guide / Manual</a>
-            <a href="classification.html">Interactive Classification</a>
+            <a href="index.html" class="active">Home</a>
+            <a href="guide.html">Guide</a>
+            <a href="classification.html">Classification</a>
         </div>
-        <h4>Divisions</h4>
-        <ul>
-
-<li><a href="classification.html#01"><span class="code-badge">01</span> Food and non-alcoholic beverages</a></li>
-<li><a href="classification.html#02"><span class="code-badge">02</span> Alcoholic beverages, tobacco and narcotics</a></li>
-<li><a href="classification.html#03"><span class="code-badge">03</span> Clothing and footwear</a></li>
-<li><a href="classification.html#04"><span class="code-badge">04</span> Housing, water, electricity, gas and other fuels</a></li>
-<li><a href="classification.html#05"><span class="code-badge">05</span> Furnishings, household equipment and routine household maintenance</a></li>
-<li><a href="classification.html#06"><span class="code-badge">06</span> Health</a></li>
-<li><a href="classification.html#07"><span class="code-badge">07</span> Transport</a></li>
-<li><a href="classification.html#08"><span class="code-badge">08</span> Information and communication</a></li>
-<li><a href="classification.html#09"><span class="code-badge">09</span> Recreation, sport and culture</a></li>
-<li><a href="classification.html#10"><span class="code-badge">10</span> Education services</a></li>
-<li><a href="classification.html#11"><span class="code-badge">11</span> Restaurants and accommodation services</a></li>
-<li><a href="classification.html#12"><span class="code-badge">12</span> Insurance and financial services</a></li>
-<li><a href="classification.html#13"><span class="code-badge">13</span> Personal care, social protection and miscellaneous goods and services</a></li>
-<li><a href="classification.html#14"><span class="code-badge">14</span> Individual consumption expenditure of Non-profit Institutions Serving Households</a></li>
-<li><a href="classification.html#15"><span class="code-badge">15</span> Individual consumption expenditure of general government</a></li>
-        </ul>
     </div>
 
-
     <div class="main-content">
-        <h1>Welcome to COICOP 2018</h1>
+        <h1 class="title">Welcome to COICOP 2018</h1>
         
         <div class="downloads">
             <strong>Data Downloads:</strong>
