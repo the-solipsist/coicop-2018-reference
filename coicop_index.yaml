@@ -1,0 +1,199 @@
+'01':
+  title: Food and non-alcoholic beverages
+  intro: Division 01 covers food (01.1) purchased by households mainly for consumption or preparation at home and non-alcoholic beverages (01.2) purchased by households, regardless of where they are consumed. Division 01 excludes food and non-alcoholic beverages that are provided by facilities such as restaurants and school cafeterias through their food and beverage serving services (division 11).
+'01.1':
+  title: Food
+  intro: Group 01.1 covers food purchased by households mainly for consumption or preparation at home, excluding food that is provided by facilities such as restaurants through their food-serving services.
+'01.2':
+  title: Non-alcoholic beverages
+  intro: Non-alcoholic beverages purchased by households, regardless of where they are consumed, and excluding non-alcoholic beverages that are provided by facilities such as restaurants and school cafeterias offering food and beverage serving services (division 11).
+'01.3':
+  title: Services for processing primary goods for food and non-alcoholic beverages
+  intro: Services purchased for the processing of primary goods provided by households to produce food and non-alcoholic beverages for their own final consumption.
+'02':
+  title: Alcoholic beverages, tobacco and narcotics
+  intro: Division 02 covers the purchase of alcoholic beverages (02.1), tobacco products (02.3) and narcotics (02.4), regardless of where they are consumed, excluding the purchase of those products in facilities such as restaurants through their food and beverage serving services.
+'02.1':
+  title: Alcoholic beverages
+  intro: The beverages classified here include low-alcohol beverages and non-alcoholic beverages that generally contain some alcohol.
+'02.2':
+  title: Alcohol production services
+  intro: Services purchased for the processing of primary products provided by households to produce alcohol for their own final consumption.
+'02.3':
+  title: Tobacco
+  intro: Group 02.3 covers all purchases of tobacco and tobacco products by households, including purchases of tobacco in restaurants, cafés, bars and service stations, since those venues do not add value or a service to the tobacco products sold. The consumption of tobacco through use of shisha or hookah pipes in restaurants, cafés and bars, is covered by division 11, as the venues in this case do provide a service. Electronic cigarettes are included in group 02.3, even though they do not contain tobacco, as they are a substitute for tobacco products.
+'02.4':
+  title: Narcotics
+  intro: Group 02.4 covers all narcotics, both legal and illegal, purchased by households.
+'03':
+  title: Clothing and footwear
+  intro: Division 03 covers all clothing materials, garments, articles and accessories (03.1), footwear (03.2) and related services including cleaning, repair and hire of clothing (03.1.4) and footwear (03.2.2). The purchase of second-hand clothing and footwear should be included in the same classes to which the new articles belong, since the purpose is the same. Unisex garments and footwear should be classified according to the gender of the person wearing them.
+'03.1':
+  title: Clothing
+  intro: Group 03.1 covers clothing for men, women and children, other articles of clothing (e.g., gloves) and clothing accessories, as well as materials purchased for the production of clothing and services related to clothing (e.g., cleaning, repair and tailoring).
+'03.2':
+  title: Footwear
+  intro: 'Group 03.2 covers all general footwear, either ready-to-wear or made to measure, divided into the following categories: footwear for men; footwear for women; footwear for infants and children; and footwear-related services. Sport-specific footwear is classified to sub-class 09.2.2.1.'
+'04':
+  title: Housing, water, electricity, gas and other fuels
+  intro: Division 04 covers goods and services related to the maintenance, repair and security of the dwelling as well as water supply, energy supply for heating and cooling, and other dwelling-related services.
+'04.1':
+  title: Actual rental payments made for housing
+  intro: Rentals normally include payment for the use of the land on which the property stands; the dwelling occupied; the fixtures and fittings for heating, plumbing, lighting and so on; and, in the case of a dwelling that is let furnished, the furniture.
+'04.2':
+  title: Imputed rental payments for housing
+  intro: Persons who own the dwellings in which they live are treated as the owners of unincorporated enterprises producing housing services that are consumed by the household of which the owner is a member. The housing services produced are deemed to be equal in value to the rentals that would be paid on the market for accommodation of the same size, quality and type; and the imputed values of those services are recorded as final consumption expenditures of the owners.
+'04.3':
+  title: Maintenance, repair and security of the dwelling
+  intro: 'Maintenance and repair of dwellings are activities that are distinguished by two features: first, they have to be undertaken regularly if the dwelling is to remain in good working order; second, they do not change the dwelling''s performance, capacity or expected service life.'
+'04.4':
+  title: Water supply and miscellaneous services relating to the dwelling
+'04.5':
+  title: Electricity, gas and other fuels
+'05':
+  title: Furnishings, household equipment and routine household maintenance
+  intro: Division 05 covers the wide range of products and equipment - durable, semi-durable and non-durable - used to furnish a house or dwelling, as well as the associated household services. This division includes all types of furniture, furnishings and lighting equipment (05.1); household textiles (05.2); major and small electric household appliances (05.3); glassware, tableware and household utensils (05.4); tools and equipment for house and garden (05.5); and goods used for routine household maintenance (05.6.1).
+'05.1':
+  title: Furniture, furnishings, and loose carpets
+'05.2':
+  title: Household textiles
+'05.3':
+  title: Household appliances
+'05.4':
+  title: Glassware, tableware and household utensils
+'05.5':
+  title: Tools and equipment for house and garden
+'05.6':
+  title: Goods and services for routine household maintenance
+'06':
+  title: Health
+  intro: Division 06 comprises four main categories, one covering medicines and health products (06.1) and the other three, various types of health services. Those services encompass outpatient care services that do not require an overnight stay (06.2); inpatient care services provided during an overnight stay (06.3); and diagnostic imaging services, medical laboratory services, patient emergency transportation and emergency rescue services (06.4). Covered in group 06.1 are all medicines and health products that are separately priced from health services, except those medicines and health products administered under the direct supervision of a health-care professional during an overnight stay (06.3).
+'06.1':
+  title: Medicines and health products
+'06.2':
+  title: Outpatient care services
+  intro: Group 06.2 covers all preventive, dental, curative, rehabilitative and long-term care services that are not provided during an overnight stay. The admission criteria - as well as the setting in which the outpatient care services are provided and the type of health-care provider - are irrelevant. Those services may be delivered either within or outside a hospital setting (e.g., at home or in a walk-in clinic), by a variety of health-care providers. An outpatient care service includes all medicines and health products supplied directly by a health-care provider for consumption or use outside a health facility or institution, if not priced separately from that service.
+'06.3':
+  title: Inpatient care services
+  intro: 'The main distinction between outpatient care services (06.2) and inpatient care services (06.3) is based on whether or not an overnight stay is required. The type of provider is irrelevant: it may be a hospital, a nursing care facility or a facility that, while classified as a provider of ambulatory care, occasionally performs procedures requiring overnight accommodation.'
+'06.4':
+  title: Other health services
+'07':
+  title: Transport
+  intro: 'Under division 07, goods and services for the purpose of transportation are classified within four main categories: purchase of vehicles (07.1), goods and services associated with the operation of personal transport equipment (07.2), passenger transport services (07.3) and transport services of goods (07.4).'
+'07.1':
+  title: Purchase of vehicles
+'07.2':
+  title: Operation of personal transport equipment
+  intro: Purchase of parts, accessories and lubricants made by households with the intention of undertaking maintenance, repair or fitting themselves should be assigned to class 07.2.1 or class 07.2.2. If a household pays an enterprise to carry out maintenance, repair or fitting, the total value of the service, including the cost of the materials used, should be assigned to class 07.2.3 if the materials are not separately priced.
+'07.3':
+  title: Passenger transport services
+  intro: Purchases of transport services are generally classified by mode of transport. When a ticket covers two or more modes of transport - for example, intra-urban bus and underground; or inter-urban train and ferry - and the expenditure cannot be apportioned between them, then such purchases should be assigned to subclass 07.3.5.0.
+'07.4':
+  title: Transport services for goods
+08:
+  title: Information and communication
+  intro: 'Division 08 covers three main groups of goods and services: information and communication equipment, including equipment for the reception, recording and reproduction of sound and vision (08.1); software (08.2); and information and communication services (08.3). Information and communication services include telephone services, services providing Internet access, television and radio licences and fees, and subscription services, including streaming services of film and music.'
+'08.1':
+  title: Information and communication equipment
+'08.2':
+  title: Software, excluding games
+'08.3':
+  title: Information and communication services
+09:
+  title: Recreation, sport and culture
+  intro: 'Division 09 includes a wide range of goods and services related to recreation, sport and culture structured into eight groups:'
+'09.1':
+  title: Recreational durables
+'09.2':
+  title: Other recreational goods
+'09.3':
+  title: Garden products and pets
+'09.4':
+  title: Recreational services
+'09.5':
+  title: Cultural goods
+'09.6':
+  title: Cultural services
+'09.7':
+  title: Newspapers, books and stationery
+'09.8':
+  title: Package holidays
+'10':
+  title: Education services
+  intro: Division 10 covers educational services only. The focus of groups 10.1 to 10.4 is on formal education (that leads to a certificate or diploma). It includes education done through radio or television broadcasting and e-learning and correspondence courses. It also includes admission and registration fees, as well as tuition fees. It further includes other education-related fees, such as camps and field trips, course fees, diploma fees, examination fees, graduation fees, laboratory fees, and physical education fees.
+'10.1':
+  title: Early childhood and primary education
+'10.2':
+  title: Secondary education
+'10.3':
+  title: Post-secondary non-tertiary education
+'10.4':
+  title: Tertiary education
+'10.5':
+  title: Education not defined by level
+'11':
+  title: Restaurants and accommodation services
+  intro: 'Division 11 covers food and beverage serving services provided by restaurants, cafés and similar facilities, either with full, limited or self-service, or by canteens, cafeterias or refectories at work or school and other educational establishment premises (11.1). The distinction between full service and limited service relates to the range of the food and beverage serving services: a service by waiters to the individual customer seated at tables will be qualified as a full service.'
+'11.1':
+  title: Food and beverage serving services
+'11.2':
+  title: Accommodation services
+'12':
+  title: Insurance and financial services
+  intro: Division 12 covers insurance (12.1) and financial services (12.2). Insurance and financial services are provided by financial corporations. These may be paid for explicitly or implicitly. Some transactions in financial assets may also involve both explicit and implicit charges. Implicit charges are not always as evident, given that the way in which charges are made for most goods and services and are typically calculated using a number of observable transactions. Examples of implicit charges arise from the financial services provided in association with interest charges on loans and deposits, the acquisition and disposal of financial assets and liabilities in financial markets, and insurance and pension schemes. The imputed values of expenditure on insurance and financial services are not directly observable from household income and expenditure surveys.
+'12.1':
+  title: Insurance
+  intro: Service charges for insurance are classified by type of insurance, namely, life insurance and non-life insurance (i.e., insurance in connection with the dwelling, health, transport, etc.). Service charges for multi-risk insurance covering several risks should be classified on the basis of the cost of the principal risk if it is not possible to allocate the service charges to the various risks covered.
+'12.2':
+  title: Financial services
+  intro: Financial services are subdivided by financial intermediation services indirectly measured and by the other forms of actual and implicit charges and remittance fees for financial services.
+'13':
+  title: Personal care, social protection and miscellaneous goods and services
+  intro: Division 13 covers goods and services for personal care (13.1), jewellery and watches (13.2), services of social protection (13.3) and all other services for households that are not classified elsewhere (13.9). Goods and services for personal care cover electric and non-electric appliances for personal care and hairdressing services. Goods of personal effects cover jewellery and watches, celebration and devotional articles, and travel goods and articles.
+'13.1':
+  title: Personal care
+'13.2':
+  title: Other personal effects
+'13.3':
+  title: Social protection
+  intro: Social protection, as defined here, covers non-medical assistance and support services provided to persons who are elderly, disabled, have occupational injuries and diseases, are survivors, unemployed, destitute, homeless, low-income earners, indigenous people, immigrants, refugees, alcohol and substance abusers and so on
+'13.9':
+  title: Other services
+'14':
+  title: Individual consumption expenditure of Non-profit Institutions Serving Households
+'14.1':
+  title: Housing
+  intro: The same function is covered under COPNI group 01.0.
+'14.2':
+  title: Health
+  intro: The same function is covered under COPNI groups 02.1 to 02.6.
+'14.3':
+  title: Recreation and culture
+  intro: The same function is covered under COPNI groups 03.1 and 03.2.
+'14.4':
+  title: Education
+  intro: The same function is covered under COPNI groups 04.1 to 04.7.
+'14.5':
+  title: Social protection
+  intro: The same function is covered under COPNI groups 05.1 and 05.2.
+'14.6':
+  title: Other services
+  intro: These functions are covered under COPNI groups 06.0, 07.1, 07.2, 07.3, 08.1, 08.2, 09.1 and 09.2.
+'15':
+  title: Individual consumption expenditure of general government
+'15.1':
+  title: Housing
+  intro: The same function is covered under COFOG group 10.6.
+'15.2':
+  title: Health
+  intro: The same function is covered under COFOG groups 07.1 to 07.4.
+'15.3':
+  title: Recreation and culture
+  intro: The same function is covered under COFOG groups 08.1 and 08.2.
+'15.4':
+  title: Education
+  intro: The same function is covered under COFOG groups 09.1 to 09.6.
+'15.5':
+  title: Social protection
+  intro: The same function is covered under COFOG groups 10.1 to 10.5 and 10.7.

@@ -20,6 +20,11 @@ for col in df.columns:
         df[col] = df[col].str.replace("’", "'", regex=False)
         df[col] = df[col].str.replace("“", '"', regex=False)
         df[col] = df[col].str.replace("”", '"', regex=False)
+        # Fix transcription typos in source (as requested)
+        df[col] = df[col].str.replace("0.1.1.8.6", "01.1.8.6", regex=False)
+        df[col] = df[col].str.replace("0.1.1.1.3.9", "01.1.1.3.9", regex=False)
+        df[col] = df[col].str.replace("0.1.1.8.6.0", "01.1.8.6.0", regex=False)
+
         # Convert "nan" strings back to actual NaN
         df.loc[df[col] == "nan", col] = pd.NA
 
@@ -130,8 +135,14 @@ for code, node in nodes.items():
 master_json = {
     "meta": {
         "name": "COICOP 2018",
+        "full_title": "Classification of Individual Consumption According to Purpose",
         "version": "2018",
+        "publication": "Statistical Papers, Series M No. 99",
+        "document_symbol": "ST/ESA/STAT/SER.M/99",
+        "adopted": "March 2018",
+        "endorsed_by": "49th Session of the United Nations Statistical Commission",
         "source": "United Nations Statistics Division",
+        "url": "https://unstats.un.org/unsd/classifications",
         "levels": ["Division", "Group", "Class", "Subclass", "Sub-subclass"][
             :max_level
         ],
