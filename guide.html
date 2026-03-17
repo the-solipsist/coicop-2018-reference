@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COICOP 2018 - Guide</title>
+    <style>
+        :root {
+            --bg-color: #f8f9fa;
+            --text-color: #333;
+            --border-color: #dee2e6;
+            --link-color: #0056b3;
+            --link-hover: #003670;
+            --sidebar-width: 350px;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            background: var(--bg-color);
+        }
+        a { color: var(--link-color); text-decoration: none; }
+        a:hover { text-decoration: underline; color: var(--link-hover); }
+        
+        .sidebar {
+            width: var(--sidebar-width);
+            height: 100vh;
+            position: fixed;
+            overflow-y: auto;
+            background: #fff;
+            border-right: 1px solid var(--border-color);
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .sidebar h2 { margin-top: 0; font-size: 1.2rem; }
+        .sidebar ul { list-style: none; padding-left: 0; margin-bottom: 20px; }
+        .sidebar li { margin-bottom: 8px; }
+        .sidebar a { display: block; font-size: 0.9rem; color: #495057; }
+        .sidebar a:hover { color: var(--link-color); }
+        
+        .nav-links {
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 15px;
+            margin-bottom: 15px;
+        }
+        .nav-links a { font-weight: bold; font-size: 1rem; color: var(--link-color); margin-bottom: 10px; }
+        
+        .main-content {
+            margin-left: var(--sidebar-width);
+            padding: 40px;
+            max-width: 900px;
+            width: 100%;
+            box-sizing: border-box;
+            background: #fff;
+            min-height: 100vh;
+            box-shadow: 0 0 10px rgba(0,0,0,0.05);
+        }
+        
+        .downloads {
+            background: #e9ecef;
+            padding: 15px 20px;
+            border-radius: 6px;
+            margin-bottom: 30px;
+            display: flex;
+            gap: 15px;
+            align-items: center;
+        }
+        .downloads a {
+            background: #fff;
+            border: 1px solid var(--border-color);
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-size: 0.9rem;
+            font-weight: bold;
+        }
+        
+        .node {
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border-color);
+        }
+        .node-01 { border-top: 3px solid #343a40; padding-top: 40px; margin-top: 40px; }
+        
+        .code-badge {
+            background: #343a40;
+            color: #fff;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-family: monospace;
+            font-size: 0.9em;
+            margin-right: 10px;
+        }
+        
+        h1.title, h2.title, h3.title, h4.title, h5.title, h6.title {
+            margin: 0 0 10px 0;
+            font-weight: 600;
+        }
+        h2.title { font-size: 1.8rem; margin-bottom: 15px; }
+        h3.title { font-size: 1.5rem; }
+        h4.title { font-size: 1.3rem; }
+        h5.title { font-size: 1.15rem; }
+        h6.title { font-size: 1.05rem; }
+        
+        .intro { margin-bottom: 15px; color: #555; }
+        
+        .list-box {
+            padding: 10px 15px;
+            margin-bottom: 15px;
+            border-radius: 4px;
+            border-left: 4px solid;
+        }
+        .list-box h4 { margin: 0 0 10px 0; font-size: 0.95rem; text-transform: uppercase; letter-spacing: 0.5px; }
+        .list-box ul { margin: 0; padding-left: 20px; }
+        .list-box li { margin-bottom: 5px; }
+        
+        .includes { background: #f0fdf4; border-color: #22c55e; }
+        .includes h4 { color: #166534; }
+        
+        .alsoIncludes { background: #f0f9ff; border-color: #0ea5e9; }
+        .alsoIncludes h4 { color: #075985; }
+        
+        .excludes { background: #fef2f2; border-color: #ef4444; }
+        .excludes h4 { color: #991b1b; }
+        
+        .children { padding-left: 20px; border-left: 1px dashed #e5e7eb; margin-left: 10px; }
+        
+        abbr { text-decoration: underline dotted; cursor: help; }
+    </style>
+</head>
+<body>
+
+    <div class="sidebar">
+        <h2>COICOP 2018</h2>
+        <p style="font-size: 0.8rem; color: #666;">Classification of Individual Consumption According to Purpose</p>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="guide.html">User Guide / Manual</a>
+            <a href="classification.html">Interactive Classification</a>
+        </div>
+        <h4>Divisions</h4>
+        <ul>
+
+<li><a href="classification.html#01"><span class="code-badge">01</span> Food and non-alcoholic beverages</a></li>
+<li><a href="classification.html#02"><span class="code-badge">02</span> Alcoholic beverages, tobacco and narcotics</a></li>
+<li><a href="classification.html#03"><span class="code-badge">03</span> Clothing and footwear</a></li>
+<li><a href="classification.html#04"><span class="code-badge">04</span> Housing, water, electricity, gas and other fuels</a></li>
+<li><a href="classification.html#05"><span class="code-badge">05</span> Furnishings, household equipment and routine household maintenance</a></li>
+<li><a href="classification.html#06"><span class="code-badge">06</span> Health</a></li>
+<li><a href="classification.html#07"><span class="code-badge">07</span> Transport</a></li>
+<li><a href="classification.html#08"><span class="code-badge">08</span> Information and communication</a></li>
+<li><a href="classification.html#09"><span class="code-badge">09</span> Recreation, sport and culture</a></li>
+<li><a href="classification.html#10"><span class="code-badge">10</span> Education services</a></li>
+<li><a href="classification.html#11"><span class="code-badge">11</span> Restaurants and accommodation services</a></li>
+<li><a href="classification.html#12"><span class="code-badge">12</span> Insurance and financial services</a></li>
+<li><a href="classification.html#13"><span class="code-badge">13</span> Personal care, social protection and miscellaneous goods and services</a></li>
+<li><a href="classification.html#14"><span class="code-badge">14</span> Individual consumption expenditure of Non-profit Institutions Serving Households</a></li>
+<li><a href="classification.html#15"><span class="code-badge">15</span> Individual consumption expenditure of general government</a></li>
+        </ul>
+    </div>
+
+
+    <div class="main-content">
+        <h1>COICOP 2018 User Guide</h1>
+        <h2>I. Introduction</h2>
+
+<h3>A. Overview and scope of the classification</h3>
+
+<p class="guide-text">The 2008 SNA6 uses four classifications of expenditure according to purpose. These four classifications are used to analyse consumption by different institutional sectors according to the purpose for which the expenditure is undertaken. These classifications are referred to as functional classifications and are as follows: COICOP:</p>
+
+<p class="guide-text">Classification of Individual Consumption by Purpose</p>
+
+<p class="guide-text">COPNI:</p>
+
+<p class="guide-text">Classification of the Purposes of Non-Profit Institutions Serving Households</p>
+
+<p class="guide-text">COFOG:</p>
+
+<p class="guide-text">Classification of the Functions of Government</p>
+
+<p class="guide-text">COPP:</p>
+
+<p class="guide-text">Classification of the Outlays of Producers by Purpose</p>
+
+<p class="guide-text list-text"> The four classifications are designed primarily to answer the question of why outlays are incurred. They classify transactions undertaken by households, non-profit institutions serving households (NPISH), government and producers which result in “payables” – that is, money paid or due for the acquisition of current and capital goods or of labour and other services, for the acquisition of financial assets or for the extinction of financial liabilities.<br>
+- COICOP is used to classify only a single kind of outlay – namely, the individual consumption expenditures of households, NPISH, and general government.<br>
+- COPNI and COFOG are used to classify a range of transactions, including outlays on final consumption expenditure, intermediate consumption, gross capital formation and current transfers, by NPISH and general government respectively.<br>
+- COPP is used to classify intermediate consumption and capital outlays of financial and non-financial corporations, or producers. The objective of COICOP is to provide a framework of homogeneous categories of goods and services, which are considered a function or purpose of household consumption expenditure, which are those expenditures that are made for the benefit of individual persons or households.</p>
+
+<h3>B. Individual consumption</h3>
+
+<p class="guide-text list-text"> Individual consumption expenditures are incurred by three institutional sectors, namely: households, NPISH and general government:<br>
+- All household consumption expenditures are defined as individual and are presented in COICOP 2018 Divisions 01 through 13.</p>
+
+<p class="guide-text">United Nations, European Commission, International Monetary Fund, Organisation for Economic Co-operation and Development and World Bank (2009). System of National Accounts 2008. Sales No. E.08.XVII.29. Available at: https://unstats.un.org/unsd/nationalaccount/sna2008.asp</p>
+
+<p class="guide-text list-text">- All consumption expenditures of NPISH are also treated, by convention, as being for the benefit of individual households and are presented in COICOP 2018 Division 14.<br>
+- Only some of the consumption expenditures by general government are defined as individual. Expenditures on general public services, defence, public order and safety, economic affairs, environmental protection, and community amenities are considered to be for the benefit of the community as a whole rather than for individual households. They are termed collective consumption expenditures (or actual final consumption of general government or actual collective consumption) and are excluded from COICOP. COICOP 2018 Division 15 identifies those government expenditures that are regarded as individual and classifies them by purpose, namely, housing, health, education, social protection, recreation, and culture. In the SNA, the individual consumption expenditures of both NPISH and general government are termed social transfers in kind and are added to the individual consumption expenditures of households to obtain an aggregate called actual final consumption of households (or actual individual consumption). By bringing together the relevant expenditures of households, NPISH, and general government, COICOP identifies the expenditures that make up this aggregate and classifies them according to the purposes they are designed to achieve.</p>
+
+<h3>C. Uses of COICOP</h3>
+
+<p class="guide-text">COICOP is an integral part of the SNA, but it is intended also for use in several other statistical areas such as: household expenditure statistics based on household budget surveys and the analysis of living standards; consumer price indices (for which it is used to establish weights and aggregate prices); international comparisons of gross domestic product (GDP) and its component expenditures through purchasing power parities; and statistics relating to culture, sports, food, health, and tourism. For all these uses, the basic COICOP classification needs to be more detailed in terms of subcategories; and at the same time there are clear advantages in maintaining the basic structure of COICOP to enable comparison between countries, over time and between statistics in different domains. It must be recognized, however, that COICOP follows the concepts and definitions of the 2008 SNA and these are not necessarily directly applicable, at the most detailed level, for other applications. For example, in household budget surveys it is not practical to ask households about expenditure on insurance service charges as required by COICOP, and in consumer price indices some countries may include interest on housing loans, which is excluded from COICOP. The purposes defined in COICOP are based on the classifications of consumption expenditures which national statistical offices have developed for their own use and which have been found to serve a variety of analytic applications. Although COICOP is not strictly linked to any particular model of consumer behaviour, the purposes broadly reflect differences in income elasticities. For example, low-income households spend relatively high proportions of their budgets on food, clothing and housing while richer households spend more on transport, education, health, and recreation. COICOP 2018 class and subclass levels are also divided into “services” (S), “non-durables” (ND), “semi-durables” (SD) and “durables” (D). This supplementary classification provides for other analytic applications. For example, it is sometimes useful to estimate the stock of “capital goods” held by households; COICOP classes identified as “durables” provide the basic elements for such estimates.</p>
+
+<p class="guide-text">Introduction</p>
+
+<p class="guide-text list-text"> COICOP is also useful for the collection and dissemination of data on expenditures and consumption of food worldwide, which accounts for a considerable share of household expenditure, particularly in developing countries 7. However, previous versions of COICOP lacked suitable detail which resulted in heterogenic food classification lists across countries and consequently limited international comparability. Because of the importance of having comparable information on food purchased and consumed, Division 01 (Food and non-alcoholic beverages) has been significantly revised. The additional detail of Division 01 allows for:<br>
+(a) a common framework and reference classification for food lists for household budget surveys;<br>
+(b) the compilation and comparison of consumption data coming from other sources, such as food and nutrition surveys (in which detail on food goes generally beyond COICOP); and<br>
+(c) the reconciliation of data coming from other domains, such as production and trade. The additional detailed classification of Division 01 includes new goods grouped by source (e.g., cereal, meat, seafood), where raw primary commodities are at the top of the hierarchy within each group, followed by processed commodities and preparation of composites. A new class for ready-made food and other food goods n.e.c. has also been introduced to Division 01. In addition to the new detail available related to food due to the addition of a subclass level in COICOP 2018, an additional 269 codes at the six-digit level are also provided in an annex to supplement the five-digit subclass structure. This Annex 1 has been prepared by the Food and Agriculture Organization of the United Nations (FAO) as a guideline for countries to further expand Division 01 in their national versions (see section “Optional high detail structure for food products”, paras. 21 to 23). The World Health Organization (WHO) is supporting a methodological research project aiming at improving the measurement of health expenditures in household surveys and COICOP 2018 plays a critical role to achieve this as most household budget surveys or household income / expenditure surveys do follow this classification. COICOP enables the measurement of the financial burden households are exposed to because of the health expenditures they face when using health care services. Such measurement is critical to inform the Sustainable Development Goals agenda. Expenditure by individuals and households on cultural or sporting goods and services can be considered as a proxy for participation in cultural and sport activities, which in turn provides the key to completing the analysis of data available from other sources (e.g., dedicated surveys on cultural participation).</p>
+
+<h3>D. COICOP 2018 structure and coding system</h3>
+
+<p class="guide-text">The COICOP 2018 has a hierarchical structure consisting of four (4) levels with the number of categories, and therefore the level of detail increasing from the twodigit level to the five-digit level. The example below demonstrates the coding system: Division Group Class Subclass</p>
+
+<p class="guide-text">03.1 03.1.1 03.1.1.0</p>
+
+<p class="guide-text">CLOTHING AND FOOTWEAR CLOTHING Clothing materials (SD) Clothing materials (SD)</p>
+
+<p class="guide-text">World Bank, Global Consumption Database: http://datatopics.worldbank.org/consumption/</p>
+
+<div class="guide-table">Each of the categories are numerically coded where a period between the digits<br>
+indicating the different levels. The division level is denoted by a two-digit number<br>
+(Divisions 01 to 15). The group, class and subclass levels consist of one additional<br>
+digit each. Sequential numbering is used at the division and group levels starting<br>
+with 1. If a classification category is not further subdivided at the next lower hierarchical level, a zero (0) is used. Nine (9) is used to designate residual categories at the<br>
+class and subclass levels (e.g. 04.4.4.9 Other services related to the dwelling).<br>
+The number of categories at each level of the classification in COICOP 1999 and<br>
+COICOP 2018 are presented in Table 1.<br>
+Table 1 Comparison of the number of categories between COICOP 1999 and<br>
+COICOP 2018 by level<br>
+COIOP level</div>
+
+<p class="guide-text">Number of categories COICOP 1999</p>
+
+<p class="guide-text">COICOP 2018</p>
+
+<p class="guide-text">Division</p>
+
+<p class="guide-text">Group</p>
+
+<p class="guide-text">Class</p>
+
+<p class="guide-text">Subclass</p>
+
+<p class="guide-text">NA</p>
+
+<h3>E. Use of different levels of the classification</h3>
+
+<p class="guide-text">It may be desirable to utilize less detailed classification categories of COICOP for some areas of statistics, or where the number and size of the categories for which reliable statistics are presented may depend on both their source and confidentiality considerations. For example, it may not be feasible to present data on the different purposes of health inpatient / outpatient services (e.g. dental, curative, rehabilitative or long term) if not based on a household survey. Or it may not be necessary to present data on household consumption expenditures in as great detail in national accounting as in price statistics. By providing four hierarchical levels (divisions, groups, classes and subclasses), COICOP 2018 provides a framework for comparable classification of data at different levels of detail. It is important to note, however, that the fact that a category has been defined at the class level in COICOP will not prevent it from being larger in a particular national economy than a category defined at the group level or even at the division level in another national economy. Similarly, for specific domains, such as Food, the detail provided by COICOP 2018, even at its most detailed level, will often not be sufficient for the required analysis. In such cases, COICOP 2018 subclasses can be further subdivided for specific purposes, as necessary (see paras. 21 to 23). It is suggested, however, that the additional detailed categories still be aggregated to the existing COICOP subclasses for comparability reasons.</p>
+
+<h3>F. Optional high detail structure for food</h3>
+
+<p class="guide-text">products</p>
+
+<p class="guide-text">There are many applications of the COICOP for which different levels of detail may be needed. To satisfy different user needs, rearranging the COICOP structure to form alternative structures is a possibility. This is a general principle applicable to all international classifications: The Central Product Classification (CPC), for example, has a long established practice in this sense.</p>
+
+<p class="guide-text">Introduction</p>
+
+<p class="guide-text list-text"> Such alternative structures can take different forms. They can be:<br>
+(a) rearrangements of all COICOP categories, or of a subset of categories, into a new structure that still preserves the original detailed categories as building blocks; or<br>
+(b) expansions of certain areas of interest for sectoral purpose beyond the detail provided in the published classification. Due to the fact that the expenditure of households on food represents the highest portion of household expenditure in many countries, and that more detail is often needed at the national level for food security monitoring and policy interventions, an extension to a six-digit level is provided for Division 01 as an official annex to COICOP 2018. This Annex 1 can be used as a guideline for countries to further extend Division 01 in their national versions and to compare consumption data coming from other sources, such as food and nutrition surveys, when there is a need for detailed information on food and non-alcoholic beverages. This level was developed by the Food and Agriculture Organization of the United Nations (FAO) and includes 269 six-digit codes to supplement the Subclass structure.</p>
+
+<h3>G. Units of classification</h3>
+
+<p class="guide-text">For the household consumption expenditures in Divisions 01 through 13, the units of classification are consumption expenditures made by households for satisfying their needs or wants for various goods and services. The basic data on consumption expenditure usually come from one or more of the following sources: household budget surveys, statistics on retail trade sales, and product flow estimates which involve allocating the total supply of goods and services to intermediate and final uses. The important point to note is that the units of classification are expenditures on specific goods and services – they are not expenditures on purposes as such. Divisions 01 to 13 of COICOP 2018 convert these basic statistics into a purpose classification by grouping together the expenditure on various goods and services that are deemed to fulfil particular purposes, such as nourishing the body, protecting it against inclement weather, preventing and curing illness, acquiring knowledge, travelling from one place to another. The units of classification for COICOP 2018 Division 14 are the same as for COPNI. In principle, COPNI classifies individual outlays of NPISH according to the purpose they serve. The units of classification for COICOP 2018 Division 15 are the same as for COFOG. The units of classification are, in principle, individual transactions. This means that each purchase, wage payment, transfer, loan disbursement or other outlay should be assigned a COFOG code according to the function that the transaction serves.</p>
+
+<h2>II. Underlying principles of the</h2>
+
+<p class="guide-text">classification</p>
+
+<h3>A. Conceptual basis of COICOP</h3>
+
+<p class="guide-text list-text"> The 2008 SNA (para. 9.81) defines household actual consumption as consisting of three components:<br>
+(a) households’ final consumption expenditure;<br>
+(b) government units’ expenditure on consumption goods and services provided to households as social transfer in kind; and<br>
+(c) NPISHs’ expenditure on consumption goods and services provided to households as social transfer in kind. “Household final consumption expenditure” is defined in 2008 SNA (para. 9.56). It includes the expenditures on goods and services purchased for final use by the household plus the estimated or imputed value of barter transactions, goods and services received in kind and goods and services produced and consumed by the same household. Household final consumption expenditure includes the consumption expenditures of the resident households, whether the expenditure takes place in the country or abroad. The treatment of the different types of goods and services that enter into household final consumption expenditure is explained in more details in the following paragraphs.</p>
+
+<h3>B. Types of products</h3>
+
+<p class="guide-text">Most classes and subclasses comprise either goods or services. Classes and subclasses containing goods are denoted by “ND”, “SD” or “D” indicating non-durable, semi-durable or durable respectively. “S” denotes classes or subclasses consisting of services. The distinction between non-durable and durable goods is based on whether the goods can be used only once, or repeatedly or continuously over a period of considerably more than one year (para. 9.42 of 2008 SNA). Moreover, durables, such as motor cars, refrigerators, washing machines and television sets, have a relatively high purchasers’ price. Semi-durable goods differ from durable goods in that their expected lifetime of use, though more than one year, is often significantly shorter and their purchase prices are substantially less. Although a systematic separation between goods and services was carried out in this revision of COICOP, some classes and subclasses contain both because it is difficult for practical reasons to break them down into goods and services. Such classes and subclasses are usually assigned an “S”, as the service component is considered to be predominant. Similarly, there are classes that contain either both nondurable and semi-durable goods, or both semi-durable and durable goods. Again, such classes and subclasses are assigned an “ND”, “SD” or “D” according to which type of good is considered to be predominant.</p>
+
+<h3>C. Imputed transaction values</h3>
+
+<p class="guide-text">The SNA records the exchange of goods, services and assets between institutional units in the form of transactions. Typically, transactions are carried out through the exchange of money and products. However, many goods or services are not actually sold but are nevertheless supplied to other units: for example, they may be bartered for other goods or services or provided free as transfers in kind. In other</p>
+
+<p class="guide-text">Underlying principles of the classification</p>
+
+<p class="guide-text list-text"> cases, there is an implicit exchange of services which are recorded as transactions even though no money was exchanged. The transactions of such goods and services must also be included in the accounts even though their value has to be estimated. Thus, estimates and imputations are needed in order to be able to record transactions not disposed of in monetary transactions with other units. Such estimates and imputations should not be interpreted as introducing hypothetical activities or flows of goods and services into the SNA. Their purpose is the opposite, namely, to capture in the accounts major flows of goods and services actually taking place in the economy that would otherwise be omitted. Strictly speaking, the imputation refers to the value of goods or services involved and not to the expenditure itself. In other words, it is the valuation that is imputed, not the fact that the transaction takes place. Transactions that are not directly observable, e.g. from household income and expenditure surveys, and need to be estimated are own account production of goods for own final consumption, income in kind in the form of goods or services provided free of charge or at very low prices to households by government and NPISHs, services provided by financial intermediaries which are measured indirectly in the SNA and the production of housing services for their own final consumption by owner occupiers. These imputed values of household consumption expenditure are not directly observable from household income and expenditure surveys. The production of housing services for their own final consumption by owner occupiers has always been included within the SNA production boundary, although it constitutes an exception to the general exclusion of own-account service production. The ratio of owner-occupied to rented dwellings can vary significantly between countries, between regions of a country and even over short periods of time within a single country or region, so that both international and inter-temporal comparisons of the production and consumption of housing services could be distorted if no imputation were made for the value of own-account housing services. The imputed value of the income generated by such production is taxed in some countries. Persons who own the dwellings in which they live are treated as owning unincorporated enterprises that produce housing services that are consumed by the household to which the owner belongs. The housing services produced are deemed to be equal in value to the rentals that would be paid on the market for accommodation of the same size, quality and type. The imputed values of the housing services are recorded as final consumption expenditure of the owners. Expenditures that owners, including owner-occupiers, incur on the decoration, minor repairs and maintenance of the dwelling that would normally be seen as the responsibility of a landlord should not be treated as household final consumption expenditure, but as intermediate expenditure incurred in the production of housing services. These expenditures may consist either of payments for services provided by professional builders or decorators or purchases of materials for “do-it-yourself” repairs and decoration. Financial services may be paid for explicitly or implicitly and some transactions in financial assets may involve both explicit and implicit charges. There are four main ways in which financial services are provided and charged for:<br>
+(a) Financial services provided in return for explicit charges. Expenditures on services for which financial institutions do make charges are recorded in the usual way.<br>
+(b) Financial services provided in association with interest charges on loans and deposits. These sorts of services are known as financial intermediation services indirectly measured (FISIM) and are calculated as the difference between the actual bank interest receivable and the SNA interest receivable by financial</p>
+
+<p class="guide-text list-text"> corporations on the loans they issue, and the difference between SNA interest payable and the actual bank interest payable by financial corporations on the deposits of their customers.<br>
+(c) Financial services associated with the acquisition and disposal of financial assets and liabilities in financial markets. When households acquire or dispose of foreign exchange and some other financial assets, the dealer in the financial asset will typically quote a buying price and a selling price for the asset. The difference between the price actually receivable or payable and the average of the buying and selling price at the time of the transaction is also treated as expenditure on the services of financial institutions.<br>
+(d) Financial services associated with insurance and pension schemes. Service charges for insurance are classified by type of insurance, namely: life insurance and non-life insurance. The service charge for non-life insurance is estimated as total premiums earned plus investment income earned from investing the premiums less adjusted claims incurred. The service charge for life insurance is estimated as premiums earned plus investment income earned from investing the premiums less benefits due less increases (plus decreases) in life insurance technical reserves. The indirect service charges of pension fund services are estimated as the excess of the investment income receivable by the schemes less the amount added to the reserves to meet present and future pension entitlements.</p>
+
+<h3>D.
+
+<p class="guide-text">“Do it yourself” repairs and maintenance to</h3></p>
+
+<p class="guide-text">consumer durables and dwellings</p>
+
+<p class="guide-text">“Do it yourself” repairs and maintenance to consumer durables and dwellings carried out by members of the household constitute the production of services for own final use. The production of services for own final use is excluded from the production boundary of the SNA and therefore also from consumption expenditure. However, the materials purchased for repair and maintenance are treated as final consumption expenditure (para. 6.36 of 2008 SNA) and are therefore included in COICOP. In relation to dwellings, “do it yourself” activities cover decoration, maintenance and small repairs, including repairs to fittings, of types that are commonly carried out by tenants as well as by owners (para. 6.37 of 2008 SNA). The expenditure to purchase materials to undertake these activities are included in COICOP. On the other hand, more substantial repairs, such as re-plastering walls or repairing roofs, carried out by owners, are essentially intermediate inputs into the production of housing services; the production of such repairs by an owner-occupier is a secondary activity of the owner in his capacity as a producer of housing services. The purchases of materials for repairs in these cases are intermediate expenditures incurred in the production of housing services and are out of scope of COICOP.</p>
+
+<h3>E. Multi-purpose goods and services</h3>
+
+<p class="guide-text list-text"> The majority of goods and services can be unambiguously assigned to a single purpose. However, some goods and services could plausibly be assigned to more than one purpose. Examples include:<br>
+- motor fuel which may be used to power vehicles classified as transport as well as vehicles classified as recreational;<br>
+- bicycles which may be purchased for transport or recreation purposes. The general rule followed has been to assign multi-purpose goods and services to the division that represents the predominant purpose. Hence, motor fuel is shown under the Transport division.</p>
+
+<p class="guide-text">Underlying principles of the classification</p>
+
+<p class="guide-text list-text"> Where the predominant purpose varies among countries, multi-purpose items have been assigned to the division that represents the main purpose in the countries where the item concerned is of greatest importance. As a result, bicycles are assigned to Division 07 (Transport), since transport is its usual function in the regions where most bicycles are purchased, that is to say Africa, South-East Asia, China and the nonmountainous countries of Europe. Other examples of multi-purpose items and their treatment include:<br>
+- camper vans which are shown under Recreation, sport and culture (09) and not under Transport (07);<br>
+- basketball shoes and other sports footwear suitable for everyday or leisure wear are shown under Clothing and footwear (03) and not under Recreation, sport and culture (09).</p>
+
+<h3>F. Bundled goods and services</h3>
+
+<p class="guide-text list-text"> Single expenditure outlays (i.e. where there is no itemized price information for the individual goods or services) may sometimes comprise a bundle of goods and services that serve two or more different purposes. For example, the purchase of:<br>
+- telecommunications bundles including a combination of home telephone, mobile phone, Internet and television services as well as mobile phone(s) (good);<br>
+- all-inclusive package tours including payment for transport, accommodation and catering services;<br>
+- education services that include payments for health care, transport, accommodation, board, educational materials, etc.;<br>
+- in-patient hospital services that include payments for medical treatment, accommodation and catering; and<br>
+- transport services that include meals and accommodation in the ticket price (e.g. passenger air transport). Single outlays covering two or more purposes and not separately invoiced are dealt with on a case-by-case basis with the objective of obtaining a purpose breakdown that is as precise as possible and consistent with practical considerations of data availability. Hence, there is no attempt to isolate expenditure values related to separate purposes for telecommunication bundles, package tours, in-patient hospital services or transport services with accommodation and catering included in the single price. In all of these cases, the outlay should be categorized with the predominant good or service. However, specific classes for the above-mentioned bundles are also included in COICOP 2018. Health care, transport, accommodation, board and educational materials linked with education, on the other hand, should be allocated as far as possible to Health (06), Transport (07), Recreation, sport and culture (09), and Restaurants and accommodation services (11).</p>
+
+<h3>G. Internet-enabled and other virtual services</h3>
+
+<p class="guide-text">The Internet has enabled services, such as the streaming of movies and music, and subscriptions to games, thus removing the need for a physical product to be purchased and in many cases facilitating the rental of these products rather than outright purchase. For this reason, these services are in general classified with more traditional forms of the rental of similar goods.</p>
+
+<p class="guide-text">While related products can exist in either physical or virtual forms (e.g. books, music, videos, games), in COICOP the product should be categorized in the one class based on predominant purpose. Therefore, the purchase of virtual books (e.g. e-books, audiobooks) should be classified in the same class or subclass as paper books because they are consumed for the same purpose. As stated previously, this principle can impact the type of product (i.e. D, SD, ND or S) associated with that class. Where the Internet is being used for the rental of a product, either in its physical or virtual form, this activity is still a service and not the purchase of a product. For example, subscription fees to play online games (i.e. streaming) are classified to 09.4.3.1 (Rental of games software and subscription to online games). The outright purchase of video game software, in its physical or virtual form, is classified to 09.2.1.1 (Video game computers, game consoles, game apps and software).</p>
+
+<h3>H. Software and apps</h3>
+
+<p class="guide-text">Software is a set of instructions, data and associated documentation which tells a computer to perform certain tasks. The definition of software includes operating systems of computers, applications, database programs, and mobile apps. The classification of software will be different if they are associated with the provision of a service to the household or not. Examples of software that are not associated with the provision of a service to the household are operating systems, office suites, photo editors, computational programs, programming languages, database programs, and computer games. This type of software may be installed physically on the computer or provided via a local network or the Internet. The expenditure for software and apps that are not associated with the provision of a service is classified under 08.2.0.0 (Software) for regular software or under 09.2.1.1 (Video game computers, game consoles, game apps and software) for gaming software. If the payment is actually not for the software but for an associated service which is provided with the help of the software or app, then this expenditure should be classified under the corresponding service. Examples include: the ordering of a car with a driver using a smartphone app and the subsequent payment for the taxi service through the app is classified under 07.3.2.2 (Passenger transport by taxi and hired car with driver) because the payment is for a transportation service. Likewise, the expenditure for a dating app should be classified under 13.9.0.9 (Other services n.e.c.) because the payment is for a dating service. For bundles of hardware and software (e.g. a computer with preinstalled operating systems and software applications), the outlay should be classified with the predominant product, which normally is the hardware (e.g. the computer). For bundles of goods and services (e.g., the subscriptions of an office suite which includes cloud storage services), the general rules for bundled goods and services apply (paras. 45 to 47). Firmware is a special type of software that is embedded in a hardware device or equipment and provides the low-level program control for the device or equipment. Firmware can be found in appliances (e.g. refrigerators, ovens), communication equipment (e.g. mobile phones, tablets, routers), computers and peripherals (e.g. the bios of a computer, printers, DVD-Rom drives), entertainment devices (e.g. television sets, set-top boxes, amplifiers, DVD players, MP3 players, digital cameras), and transport equipment (e.g. the software controlling the on-board computers and sensors in a car). Being an integral part required for the functioning of the good, firmware is normally not sold or priced separately. Firmware updates, providing corrections or</p>
+
+<p class="guide-text">Underlying principles of the classification</p>
+
+<p class="guide-text">new functions for the good, are often also provided free of charge. However, in some cases firmware updates are not free. The expenditure on firmware updates should be classified together with the expenditure for the good for which the firmware update is meant.</p>
+
+<h2>I. Treatment of second-hand goods</h2>
+
+<p class="guide-text">Since second-hand goods are used for the same purpose as new goods, expenditure on second-hand goods are not classified separately from the original good in COICOP. The only exception relates to second-hand motor vehicles for which a separate subclass was created because of the substantial market for these goods and the high value of these transactions. Although the full value is usually recorded for price statistics and other uses, it should be noted that only the trade margin on second-hand cars are part of household consumption expenditure and not the whole value of the car, except in cases where the vehicle previously belonged to businesses or government or was imported.</p>
+
+<h3>J. Treatment of rental and leasing</h3>
+
+<p class="guide-text">Renting of land Rent is the income receivable by the owner of a natural resource, such as land (the lessor or landlord) for putting the natural resource at the disposal of another institutional unit (a lessee or tenant) for use of the natural resource (para. 7.109 of 2008 SNA). Rent is a form of property income (para. 7.107 of 2008 SNA), thus the payment by households for renting land alone is out of scope of COICOP and should be excluded. This is in line with the definition of consumption of goods and services (para. 9.39 of 2008 SNA): Consumption of goods and services is the act of completely using up the goods and services in a process of production or for the direct satisfaction of human needs or wants. Since the renting of land for parking lots, garden allotments or animals (e.g. horses) for recreational purposes does not consume the land, the related household expenditure on renting land is out of scope. Rental services There are many categories in COICOP that relate to the “rental” or “hiring” of a product or service. Rental in this sense refers to expenditure on the service of renting or hiring a product or service that is owned by another party and is in scope of COICOP (e.g. rental or hiring of clothes or furniture). Note that the hiring of contractors to undertake substantial repairs to the dwelling is out of scope. Leasing The SNA distinguishes between operating leases (para. 17.301 of 2008 SNA) and financial leases (para. 17.304 of 2008 SNA). In the case of operating leases, the legal owner is also the economic owner, accepts operating risks and provides maintenance and repair of the asset. para. 17.302 of SNA 2008 states: “The payments made under an operating lease are referred to as rentals and are recorded as payments for a service.” Hence, this type of leasing is treated as rental. In the case of financial leases, the legal owner transfers economic ownership to the lessee who accepts operating risks and undertakes repair and maintenance. Payments are not treated as rentals but as payment of interest and repayment of principal to the legal owner / lessor. Therefore, financial leasing of a good is classified as purchasing a good.</p>
+
+<h3>K. Ready-made meals (Division 01) and</h3>
+
+<p class="guide-text">Take-away food services (Division 11)</p>
+
+<p class="guide-text">Ready-made meals have been added to Division 01 of COICOP 2018 due to the increasing availability of prepared meals. Ready-made meals are generally sold in supermarkets, where the meal can also be produced or prepared in some cases. Ready-made meals are commonly intended for consumption at home, where they can be eaten as they are or after heating, but without cooking. Also, when consumed at the supermarket or market premises, ready-made meals are still to be classified as goods in Division 01. Services provided by restaurants, cafés and the like are classified in Division 11. Serving services range from full (with a waiter and seating) to limited and self-service. In contrast to ready-made meals in Division 01, the predominant component of services provided by restaurants, cafés and the like is the price paid for providing the serving and cooking service, which includes the goods such as the food and beverage for immediate consumption. Expenditure on such food and beverage serving services are to be classified in Division 11 even when food is purchased at the restaurant, and the like, and consumed at home. If food is purchased in a restaurant and home delivered, the expenditure for delivery is to be classified under Division 07, if separately invoiced. The criterion therefore to distinguish between Division 01 and Division 11 is not where the food is consumed (at home vs. away from home) but rather on the type of expenditure (for the good or for the serving service).</p>
+
+<h3>L. Dwelling, domestic and household services</h3>
+
+<p class="guide-text">The services included under Division 04 (Housing, water, electricity, gas and other fuels) are those that enable the use of the dwelling (e.g. cleaning the road or footpath to provide access to the dwelling, chimney sweeping, snow removal). Services included under Division 05 (Furnishings, household equipment and routine household maintenance) relate to household maintenance or services that support households rather than the dwelling. Division 05 differentiates further between domestic and other household services. Domestic services by paid staff (05.6.2.1) are services provided by personnel employed by households, such as butlers, maids, cooks, nannies, governesses, cleaners, au pairs, gardeners) who receive a compensation or wage for their services. Domestic services also include services, such as babysitting, gardening and cleaning supplied by enterprises and selfemployed persons. Other household services (05.6.2.9) are services provided by enterprises and self-employed persons that are not routinely provided by staff employed by households, such as carpet cleaning, pest extermination, and disinfection.</p>
+
+<h3>M. Housing (Division 04) and Accommodation</h3>
+
+<p class="guide-text">Services (Group 11.2)</p>
+
+<p class="guide-text">COICOP uses the concepts of principal dwellings, secondary dwellings and vacation homes as defined in paras. 2.26 and 2.27 of the International Recommendations for Tourism Statistics (IRTS) 20088, and provided below: Principal dwelling – each household has a principal dwelling (sometimes also designated as main or primary home), usually defined with reference to time spent there, whose location defines the country of residence and place of usual residence of this household and all of its members. All other dwellings (owned or leased by the</p>
+
+<p class="guide-text">United Nations 2016, International Recommendations for Tourism Statistics 2008 – Compilation Guide, New York. Available at: https://unstats.un.org/unsd/tradeserv/tourism/E-IRTS-Comp-Guide%202008%20For%20Web.pdf</p>
+
+<p class="guide-text">Underlying principles of the classification</p>
+
+<p class="guide-text">household) are considered secondary dwellings (para. 2.26 of IRTS 2008). See also para. 29.89 of 2008 SNA. Secondary dwelling – not all secondary dwellings are necessarily vacation homes. For example, if a family lives in a country area close to a city, with one household member working in the city centre and the household owns or leases a secondary dwelling in the city, both dwellings are considered part of the usual environment and are therefore not vacation homes. In COICOP, expenditure related to the principal, or secondary dwellings is classified in Division 04 (Housing, water, electricity, gas and other fuels). Expenditure related to accommodation services away from the principle or secondary dwelling (excluding vacation homes), such as resorts, hotels, motels and vacation homes is classified to Group 11.2 (Accommodation services). Further explanation is provided in the relevant division and group descriptions.</p>
+
+<h3>N. Tips, gratuities, and unofficial payments</h3>
+
+<p class="guide-text list-text"> Expenditure on tips, gratuities, and unofficial payments (in the following only called tips) are classified with the service to which the tipping relates. For example:<br>
+- tipping a maid for cleaning your hotel room: the tip is included with the expenditure for the accommodation service (i.e. in 11.2.0.1 Hotels, motels, inns and similar accommodation services);<br>
+- tipping waiters in a restaurant, the tip expenditure is included in 11.1.1.1 (Restaurants, cafes and the like – with full service); and<br>
+- tipping food delivery drivers: if the fee for delivery of the food is included in the cost of the food, this expenditure is included in Division 11. However, if the delivery of the food is undertaken by a different business or separately invoiced, the expenditure is included in 07.4.9.2 (Delivery of goods).</p>
+
+<h3>O. Gifts and donations</h3>
+
+<p class="guide-text">Outlays on gifts or donations are recorded in the SNA as transfers and therefore out of scope for COICOP. On the other hand, goods or services obtained as gifts or donations are recorded in the SNA as household consumption expenditure by the receiving household. They are valued at the market value of the goods or services received. The costs of the expenditures are being met from transfers received as described above.</p>
+
+<h3>P. Delivery fees</h3>
+
+<p class="guide-text">Throughout COICOP delivery fees are classified separately from the good being delivered, where this is possible (i.e. the delivery fee is separately invoiced). The need for this distinction arises from the SNA valuation principle which treats transport services separately invoiced as transport margins. The objective is to separate the cost of the delivery service from the cost of the product being delivered (para. 14.130 of 2008 SNA). If the delivery and installation of a good are charged together, e.g. for furniture and appliances, then this bundle should be classified under the appropriate subclass for installation (05.1.2.0 for furniture, 05.3.3.0 for appliances), as the installation represents probably the higher value added.</p>
+
+<h3>Q. Other clarifications</h3>
+
+<p class="guide-text list-text"> In a small number of situations, the logic for allocating goods or services to particular divisions is not immediately evident. For example:<br>
+- textbooks are classified in Division 09 (Recreation, sport and culture), rather than Division 10 (Education services);<br>
+- food consumed from a food service establishment (e.g. restaurant, café) is classified in Division 11 (Restaurants and accommodation services), and not Division 01 (Food and non-alcoholic beverages). These situations are not dealing with multi-purpose goods or services, but rather with the predominant purpose and type of product. Division 10 relates to education services only and therefore excludes expenditure on goods typically required to undertake education services (e.g. text books, school uniforms). Food consumed in food-service establishments commonly includes a service component (e.g. to prepare and serve a meal) and therefore is more appropriately classified to Division 11 which is predominately related to services.</p>
+
+<h2>III. Application of COICOP –</h2>
+
+<p class="guide-text">Explanatory notes and rules of interpretation Explanatory notes provide supporting information about the classification category, assisting the user in determining its boundaries. Explanatory notes are available in each level of the COICOP. In addition, examples of products that are included or excluded are listed to clarify ambiguous cases that might be difficult to classify. Whenever an exclusion statement is provided, it is accompanied by the cross-reference to the category where the product in question is classified. The order in which exclusions are presented does not indicate a ranking by importance, they are sorted by cross-referenced codes in numerical order. Items listed under “Includes also” are a list of borderline cases, which belong to the described category. It should be noted that the explanatory notes are not intended to present an exhaustive list of all the products under each heading; they should be regarded only as lists of examples to illustrate the content. Consequently, users may need further guidance from the United Nations Statistics Division (UNSD) on the interpretation of the exact content of COICOP categories. Users should be aware that the explanatory notes of the COICOP are developed for statistical purposes, in many cases they are the results of choices made by statisticians following some conventions that may be valid in their domains but that may not apply for other purposes. New products or products with special characteristics may not be explicitly described in the explanatory notes. If guidance is needed, users are invited to contact UNSD to clarify where these products should be classified. Special rulings may be issued that clarify the treatment of specific products in the classification and will be made available on the United Nations Classifications website9.</p>
+
+<p class="guide-text">https://unstats.un.org/unsd/classifications</p>
+
+<h2>IV. Relationships to other</h2>
+
+<p class="guide-text">classifications Relation to COPNI, COPP, COFOG COICOP 2018 is divided into three parts: Divisions 01 to 13</p>
+
+<p class="guide-text">Individual consumption expenditure of households;</p>
+
+<p class="guide-text">Division 14</p>
+
+<p class="guide-text">Individual consumption expenditure of NPISH;</p>
+
+<p class="guide-text">Division 15</p>
+
+<p class="guide-text">Individual consumption expenditure of general government.</p>
+
+<p class="guide-text">The purpose breakdowns within Divisions 14 and 15 of COICOP 2018 replicate the purposes in the classifications for NPISH in COPNI and general government in COFOG. Thus, once the consumption expenditures of NPISHs and general government have been classified according to COPNI and COFOG, the individual consumption expenditures in these two classifications can be transferred directly into Divisions 14 and 15 of COICOP 2018. Relation to CPC The Central Product Classification (CPC) is closely linked with COICOP, since expenditures on products are the basic building blocks of COICOP classes, and correspondences can be established between categories in the two classifications. Relation to ISCED The International Standard Classification of Education (ISCED 2011) of the United Nations Educational, Scientific and Cultural Organization (UNESCO) is used to define the breakdown of educational services in Division 10 (Education). The content of Division 10 was modified to better align it with ISCED 2011. Relation to ICHA Division 06 (Health) was considerably revised to improve the consistency of COICOP 2018 with the International classification for health accounts (ICHA). This will allow the reconciliation of health accounting with the SNA and its accompanying classifications.</p>
+
+<h2>V. Using COICOP for establishing</h2>
+
+<p class="guide-text">national classifications of individual consumption according to purpose As an international standard classification, COICOP is the primary tool for collecting and presenting internationally comparable statistics on individual consumption according to purpose. It is therefore of great importance that at the national level data are collected using classifications that are compatible with COICOP. Countries may choose to either use COICOP directly for their national purposes or to develop their own national classification. Indeed, the need for international comparability does not imply that countries must adopt COICOP as it is, without modification. Countries can use COICOP as a guide in adapting their national classifications to the international standard. Wherever countries lack the infrastructure required to develop and maintain their own individual consumption classification, they may adopt COICOP as their national classification with little or no modification. This is often done by extending or collapsing the detail of COICOP while maintaining its general structure. Other countries may have historically developed a classification that suits their particular needs. Those countries should make efforts to adapt their classification in a way that allows for the provision of data according to COICOP without substantial loss of information e.g. through developing correspondence tables. For a national classification to be compatible with COICOP, the most detailed categories of the classification in the national scheme should either coincide with, or be aggregations of, or dissections of the individual subclasses of COICOP. In other words, each of the most detailed categories of the national classification should either (1) have the same scope as a COICOP subclass, (2) be a subset of a COICOP subclass, or (3) be composed of two or more complete COICOP subclasses, preferably from the same COICOP class. The first two options are the preferred methods, as they provide the maximum opportunity for international data comparability at the detailed level of the COICOP, while the third option allows for comparability at a more aggregated level only. Provided these requirements are met, the compatibility of the national classification with COICOP would not necessarily be affected by its structure or the position of the categories at its most detailed level. If additional detail is desired, expanded classifications based on COICOP may be constructed by subdividing each subclass into as many as nine (or more, if needed) subcategories. This may be done by appending one (or more, if needed) decimal place to the COICOP five-digit code. Alternatively, the subdivision of classes into subclasses in COICOP may, in some cases, be expanded by replacing the subclasses in a given class with a greater number of more detailed categories at the five-digit level. Some countries may need to reduce the level of COICOP detail in their national classifications. Some COICOP categories may be relatively unimportant in certain countries while data concerning other COICOP categories may simply be unavailable. They may find it more appropriate to combine some, or all, of the subclasses or classes in each of these divisions into single categories at the most detailed level of their classification. In so doing, one should take into account the principles described in para. 91 above. During the revision of COICOP the need for increased detail for food goods was identified. At the same time, it was decided not to include all the desired detail in the main structure of COICOP but to provide users with an option to use an extended version of Division 01. If countries need to add more detail to Division 01, it is</p>
+
+<p class="guide-text">recommended using the “Optional high detail structure for food products” as provided in Annex 1 to COICOP 2018 classification or making their extended version compatible to this high-detail structure.</p>
+
+<h2>VI. History of the COICOP 2018 revision</h2>
+
+<p class="guide-text">Although the formal revision process of the COICOP started in 2015, the idea of revising this classification was raised for the first time in 2011 in the United Nations Expert Group on International Statistical Classifications meeting. The revision work was carried out in three distinct phases; the first two phases represented the preliminary work that led to the decision to revise COICOP 1999. Phase 1 (2011-2013): Proposal to revise COICOP and first global consultation A proposal to revise the COICOP 1999 was presented at the meeting of the United Nations Expert Group on International Statistical Classifications in 2011. The proposal was based on issues related to the application of COICOP 1999 raised during previous Expert Group meetings and classification workshops. The Expert Group acknowledged the need for clarification and improvement of COICOP 1999 but also noted that a revision of this classification might have possible implications on the other “purpose classifications” used in the SNA. Considering that the SNA, at that time, had just been revised, it was decided that, before launching any formal revision, a global consultation should first be conducted in order to assess the need and scope for such a revision. A Technical Subgroup (TSG-COICOP) was formed to look at the issues raised in the global consultation and to evaluate whether a revision was needed. The global consultation was carried out between October and December 2012, resulting in more than 70 responses from countries and international organizations. The results showed that countries were generally in favour of an update or revision of COICOP 1999, to ensure that it continues to provide an adequate tool for the recording of households’ consumption expenditures. In particular, it was concluded that a revision was needed to reflect the significant changes in goods and services in some areas: for example, new products had emerged in some areas of household consumption (mainly in Divisions 08 and 09), while some products had disappeared from the market. Phase 2 (2013-2015): Clarification of issues raised during the first global consultation Preliminary results from the global consultation were presented and discussed during the United Nations Expert Group meeting in 2013. The TSG-COICOP identified three main groups of issues: issues which would imply a change in COICOP; issues which could be solved by case laws but ideally by a change in structure; and issues which could be solved by case laws. The TSG-COICOP prepared clarifications on all issues and presented its report at the 2015 Expert Group meeting, also recommending to launch a full revision of the COICOP as there were enough and sufficiently important requests for change. Concerning the other purpose classifications in the SNA, it was decided that the COICOP should be revised first and that an impact assessment on COFOG, COPNI and COPP should be conducted. Phase 3 (2016-2018): Drafting the revised COICOP In March 2016 the TSG-COICOP drafted a first proposal for a new revised structure of COICOP using the issues raised during the first global consultation as a starting point. In addition, the TSG also aimed at a better separation of goods and</p>
+
+<p class="guide-text">services, and introduced an additional level of detail that would better serve the various uses of COICOP in different statistical domains. A global consultation on this draft was carried out between September and November of 2016, resulting in responses from more than 100 countries and organizations. In addition, special expertise on selected areas was provided by specialized agencies, such as the FAO, the UNESCO and the WHO. Based on the feedback received, the TSG-COICOP updated the draft classification. In September 2017, the United Nations Expert Group reviewed and endorsed the draft of the revised COICOP. Documents explaining the main changes to the classification and detailing the TSG’s decisions regarding the feedback received from the countries and international organizations are available on the meeting website. In March 2018, the 49th Session of the United Nations Statistical Commission endorsed the revised COICOP classification – COICOP 2018.</p>
+
+<h2>VII. Changes between COICOP 1999 and</h2>
+
+<p class="guide-text list-text"> COICOP 2018 The original version of the COICOP dates back to the late 1990s and consumer markets have since changed, consequently some categories of the classification have become obsolete, new products and services were difficult to classify in the existing classification, and boundaries between categories became less clear. The revision of COICOP was therefore necessary. A significant challenge of this revision process was to modernize the classification taking into account new consumption patterns while limiting resulting breaks in time series as much as possible. The first global consultation in 2012 provided extensive guidelines for the revision:<br>
+- The introduction of a fifth digit Subclass level was supported by the majority of countries.<br>
+- A better correspondence between COICOP and CPC was viewed as useful. Better links between production and consumption is of course beneficial and the present many-to-many correspondences are not of much help in practical implementation work, especially in national accounts when the links are used for product flow. However, it was recognized that there were limitations for the improvement of correspondences and a stronger link should not be a goal in itself.<br>
+- Divisions 08 and 09 needed an extensive revision. These divisions include telecommunication equipment and services and audio-visual, photographic and information processing equipment, which have been revolutionized since the development of COICOP 1999. Many new products have emerged, certain functionalities are no longer restricted to specific products, and a large variety of Internet services that did not exist in the 1990s and which are partly replacing traditional products (e.g. newspapers, videos, online streaming or downloading of music and films) are now common in use. The distinction between communication and recreation and culture products needs to be considered and clarified now that some products cross purposes e.g. laptops, tablets and smartphones contain cameras and enable games to be played.<br>
+- Division 12 (Miscellaneous goods and services) was too heterogeneous, and different proposals were provided on possible regroupings within this division or with other divisions.<br>
+- A systematic separation between goods and services was deemed useful by the majority of countries and is relevant for the most detailed level of COICOP 1999 (four-digit level). In COICOP 1999 such a separation is embedded but not throughout the classification. While it was seen as a useful and important distinction, it was also indicated that this might not always be feasible, especially in the case of bundles of goods and services.<br>
+- A great majority of replies was in favour of keeping the distinction between non-durable, semi-durable and durable goods.<br>
+- Concrete proposals of change were also made for all the divisions. A more detailed classification A major change that COICOP 2018 brings is the introduction of a fourth level corresponding to a fifth digit.</p>
+    </div>
+</body>
+</html>

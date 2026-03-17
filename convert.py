@@ -185,11 +185,20 @@ def linkify(text, valid_codes):
     def repl(m):
         code = m.group(1)
         if code in valid_codes:
-            return f'<a href="#{code}">{code}</a>'
+            return f'<a href="classification.html#{code}">{code}</a>'
         return m.group(0)
 
     pattern = re.compile(r"\b(\d{2}(?:\.\d)*)\b")
     text = pattern.sub(repl, text)
+
+    # Tooltips for acronyms
+    text = re.sub(r"\bND\b", '<abbr title="Non-durables">ND</abbr>', text)
+    text = re.sub(r"\bSD\b", '<abbr title="Semi-durables">SD</abbr>', text)
+    text = re.sub(r"\bD\b", '<abbr title="Durables">D</abbr>', text)
+    text = re.sub(r"\bS\b", '<abbr title="Services">S</abbr>', text)
+    text = re.sub(
+        r"\bn\.e\.c\.\b", '<abbr title="Not elsewhere classified">n.e.c.</abbr>', text
+    )
 
     # Convert newlines to <br> or paragraphs
     text = text.replace("\n\n", "</p><p>").replace("\n", "<br>")
@@ -198,26 +207,23 @@ def linkify(text, valid_codes):
     return text
 
 
-def generate_html(tree, lookup, filename="index.html"):
-    valid_codes = set(lookup.keys())
-
-    html_out = [
-        """<!DOCTYPE html>
+def get_html_head(title):
+    return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>COICOP 2018 Classification</title>
+    <title>{title}</title>
     <style>
-        :root {
+        :root {{
             --bg-color: #f8f9fa;
             --text-color: #333;
             --border-color: #dee2e6;
             --link-color: #0056b3;
             --link-hover: #003670;
             --sidebar-width: 350px;
-        }
-        body {
+        }}
+        body {{
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
             line-height: 1.6;
             color: var(--text-color);
@@ -225,11 +231,11 @@ def generate_html(tree, lookup, filename="index.html"):
             padding: 0;
             display: flex;
             background: var(--bg-color);
-        }
-        a { color: var(--link-color); text-decoration: none; }
-        a:hover { text-decoration: underline; color: var(--link-hover); }
+        }}
+        a {{ color: var(--link-color); text-decoration: none; }}
+        a:hover {{ text-decoration: underline; color: var(--link-hover); }}
         
-        .sidebar {
+        .sidebar {{
             width: var(--sidebar-width);
             height: 100vh;
             position: fixed;
@@ -238,14 +244,21 @@ def generate_html(tree, lookup, filename="index.html"):
             border-right: 1px solid var(--border-color);
             padding: 20px;
             box-sizing: border-box;
-        }
-        .sidebar h2 { margin-top: 0; font-size: 1.2rem; }
-        .sidebar ul { list-style: none; padding-left: 0; }
-        .sidebar li { margin-bottom: 8px; }
-        .sidebar a { display: block; font-size: 0.9rem; color: #495057; }
-        .sidebar a:hover { color: var(--link-color); }
+        }}
+        .sidebar h2 {{ margin-top: 0; font-size: 1.2rem; }}
+        .sidebar ul {{ list-style: none; padding-left: 0; margin-bottom: 20px; }}
+        .sidebar li {{ margin-bottom: 8px; }}
+        .sidebar a {{ display: block; font-size: 0.9rem; color: #495057; }}
+        .sidebar a:hover {{ color: var(--link-color); }}
         
-        .main-content {
+        .nav-links {{
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 15px;
+            margin-bottom: 15px;
+        }}
+        .nav-links a {{ font-weight: bold; font-size: 1rem; color: var(--link-color); margin-bottom: 10px; }}
+        
+        .main-content {{
             margin-left: var(--sidebar-width);
             padding: 40px;
             max-width: 900px;
@@ -254,9 +267,9 @@ def generate_html(tree, lookup, filename="index.html"):
             background: #fff;
             min-height: 100vh;
             box-shadow: 0 0 10px rgba(0,0,0,0.05);
-        }
+        }}
         
-        .downloads {
+        .downloads {{
             background: #e9ecef;
             padding: 15px 20px;
             border-radius: 6px;
@@ -264,24 +277,24 @@ def generate_html(tree, lookup, filename="index.html"):
             display: flex;
             gap: 15px;
             align-items: center;
-        }
-        .downloads a {
+        }}
+        .downloads a {{
             background: #fff;
             border: 1px solid var(--border-color);
             padding: 5px 10px;
             border-radius: 4px;
             font-size: 0.9rem;
             font-weight: bold;
-        }
+        }}
         
-        .node {
+        .node {{
             margin-top: 20px;
             padding-top: 20px;
             border-top: 1px solid var(--border-color);
-        }
-        .node-01 { border-top: 3px solid #343a40; padding-top: 40px; margin-top: 40px; }
+        }}
+        .node-01 {{ border-top: 3px solid #343a40; padding-top: 40px; margin-top: 40px; }}
         
-        .code-badge {
+        .code-badge {{
             background: #343a40;
             color: #fff;
             padding: 2px 8px;
@@ -289,55 +302,81 @@ def generate_html(tree, lookup, filename="index.html"):
             font-family: monospace;
             font-size: 0.9em;
             margin-right: 10px;
-        }
+        }}
         
-        h2.title { font-size: 1.8rem; margin: 0 0 15px 0; }
-        h3.title { font-size: 1.4rem; margin: 0 0 10px 0; }
-        h4.title { font-size: 1.2rem; margin: 0 0 10px 0; }
-        h5.title { font-size: 1.1rem; margin: 0 0 10px 0; }
+        h1.title, h2.title, h3.title, h4.title, h5.title, h6.title {{
+            margin: 0 0 10px 0;
+            font-weight: 600;
+        }}
+        h2.title {{ font-size: 1.8rem; margin-bottom: 15px; }}
+        h3.title {{ font-size: 1.5rem; }}
+        h4.title {{ font-size: 1.3rem; }}
+        h5.title {{ font-size: 1.15rem; }}
+        h6.title {{ font-size: 1.05rem; }}
         
-        .intro { margin-bottom: 15px; color: #555; }
+        .intro {{ margin-bottom: 15px; color: #555; }}
         
-        .list-box {
+        .list-box {{
             padding: 10px 15px;
             margin-bottom: 15px;
             border-radius: 4px;
             border-left: 4px solid;
-        }
-        .list-box h4 { margin: 0 0 10px 0; font-size: 0.95rem; text-transform: uppercase; letter-spacing: 0.5px; }
-        .list-box ul { margin: 0; padding-left: 20px; }
-        .list-box li { margin-bottom: 5px; }
+        }}
+        .list-box h4 {{ margin: 0 0 10px 0; font-size: 0.95rem; text-transform: uppercase; letter-spacing: 0.5px; }}
+        .list-box ul {{ margin: 0; padding-left: 20px; }}
+        .list-box li {{ margin-bottom: 5px; }}
         
-        .includes { background: #f0fdf4; border-color: #22c55e; }
-        .includes h4 { color: #166534; }
+        .includes {{ background: #f0fdf4; border-color: #22c55e; }}
+        .includes h4 {{ color: #166534; }}
         
-        .alsoIncludes { background: #f0f9ff; border-color: #0ea5e9; }
-        .alsoIncludes h4 { color: #075985; }
+        .alsoIncludes {{ background: #f0f9ff; border-color: #0ea5e9; }}
+        .alsoIncludes h4 {{ color: #075985; }}
         
-        .excludes { background: #fef2f2; border-color: #ef4444; }
-        .excludes h4 { color: #991b1b; }
+        .excludes {{ background: #fef2f2; border-color: #ef4444; }}
+        .excludes h4 {{ color: #991b1b; }}
         
-        /* Indentation for child nodes */
-        .children { padding-left: 20px; border-left: 1px dashed #e5e7eb; margin-left: 10px; }
+        .children {{ padding-left: 20px; border-left: 1px dashed #e5e7eb; margin-left: 10px; }}
+        
+        abbr {{ text-decoration: underline dotted; cursor: help; }}
     </style>
 </head>
 <body>
-    <div class="sidebar">
+"""
+
+
+def get_sidebar(tree):
+    sidebar = [
+        """    <div class="sidebar">
         <h2>COICOP 2018</h2>
         <p style="font-size: 0.8rem; color: #666;">Classification of Individual Consumption According to Purpose</p>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="guide.html">User Guide / Manual</a>
+            <a href="classification.html">Interactive Classification</a>
+        </div>
+        <h4>Divisions</h4>
         <ul>
 """
     ]
-
-    # Sidebar links
     for node in tree:
-        html_out.append(
-            f'<li><a href="#{node["code"]}"><span class="code-badge">{node["code"]}</span> {html.escape(node["title"])}</a></li>'
+        sidebar.append(
+            f'<li><a href="classification.html#{node["code"]}"><span class="code-badge">{node["code"]}</span> {html.escape(node["title"])}</a></li>'
         )
-
-    html_out.append("""
-        </ul>
+    sidebar.append("""        </ul>
     </div>
+""")
+    return "\n".join(sidebar)
+
+
+def generate_pages(tree, lookup):
+    valid_codes = set(lookup.keys())
+    sidebar_html = get_sidebar(tree)
+
+    # 1. Generate classification.html
+    html_out = [
+        get_html_head("COICOP 2018 - Classification"),
+        sidebar_html,
+        """
     <div class="main-content">
         <h1>COICOP 2018 Reference</h1>
         <div class="downloads">
@@ -346,16 +385,33 @@ def generate_html(tree, lookup, filename="index.html"):
             <a href="coicop.yaml" download>YAML</a>
             <a href="coicop.sqlite" download>SQLite DB</a>
         </div>
-    """)
+    """,
+    ]
 
     def render_node(n, depth):
         level = n.get("level", 1)
         tag = f"h{min(level + 1, 6)}"
 
         cls_ext = " node-01" if level == 1 else ""
+
+        title_html = html.escape(n["title"])
+        title_html = re.sub(
+            r"\bND\b", '<abbr title="Non-durables">ND</abbr>', title_html
+        )
+        title_html = re.sub(
+            r"\bSD\b", '<abbr title="Semi-durables">SD</abbr>', title_html
+        )
+        title_html = re.sub(r"\bD\b", '<abbr title="Durables">D</abbr>', title_html)
+        title_html = re.sub(r"\bS\b", '<abbr title="Services">S</abbr>', title_html)
+        title_html = re.sub(
+            r"\bn\.e\.c\.\b",
+            '<abbr title="Not elsewhere classified">n.e.c.</abbr>',
+            title_html,
+        )
+
         html_out.append(f'<div class="node{cls_ext}" id="{n["code"]}">')
         html_out.append(
-            f'<{tag} class="title"><span class="code-badge">{n["code"]}</span> {html.escape(n["title"])}</{tag}>'
+            f'<{tag} class="title"><span class="code-badge">{n["code"]}</span> {title_html}</{tag}>'
         )
 
         if n.get("intro"):
@@ -399,9 +455,82 @@ def generate_html(tree, lookup, filename="index.html"):
 </body>
 </html>
 """)
-
-    with open(filename, "w", encoding="utf-8") as f:
+    with open("classification.html", "w", encoding="utf-8") as f:
         f.write("\n".join(html_out))
+
+    # 2. Generate index.html
+    index_out = [
+        get_html_head("COICOP 2018 - Home"),
+        sidebar_html,
+        """
+    <div class="main-content">
+        <h1>Welcome to COICOP 2018</h1>
+        
+        <div class="downloads">
+            <strong>Data Downloads:</strong>
+            <a href="coicop.json" download>JSON</a>
+            <a href="coicop.yaml" download>YAML</a>
+            <a href="coicop.sqlite" download>SQLite DB</a>
+        </div>
+        
+        <h2>Introduction</h2>
+        <p>The Classification of Individual Consumption According to Purpose (COICOP) is an integral part of the System of National Accounts (SNA). It is designed to classify individual consumption expenditures incurred by households, non-profit institutions serving households (NPISH), and general government.</p>
+        
+        <p>COICOP is used in several statistical areas such as:</p>
+        <ul>
+            <li>Household expenditure statistics based on household budget surveys</li>
+            <li>Consumer price indices (to establish weights and aggregate prices)</li>
+            <li>International comparisons of gross domestic product (GDP) and purchasing power parities</li>
+            <li>Statistics relating to culture, sports, food, health, and tourism</li>
+        </ul>
+
+        <h2>Structure</h2>
+        <p>COICOP 2018 has a hierarchical structure consisting of four levels:</p>
+        <ul>
+            <li><strong>Division</strong> (2-digit level, e.g. <code>03</code> Clothing and footwear)</li>
+            <li><strong>Group</strong> (3-digit level, e.g. <code>03.1</code> Clothing)</li>
+            <li><strong>Class</strong> (4-digit level, e.g. <code>03.1.1</code> Clothing materials)</li>
+            <li><strong>Subclass</strong> (5-digit level, e.g. <code>03.1.1.0</code> Clothing materials)</li>
+        </ul>
+
+        <h2>Acronyms</h2>
+        <p>COICOP 2018 class and subclass levels are also divided into the following designations, which provide elements for other analytic applications (such as estimating the stock of capital goods held by households):</p>
+        <ul>
+            <li><strong><abbr title="Services">S</abbr></strong>: Services</li>
+            <li><strong><abbr title="Non-durables">ND</abbr></strong>: Non-durables</li>
+            <li><strong><abbr title="Semi-durables">SD</abbr></strong>: Semi-durables</li>
+            <li><strong><abbr title="Durables">D</abbr></strong>: Durables</li>
+            <li><strong><abbr title="Not elsewhere classified">n.e.c.</abbr></strong>: Not elsewhere classified</li>
+        </ul>
+
+        <h2>PDF Manual</h2>
+        <p>You can read the <a href="guide.html">HTML Guide</a> we extracted from the PDF, or <a href="COICOP_2018_-_pre-edited_white_cover_version_-_2018-12-26.pdf" target="_blank">download the original PDF</a> directly.</p>
+    </div>
+</body>
+</html>
+""",
+    ]
+    with open("index.html", "w", encoding="utf-8") as f:
+        f.write("\n".join(index_out))
+
+    # 3. Generate guide.html
+    with open("guide_content.html", "r", encoding="utf-8") as f:
+        guide_content = f.read()
+
+    guide_out = [
+        get_html_head("COICOP 2018 - Guide"),
+        sidebar_html,
+        f"""
+    <div class="main-content">
+        <h1>COICOP 2018 User Guide</h1>
+        {guide_content}
+    </div>
+</body>
+</html>
+""",
+    ]
+    with open("guide.html", "w", encoding="utf-8") as f:
+        f.write("\n".join(guide_out))
 
 
 def main():
@@ -441,7 +570,7 @@ def main():
     export_sqlite(lookup)
 
     print("Writing HTML...")
-    generate_html(tree, lookup)
+    generate_pages(tree, lookup)
 
     print("Done!")
 
