@@ -527,4 +527,46 @@ html_out = html_template.replace("__JSON_DATA__", json_str).replace(
 with open("classification.html", "w", encoding="utf-8") as f:
     f.write(html_out)
 
+# Update guide.html with tooltips if needed
+try:
+    with open("guide.html", "r", encoding="utf-8") as f:
+        guide_html = f.read()
+
+    # Check if codeTitleMap is already there, if not add it or update it
+    import re
+
+    map_js = f"const codeTitleMap = {code_title_map_json};"
+
+    # Pattern to find or insert the script
+    if "const codeTitleMap =" in guide_html:
+        guide_html = re.sub(r"const codeTitleMap = \{.*?\};", map_js, guide_html)
+    else:
+        # Insert before the end of DOMContentLoaded or at the start of script
+        insertion = map_js + "\n        "
+        guide_html = guide_html.replace(
+            "const tocContent =", insertion + "const tocContent ="
+        )
+
+    # Add logic to apply tooltips to links in guide.html
+    tooltip_logic = """
+        // Apply tooltips to COICOP links
+        document.querySelectorAll('a[href*="classification.html#"]').forEach(link => {
+            const code = link.getAttribute('href').split('#')[1];
+            if (codeTitleMap[code]) {
+                link.setAttribute('title', codeTitleMap[code]);
+            }
+        });
+    """
+    if "// Apply tooltips to COICOP links" not in guide_html:
+        guide_html = guide_html.replace(
+            "tocContent.innerHTML = tocHTML;",
+            "tocContent.innerHTML = tocHTML;" + tooltip_logic,
+        )
+
+    with open("guide.html", "w", encoding="utf-8") as f:
+        f.write(guide_html)
+    print("Updated guide.html with tooltips")
+except Exception as e:
+    print(f"Could not update guide.html: {e}")
+
 print("Done")
