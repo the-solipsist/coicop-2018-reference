@@ -44,7 +44,13 @@ def build_tree(code):
 root_codes = [code for code, n in nodes.items() if n["level"] == 1]
 nested_data = [build_tree(code) for code in root_codes]
 
+# Create a flat map of code -> title for tooltips
+code_title_map = {code: node["title"] for code, node in nodes.items()}
+
 json_str = json.dumps(nested_data, ensure_ascii=False).replace(
+    "</script>", "<\\/script>"
+)
+code_title_map_json = json.dumps(code_title_map, ensure_ascii=False).replace(
     "</script>", "<\\/script>"
 )
 
@@ -284,6 +290,7 @@ html_template = r"""<!DOCTYPE html>
 
     <script>
         const coicopData = __JSON_DATA__;
+        const codeTitleMap = __CODE_TITLE_MAP__;
         
         function getLevel(code) {
             if (code.includes('.')) return code.split('.').length;
@@ -351,8 +358,11 @@ html_template = r"""<!DOCTYPE html>
         function formatText(text) {
             if (!text) return "";
             
-            // Format links
-            let formatted = text.replace(/\b(\d{2}(\.\d{1,2})*)\b/g, '<a href="#$1" class="code-link">$1</a>');
+            // Format links with tooltips
+            let formatted = text.replace(/\b(\d{2}(\.\d{1,2})*)\b/g, (match) => {
+                const title = codeTitleMap[match] || "";
+                return `<a href="#${match}" class="code-link" title="${escapeHtml(title)}">${match}</a>`;
+            });
             
             // Format abbreviations
             formatted = formatted.replace(/\(S\)/g, '(<abbr title="Services">S</abbr>)');
@@ -510,7 +520,9 @@ html_template = r"""<!DOCTYPE html>
 </body>
 </html>"""
 
-html_out = html_template.replace("__JSON_DATA__", json_str)
+html_out = html_template.replace("__JSON_DATA__", json_str).replace(
+    "__CODE_TITLE_MAP__", code_title_map_json
+)
 
 with open("classification.html", "w", encoding="utf-8") as f:
     f.write(html_out)
